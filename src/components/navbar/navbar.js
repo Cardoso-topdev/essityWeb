@@ -1,12 +1,14 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 import Logo from "../../assets/img/Logo.svg";
 
 const Navbar = () => {
   return (
-      <div className="section-nav">
+    <div className="section-nav">
       <div className="navigation container">
-        <img src={Logo} />
+        <Link to="#">
+          <img src={Logo} />
+        </Link>
         <nav>
           <Link to="#">Inicio</Link>
           <Link to="#">Quienes somos</Link>
@@ -16,7 +18,7 @@ const Navbar = () => {
           <Link to="#">Donde comprar</Link>
         </nav>
       </div>
-      </div>
+    </div>
   );
 };
 
