@@ -140,3 +140,33 @@ section.about::before{
   padding: 13px 0 !important;
   background-color: var(--blue);
 }
+
+section.promotions{
+  background-color: var(--blue);
+}
+
+section.promotions div.section-promotions{
+  text-align: center;
+}
+
+section.promotions div.section-promotions h2{
+  color: var(--pink);
+  font-size: 30px;
+  padding-top: 70px;
+}
+
+section.promotions div.section-promotions .first-text{
+  color: white;
+  font-size: 27px;
+  font-weight: 500;
+}
+
+section.promotions div.section-promotions .last-text{
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+
+

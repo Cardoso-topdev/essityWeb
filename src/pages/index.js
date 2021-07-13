@@ -4,6 +4,7 @@ import React, { Fragment } from 'react';
 import Navbar from '../components/navbar/navbar';
 import Header from '../components/header/header';
 import About from '../components/section-about/about';
+import Promotions from '../components/promotions/promotions';
 
 const Index = () => {
     return ( 
@@ -11,6 +12,7 @@ const Index = () => {
         <Navbar />
         <Header />
         <About />
+        <Promotions />
         </Fragment>
      );
 }
