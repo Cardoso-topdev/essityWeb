@@ -91,8 +91,8 @@ section.about {
   margin-top: 80px;
 }
 
-section.about::before{
-  content: '';
+section.about::before {
+  content: "";
   background-image: url(./assets/img/e.svg);
   background-repeat: no-repeat;
   position: absolute;
@@ -141,32 +141,139 @@ section.about::before{
   background-color: var(--blue);
 }
 
-section.promotions{
+section.promotions {
   background-color: var(--blue);
 }
 
-section.promotions div.section-promotions{
+section.promotions div.section-promotions {
   text-align: center;
 }
 
-section.promotions div.section-promotions h2{
+section.promotions div.section-promotions h2 {
   color: var(--pink);
   font-size: 30px;
   padding-top: 70px;
 }
 
-section.promotions div.section-promotions .first-text{
+section.promotions div.section-promotions .first-text {
   color: white;
   font-size: 27px;
   font-weight: 500;
 }
 
-section.promotions div.section-promotions .last-text{
+section.promotions div.section-promotions .last-text {
   color: white;
   font-size: 18px;
   font-weight: 400;
 }
 
+.section-frecuentes {
+  background-color: var(--pink);
+  padding: 70px 0;
+}
 
+.encabezado-frecuentes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /*padding: 0 120px;*/
+}
 
+.encabezado-frecuentes h2 {
+  color: #1b025f;
+  font-weight: 700;
+  font-size: 38px;
+  letter-spacing: -0.02em;
+}
 
+.encabezado-frecuentes p {
+  font-size: 28px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.card-pregunta {
+  background-color: #fcfcfd;
+  border: 1px solid #cfd0d7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px 30px;
+  transition: .2s all linear;
+  position: relative;
+}
+
+.card-pregunta:hover{
+  background-color: #f1f4ffa1;
+}
+
+.card-pregunta h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-pregunta h2,
+.card-pregunta p {
+  width: 80%;
+}
+
+.card-pregunta img{
+  position: absolute;
+  top: 22px;
+  right: 41px;
+
+}
+
+.texto-dudas {
+  margin-top: 250px;
+  margin-bottom: 70px;
+  color: #00005a;
+}
+
+.texto-dudas h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.texto-dudas p {
+  font-size: 18px;
+  font-weight: 500;
+  width: 85%;
+}
+
+.form-contacto label {
+  color: #5f6377;
+}
+
+.form-contacto .form-control {
+  background-color: #fcfcfd;
+  border: 1px solid #cfd0d7;
+  border-radius: 2px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #00005a;
+  color: #00005a;
+}
+
+.form-contacto textarea {
+  height: 170px;
+  padding: 20px 35px;
+}
+
+.form-contacto .form-control:placeholder {
+  color: #1a203d;
+  opacity: 30%;
+}
+
+.btn-contacto{
+  float: right;
+  background-color: #010659;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 25px;
+  border-radius: 5px;
+  padding: 10px 61px;
+}
