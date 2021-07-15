@@ -192,7 +192,7 @@ section.promotions div.section-promotions .last-text {
   color: #fff;
 }
 
-.card-pregunta {
+.accordion-item {
   background-color: #fcfcfd;
   border: 1px solid #cfd0d7;
   box-sizing: border-box;
@@ -203,25 +203,50 @@ section.promotions div.section-promotions .last-text {
   position: relative;
 }
 
-.card-pregunta:hover{
-  background-color: #f1f4ffa1;
+.accordion-item{
+  background-color: #fcfcfd;
+  border: 1px solid #cfd0d7;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 20px 30px;
+  transition: .2s all linear;
+  position: relative;
 }
 
-.card-pregunta h2 {
+.accordion-item a{
+  position: absolute;
+  top: 12px;
+  right: 41px;
+}
+
+.accordion-item h2 {
   font-size: 20px;
   font-weight: 500;
+  margin: 0;
 }
 
-.card-pregunta h2,
-.card-pregunta p {
+.accordion-item h2,
+.accordion-body {
   width: 80%;
 }
 
-.card-pregunta img{
-  position: absolute;
-  top: 22px;
-  right: 41px;
+a.accordion-button{
+  transform: rotate(180deg);
+}
 
+a.collapsed{
+  transform: rotate(0deg);
+}
+
+
+
+.collapsing .accordion-body{
+margin-top: 20px;
+}
+
+.show .accordion-body{
+  margin-top: 20px;
 }
 
 .texto-dudas {

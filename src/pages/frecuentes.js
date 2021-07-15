@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 import preguntas from "../json/preguntas.json";
 
 //componentes
@@ -6,9 +7,12 @@ import Navbar from "../components/navbar/navbar";
 import Formulario from "../components/formulario/formulario";
 
 //icons
-import ArrowDown from '../assets/icons/arrow-down.svg';
+import ArrowUp from "../assets/icons/arrow-up.svg";
+import ArrowDown from "../assets/icons/arrow-down.svg";
 
 const Frecuentes = () => {
+  const handleClick = (e) => {};
+
   return (
     <Fragment>
       <Navbar />
@@ -19,20 +23,38 @@ const Frecuentes = () => {
         </div>
       </div>
 
-      <div className="container mt-5">
+      <div class="accordion container mt-5" id="accordionExample">
         {preguntas.map((pregunta) => (
-          <div className="card-pregunta">
-            <img src={ArrowDown}/>
+          <div class="accordion-item">
             <h2>{pregunta.title}</h2>
-            <p>{pregunta.content}</p>
+            <Link
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target={`#collapse${pregunta.id}`}
+              aria-expanded="false"
+              aria-controls={`collapse${pregunta.id}`}
+              onClick={handleClick}
+            >
+              <img src={ArrowDown} />
+            </Link>
+            <div
+              id={`collapse${pregunta.id}`}
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+            >
+              <div class="accordion-body">{pregunta.content}</div>
+            </div>
           </div>
         ))}
       </div>
 
-
       <div className="container texto-dudas">
         <h2>Todavía tienes dudas?</h2>
-        <p>Si no puede encontrar una respuesta a su pregunta en nuestras preguntas frecuentes, siempre puede contactarnos. ¡Te responderemos a la brevedad!</p>
+        <p>
+          Si no puede encontrar una respuesta a su pregunta en nuestras
+          preguntas frecuentes, siempre puede contactarnos. ¡Te responderemos a
+          la brevedad!
+        </p>
       </div>
 
       <Formulario />

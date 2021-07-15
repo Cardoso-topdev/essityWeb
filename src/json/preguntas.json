@@ -1,57 +1,71 @@
 [
     {
+        "id": 1,
         "title": "¿En dónde puedo comprar los productos de Essity?",
         "content": "Encontrarás una lista de mayoristas a nivel nacional que pueden atender a tus necesidades, más información en: (apartado dónde comprar)"
     },
     {
+        "id": 2,
         "title": "¿Cuáles son las ganancias que puedo tener para mi negocio de las marcas Saba, Regio y Tena?",
         "content": "Todos los productos de Saba, Regio y Tena recomendamos los margines entre un 20 y 25%."
     },
     {
+        "id": 3,
         "title": "¿Cuáles son las toallas femeninas que debo recomendar a mis clientes?",
         "content": "Debes recomendar 3 tipos de presentaciones: la primera de ellas es una toalla para uso nocturno (Saba Buenas Noches), una toalla de configuración delgada (Saba Invisible o Ultra Invisible) que cada vez se usan más, y una toalla de presentación regular, las cuales responden a cualquier necesidad  (Saba Intima y Confort). Conoce más en: (apartado portafolio ideal)"
     },
     {
+        "id": 4,
         "title": "¿Cuáles son los productos de protección femenina que debo tener?",
         "content": "Buenas Noches, Invisible o Ultra Invisible e Intimas y Confort. Pantiprotectores. Conoce más en: (apartado portafolio ideal)"
     },
     {
+        "id": 5,
         "title": "¿Dónde debo exhibir los productos de protección femenina?",
         "content": "Te recomendamos que los productos de Saba los exhibas cerca de los productos de cuidado personal asegurando que siempre se encuentren en un lugar visible para tus clientes."
     },
     {
+        "id": 6,
         "title": "¿Dónde debo exhibir los productos de incontinencia para adulto?",
         "content": "Te recomendamos que los productos de Tena los exhibas cerca de los productos de cuidado personal asegurando que siempre se encuentren en un lugar visible para tus clientes."
     },
     {
+        "id": 7,
         "title": "¿Qué productos me recomiendas para iniciar mi negocio con la categoría de incontinencia para adulto? ",
         "content": "Te recomendamos que inicies con Tena Pants Comfort, más información en (Link Tena Pants Comfort)"
     },
     {
+        "id": 8,
         "title": "¿Cómo se clasifican las toallas femeninas?",
         "content": "Una manera fácil de entender el portafolio de toallas femeninas es de acuerdo a la siguiente división: toallas para uso de día (Saba Intima), toallas para uso de noche (Saba Buenas Noches) y las toallas ultra delgadas (Saba Invisible)."
     },
     {
+        "id": 9,
         "title": "¿Cómo se clasifican los productos de incontiencia para adulto?",
         "content": "Se clasifican en Tena Pants, para alguien que lo utiliza en movilidad y Tena Slip para personas que se encuentran postradas en cama. "
     },
     {
+        "id": 10,
         "title": "¿Dónde puedo comprar las promociones?",
         "content": "Encontrarás una lista de mayoristas a nivel nacional que pueden atender a tus necesidades que se encuentran sujetas a disponibilidad, más información en: (apartado dónde comprar)"
     },
     {
+        "id": 11,
         "title": "¿Cómo debo hacer la venta de toallas femeninas/incontinencia adulto?",
         "content": "Siempre es recomendable que se vendan por paquete para mantener la higiene de los productos"
     },
     {
+        "id": 12,
         "title": "¿Por qué debo manejar la categoría de protección femenina en mi negocio?",
         "content": "Porque son productos que te los van a pedir los 365 días del año y además cuentan con un margen del 25%"
     },
     {
+        "id": 13,
         "title": "¿Por qué debo manejar la categoría de incontinencia de adulto en mi negocio?",
         "content": "Porque cada vez más personas padecen de incontinencia debido al incremento de edad en la población del país y además ofrece muy buenos margenes para tu negocio."
     },
     {
+        "id": 14,
         "title": "¿Las toallas femeninas y productos de incontinencia cuentan con caducidad?",
         "content": "No, sin embargo, cuentan con una fecha de uso preferente que generalmente es de 2 a 3 años a partir de su fabricación"
     }
