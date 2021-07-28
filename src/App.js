@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 //pages
 import Index from './pages';
 import Frecuentes from './pages/frecuentes';
+import NotFound from './pages/notFound';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Index}/>
         <Route exact path="/preguntas-frecuentes" component={Frecuentes} />
+        <Route component={NotFound} />
       </Switch>
     </Router>
   );

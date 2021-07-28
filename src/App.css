@@ -302,3 +302,48 @@ margin-top: 20px;
   border-radius: 5px;
   padding: 10px 61px;
 }
+
+.not-found{
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  column-gap: 2rem;
+  color: #00005a;
+  height: 100vh;
+}
+
+.not-found a{
+  color: #00005a;
+}
+
+.not-found h1{
+  font-size: 10rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.not-found p,
+.not-found a{
+  font-size: 3rem;
+  line-height: 40px;
+  font-weight: 700;
+}
+
+.not-found .btn-primary{
+  background-color: var(--pink);
+}
+
+.not-found img{
+  width: 600px;
+  height: 400px;
+}
+
+.not-found .primera-columna img{
+width: 50%;
+height: 30%;
+margin-top: 50px;
+}
+
+.not-found .segunda-columna{
+  display: flex;
+  align-items: center;
+}
