@@ -10,12 +10,12 @@ const Navbar = () => {
           <img src={Logo} />
         </Link>
         <nav>
-          <Link to="#">Inicio</Link>
+          <Link to="/">Inicio</Link>
           <Link to="#">Quienes somos</Link>
           <Link to="#">Promociones</Link>
           <Link to="#">Crece mi negocio</Link>
           <Link to="#">Asesoria</Link>
-          <Link to="#">Donde comprar</Link>
+          <Link to="/preguntas-frecuentes">Donde comprar</Link>
         </nav>
       </div>
     </div>
