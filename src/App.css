@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;700&display=swap");
 
 :root {
   --pink: #f50082;
@@ -13,13 +13,13 @@ body {
   max-width: 1200px;
   width: 95%;
   margin: 0 auto;
+  padding: 0;
 }
 
 .section-nav {
   height: 90px;
   display: flex;
   align-items: center;
-  border-bottom: 2px solid #000;
   background-color: #fff;
 }
 
@@ -346,4 +346,212 @@ margin-top: 50px;
 .not-found .segunda-columna{
   display: flex;
   align-items: center;
+}
+
+.section-nosotros{
+  background-color: var(--blue);
+  position: relative;
+}
+
+.section-nosotros::before{
+  content: "";
+  background-image: url(./assets/img/letras-moradas.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 466.84px;
+  top: 0;
+  right: 0;
+  z-index: 1;
+
+}
+
+.section-nosotros h1{
+  color: var(--pink);
+  font-size: 38px;
+  margin-bottom: 30px;
+}
+
+.section-nosotros p{
+  color: #fff;
+  font-weight: 300;
+  line-height: 40px;
+  font-size: 28px;
+}
+
+.contenido-nosotros{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 150px 0px;
+  column-gap: 30px;
+}
+
+.contenido-nosotros .img-nosotros{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 2;
+}
+
+
+.rectangle-63{
+  position: relative;
+  margin-top: 200px;
+  padding: 100px 200px 0 0;
+}
+
+.rectangle-63 .img-parrafo2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rectangle-63::before{
+  content: '';
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background-color: var(--pink);
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 0px 290px 0px 0px;
+}
+
+.rectangle-63::after{
+  content: '';
+  position: absolute;
+  width: 720px;
+  height: 617px;
+  bottom: 0;
+  right: 0;
+  background-image: url(./assets/img/img100.jpg);
+  z-index: 2;
+  border-radius: 50% 0 0 0;
+}
+
+.rectangle-63 p{
+  font-size: 30px;
+  color: white;
+  width: 85%;
+}
+
+.rectangle-63 img{
+  width: 70%;
+}
+
+.rectangle-63 .parrafo2{
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 300;
+  width: 40%;
+  margin-bottom: 40px;
+}
+
+.rectangle-63 .parrafos-inferiores{
+  font-size: 18px;
+  line-height: 35px;
+  padding-bottom: 50px;
+  width: 50%;
+  margin: 0;
+}
+
+.rectangle-63 .parrafos-inferiores:last-of-type{
+  padding-bottom: 100px;
+}
+
+
+
+
+
+/*CRECE MI NEGOCIO*/
+
+.section-crece{
+background-color: var(--blue);
+color: #fff;
+position: relative;
+}
+
+.section-crece::before{
+  content: "";
+  background-image: url(./assets/img/letras-moradas.svg);
+  background-size: 500px 580px;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 700px;
+  width: 466.84px;
+  top: 0;
+  right: 0;
+  z-index: 1;
+
+}
+
+
+.crece-hero{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  position: relative;
+}
+
+.crece-hero::before{
+content: "";
+background-image: url(./assets/img/img189.jpg);
+position: absolute;
+top: 300px;
+left: 0;
+width: 382px;
+height: 351px;
+border-radius: 5px;
+}
+
+.crece-hero h1{
+  font-size: 38px;
+  font-weight: 700;
+  color: var(--pink);
+  padding-top: 150px;
+}
+
+.crece-hero .segunda-columna{
+  padding: 300px 0 100px;
+}
+
+.crece-hero .segunda-columna h2{
+  color: var(--pink);
+  font-size: 28.26px;
+}
+
+.crece-hero .segunda-columna p{
+  font-size: 22px;
+  line-height: 38.85px;
+}
+
+.container-blogs{
+  margin-top: 80px;
+  margin-bottom: 80px;
+  
+}
+
+.card-blog{
+  display: flex;
+  padding: 50px 0px 50px;
+  border-bottom: 1px solid #000;
+}
+
+.card-blog:last-of-type{
+  border-bottom: none;
+}
+
+.card-blog div{
+  display: flex;
+  flex-direction: column;
+  padding-left: 130px;
+}
+
+.card-blog div h3{
+  color:  #C5157E;
+  font-size: 28.26px;
+}
+
+.card-blog div p{
+  font-size: 22px;
+  line-height: 38.85px;
 }
