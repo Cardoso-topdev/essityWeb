@@ -558,7 +558,7 @@ border-radius: 5px;
 .footer{
   background-color: var(--blue);
   color: #fff;
-  padding: 65px 0;
+  padding: 59px 0;
 }
 
 .footer a{
@@ -606,6 +606,6 @@ border-radius: 5px;
 }
 
 .copy{
-  margin-top: 150px;
+  margin-top: 110px;
   color: rgb(97, 97, 97);
 }
