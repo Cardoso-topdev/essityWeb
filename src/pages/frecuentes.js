@@ -5,6 +5,7 @@ import preguntas from "../json/preguntas.json";
 //componentes
 import Navbar from "../components/navbar/navbar";
 import Formulario from "../components/formulario/formulario";
+import Footer from "../components/footer/footer";
 
 //icons
 import ArrowUp from "../assets/icons/arrow-up.svg";
@@ -58,6 +59,8 @@ const Frecuentes = () => {
       </div>
 
       <Formulario />
+
+      <Footer />
     </Fragment>
   );
 };

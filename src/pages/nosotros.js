@@ -3,6 +3,7 @@ import { Fragment } from "react";
 
 //componentes
 import Navbar from "../components/navbar/navbar";
+import Footer from "../components/footer/footer";
 
 //resources
 import imgTena from "../assets/img/img_tena.png";
@@ -61,6 +62,8 @@ const Nosotros = () => {
           </p>
         </div>
       </div>
+
+      <Footer />
     </Fragment>
   );
 };

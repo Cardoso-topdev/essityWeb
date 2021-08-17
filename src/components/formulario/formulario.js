@@ -3,7 +3,7 @@ import React from "react";
 
 const Formulario = () => {
   return (
-    <div className="container">
+    <div className="container mb-5">
       <form className="form-contacto">
         <div className="row">
           <div className="col-10">

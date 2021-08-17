@@ -2,6 +2,7 @@ import React, { Fragment } from "react";
 
 //components
 import Navbar from "../components/navbar/navbar";
+import Footer from "../components/footer/footer";
 
 //resources
 import img190 from "../assets/img/img190.jpg";
@@ -68,6 +69,7 @@ const Crece = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </Fragment>
   );
 };

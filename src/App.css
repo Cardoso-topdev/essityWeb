@@ -460,10 +460,7 @@ margin-top: 50px;
 }
 
 
-
-
-
-/*CRECE MI NEGOCIO*/
+/*=========CRECE MI NEGOCIO==========*/
 
 .section-crece{
 background-color: var(--blue);
@@ -554,4 +551,61 @@ border-radius: 5px;
 .card-blog div p{
   font-size: 22px;
   line-height: 38.85px;
+}
+
+/*===========FOOTER===========*/
+
+.footer{
+  background-color: var(--blue);
+  color: #fff;
+  padding: 65px 0;
+}
+
+.footer a{
+  color: #fff;
+}
+
+.footer .section-footer{
+  display: grid;
+  grid-template-columns: 40% 20% 20% 20%;
+  column-gap: 50px;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: -0.2 px;
+}
+
+.section-footer h3{
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.texto-footer{
+  width: 65%;
+}
+.nav-inferior{
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-inferior a{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.social-networks a{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.social-networks a p{
+  margin: 0;
+  margin-left: 10px;
+}
+
+.copy{
+  margin-top: 150px;
+  color: rgb(97, 97, 97);
 }
