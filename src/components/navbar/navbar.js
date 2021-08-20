@@ -15,7 +15,7 @@ const Navbar = () => {
           <Link to="/not-found">Promociones</Link>
           <Link to="/crece-mi-negocio">Crece mi negocio</Link>
           <Link to="/preguntas-frecuentes">Asesoria</Link>
-          <Link to="/not-found">Donde comprar</Link>
+          <Link to="/donde-comprar">Donde comprar</Link>
         </nav>
       </div>
     </div>

@@ -29,6 +29,8 @@ body {
   display: flex;
   align-items: center;
   background-color: #fff;
+  position: relative;
+  z-index: 1000;
 }
 
 .navigation {
@@ -617,4 +619,82 @@ border-radius: 5px;
 .copy{
   margin-top: 110px;
   color: rgb(97, 97, 97);
+}
+
+.hero-comprar{
+  background-color: var(--blue);
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 377px;
+  position: relative;
+}
+
+.hero-comprar::after{
+  content: '';
+  background-image: url(./assets/img/mapa-puntos.svg);
+  width: 756px;
+  height: 510px;
+  position: absolute;
+  top: -17px;
+  right: 0;
+  opacity: 14%;
+  
+}
+
+.hero-comprar h1{
+  color: var(--pink);
+  font-size: 38px;
+  line-height: 45.41px;
+}
+
+
+.hero-comprar .location{
+  font-size: 20px;
+}
+
+.hero-comprar .location svg{
+  color: var(--pink);
+}
+
+.hero-comprar .selecciona{
+  font-size: 18px;
+  line-height: 23.49px;
+  padding-top: 7px;
+}
+
+
+.input-ciudad{
+  position: relative;
+}
+
+.input-ciudad::before{
+  content: '';
+  position: absolute;
+  background-image: url(./assets/icons/shape.svg);
+  color: var(--blue);
+  width: 17.22px;
+  height: 17.22px;
+  top: 42px;
+  right: 11px;
+  z-index: 1000;
+}
+
+.suggestions-container{
+  background-color: #fff;
+  color: var(--pink);
+  border-radius: 5px;
+  padding: 10px 20px;
+  position: absolute;
+  width: 100%;
+}
+
+.suggestions-container .suggestion{
+  border-bottom: 1px solid var(--blue);
+  padding: 3px 0;
+  cursor: pointer;
+}
+
+.suggestions-container .suggestion:last-of-type{
+  border-bottom: none;
+  padding-bottom: 0;
 }
