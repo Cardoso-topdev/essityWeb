@@ -1,15 +1,17 @@
 import React from "react";
 import { Fragment, useState, useEffect } from "react";
+import axios from "axios";
 
 //components
 import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 
-import estados from "../json/estados.json";
+//import estados from "../json/estados.json";
 
 import { MdLocationOn as LocationIcon } from "react-icons/md";
 
 const Comprar = () => {
+  const [estados, setEstados] = useState([]);
   const [text, setText] = useState();
   const [suggestions, setSuggestions] = useState([]);
   const [display, setDisplay] = useState(false);
@@ -27,6 +29,15 @@ const Comprar = () => {
   };
 
   useEffect(() => {
+    const consultarEstados = async () => {
+      const { data } = await axios.get(
+        "http://admin.creceminegocio.mx/api/allstates"
+      );
+      setEstados(data.providers);
+    };
+
+    consultarEstados();
+
     if (suggestions.length > 0) {
       setDisplay(true);
     } else {
@@ -81,7 +92,7 @@ const Comprar = () => {
         </div>
       </header>
       <div>
-          <h1>Hola Mundo</h1>
+        <h1>Hola Mundo</h1>
       </div>
       <Footer />
     </Fragment>

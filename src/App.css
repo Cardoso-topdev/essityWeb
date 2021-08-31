@@ -313,6 +313,10 @@ margin-top: 20px;
   padding: 10px 61px;
 }
 
+.btn-contacto:hover{
+  color: #5f6377;
+}
+
 .not-found{
   display: grid;
   grid-template-columns: repeat(2, 50%);
@@ -697,4 +701,41 @@ border-radius: 5px;
 .suggestions-container .suggestion:last-of-type{
   border-bottom: none;
   padding-bottom: 0;
+}
+
+/*===========PROMOCIONES===============*/
+.hero-promociones{
+  background-color: #F31583;
+  padding: 30px 0;
+}
+
+.hero-promociones .container{
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.hero-promociones .container img{
+  width: 100%;
+}
+
+@media (min-width: 100px){
+  .hero-promociones .container img{
+    width: 130%;
+  }
+}
+
+.texto-promociones{
+  display: flex;
+  flex-direction: column;
+  padding-top: 150px;
+  color: white;
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.texto-promociones h1{
+  color: var(--blue);
+  font-size: 38px;
+  line-height: 42px;
+  padding-bottom: 15px;
 }

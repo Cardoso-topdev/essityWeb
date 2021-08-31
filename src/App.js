@@ -9,6 +9,7 @@ import Nosotros from './pages/nosotros';
 import Crece from './pages/crece';
 import Comprar from './pages/comprar';
 import NotFound from './pages/notFound';
+import Promociones from './pages/promociones';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route exact path="/" component={Index}/>
         <Route exact path="/preguntas-frecuentes" component={Frecuentes} />
         <Route exact path="/quienes-somos" component={Nosotros} />
+        <Route exact path="/promociones" component={Promociones}/>
         <Route exact path="/crece-mi-negocio" component={Crece} />
         <Route exact path="/donde-comprar" component={Comprar} />
         <Route component={NotFound} />

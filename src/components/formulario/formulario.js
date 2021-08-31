@@ -1,10 +1,27 @@
-import React from "react";
-
+import React, { useState } from "react";
+import axios from 'axios';
 
 const Formulario = () => {
+  const [form, setForm] = useState([]);
+
+  const headers = { 
+    'Access-Control-Allow-Origin' : '*',
+    'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+  }
+
+  const handleChange = (e) => {
+    setForm({ ...form, [e.target.name]: e.target.value });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    const {data} = await axios.post('http://admin.creceminegocio.mx/api/sendmail', form, headers);
+    console.log(data);
+
+  }
   return (
     <div className="container mb-5">
-      <form className="form-contacto">
+      <form className="form-contacto" onSubmit={handleSubmit}>
         <div className="row">
           <div className="col-10">
             <div class="row">
@@ -14,11 +31,12 @@ const Formulario = () => {
                   className="form-control"
                   type="text"
                   name="nombre"
-                  placeholder="Eg. your text here"
+                  placeholder="Tu nombre"
+                  onChange={handleChange}
                 />
               </div>
             </div>
-            <div class="row">
+            <div class="row mt-3">
               <div className="col-6">
                 <label>Correo electronico</label>
                 <input
@@ -26,6 +44,7 @@ const Formulario = () => {
                   type="text"
                   name="email"
                   placeholder="Eg. your text here"
+                  onChange={handleChange}
                 />
               </div>
               <div className="col-6">
@@ -35,17 +54,20 @@ const Formulario = () => {
                   type="tel"
                   name="tel"
                   placeholder="Eg. your text here"
+                  onChange={handleChange}
                 />
               </div>
-              <div className="col-12">
+              <div className="col-12 mt-3">
                 <label>Comentarios o dudas</label>
                 <textarea
                   className="form-control"
+                  name="contenido"
                   placeholder="Eg. your text here"
+                  onChange={handleChange}
                 ></textarea>
               </div>
             </div>
-            <input type="submit" className="btn btn-contacto"/>
+            <input type="submit" className="btn btn-contacto" />
           </div>
         </div>
       </form>
