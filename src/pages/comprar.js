@@ -9,12 +9,16 @@ import Footer from "../components/footer/footer";
 //import estados from "../json/estados.json";
 
 import { MdLocationOn as LocationIcon } from "react-icons/md";
+import mapaBg from "../assets/img/mapabg.png";
 
 const Comprar = () => {
   const [estados, setEstados] = useState([]);
   const [text, setText] = useState();
   const [suggestions, setSuggestions] = useState([]);
   const [display, setDisplay] = useState(false);
+  const [urlMap, setUrlMap] = useState(mapaBg);
+  const [condicionProvedores, setCondicionProvedores] = useState(false);
+  const [id, setId] = useState("");
 
   const onChangeHandler = (text) => {
     let matches = [];
@@ -45,9 +49,23 @@ const Comprar = () => {
     }
   }, [suggestions]);
 
-  const handleClick = (text) => {
+  useEffect(() => {
+    const consultarEstado = async () => {
+      const { data } = await axios.get(
+        `http://admin.creceminegocio.mx/api/providersbystate/${id}`
+      );
+      console.log(data);
+    };
+
+    consultarEstado();
+  }, [id]);
+
+  const handleClick = (text, url, id) => {
     setText(text);
     setSuggestions([]);
+    setUrlMap(url);
+    setCondicionProvedores(true);
+    setId(id);
   };
   return (
     <Fragment>
@@ -77,22 +95,31 @@ const Comprar = () => {
             {display ? (
               <div className="suggestions-container">
                 {suggestions &&
-                  suggestions.map((suggestion, i) => (
-                    <div
-                      key={i}
-                      className="suggestion"
-                      onClick={() => handleClick(suggestion.name)}
-                    >
-                      {suggestion.name}
-                    </div>
-                  ))}
+                  suggestions.map((suggestion, i) => {
+                    const { name, url_map, id } = suggestion;
+                    return (
+                      <div
+                        key={i}
+                        className="suggestion"
+                        onClick={() => handleClick(name, url_map, id)}
+                      >
+                        {suggestion.name}
+                      </div>
+                    );
+                  })}
               </div>
             ) : null}
           </div>
         </div>
+
+        <div className="mapa container">
+          <img src={urlMap} />
+        </div>
       </header>
-      <div>
-        <h1>Hola Mundo</h1>
+
+      <div className="marcas-proveedores container">
+        {text ? <p>Estos son los proveedores en {text}</p> : null}
+        <div></div>
       </div>
       <Footer />
     </Fragment>

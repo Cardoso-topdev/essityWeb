@@ -1,24 +1,29 @@
 import React, { useState } from "react";
-import axios from 'axios';
+import axios from "axios";
 
 const Formulario = () => {
   const [form, setForm] = useState([]);
 
-  const headers = { 
-    'Access-Control-Allow-Origin' : '*',
-    'Access-Control-Allow-Methods':'GET,PUT,POST,DELETE,PATCH,OPTIONS',
-  }
+  const headers = {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Methods": "GET,PUT,POST,DELETE,PATCH,OPTIONS",
+    "Content-Type": "application/x-www-form-urlencoded",
+  };
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
+    console.log(e.target.className);
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const {data} = await axios.post('http://admin.creceminegocio.mx/api/sendmail', form, headers);
+    const { data } = await axios.post(
+      "http://admin.creceminegocio.mx/api/sendmail",
+      form,
+      headers
+    );
     console.log(data);
-
-  }
+  };
   return (
     <div className="container mb-5">
       <form className="form-contacto" onSubmit={handleSubmit}>
@@ -52,7 +57,7 @@ const Formulario = () => {
                 <input
                   className="form-control"
                   type="tel"
-                  name="tel"
+                  name="telefono"
                   placeholder="Eg. your text here"
                   onChange={handleChange}
                 />

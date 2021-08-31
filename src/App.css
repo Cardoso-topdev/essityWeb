@@ -9,7 +9,9 @@
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -209,22 +211,22 @@ section.promotions div.section-promotions .last-text {
   border-radius: 5px;
   margin-bottom: 20px;
   padding: 20px 30px;
-  transition: .2s all linear;
+  transition: 0.2s all linear;
   position: relative;
 }
 
-.accordion-item{
+.accordion-item {
   background-color: #fcfcfd;
   border: 1px solid #cfd0d7;
   box-sizing: border-box;
   border-radius: 5px;
   margin-bottom: 20px;
   padding: 20px 30px;
-  transition: .2s all linear;
+  transition: 0.2s all linear;
   position: relative;
 }
 
-.accordion-item a{
+.accordion-item a {
   position: absolute;
   top: 12px;
   right: 41px;
@@ -241,21 +243,19 @@ section.promotions div.section-promotions .last-text {
   width: 80%;
 }
 
-a.accordion-button{
+a.accordion-button {
   transform: rotate(180deg);
 }
 
-a.collapsed{
+a.collapsed {
   transform: rotate(0deg);
 }
 
-
-
-.collapsing .accordion-body{
-margin-top: 20px;
+.collapsing .accordion-body {
+  margin-top: 20px;
 }
 
-.show .accordion-body{
+.show .accordion-body {
   margin-top: 20px;
 }
 
@@ -302,7 +302,7 @@ margin-top: 20px;
   opacity: 30%;
 }
 
-.btn-contacto{
+.btn-contacto {
   float: right;
   background-color: #010659;
   font-size: 18px;
@@ -313,11 +313,11 @@ margin-top: 20px;
   padding: 10px 61px;
 }
 
-.btn-contacto:hover{
+.btn-contacto:hover {
   color: #5f6377;
 }
 
-.not-found{
+.not-found {
   display: grid;
   grid-template-columns: repeat(2, 50%);
   column-gap: 2rem;
@@ -325,49 +325,49 @@ margin-top: 20px;
   height: 100vh;
 }
 
-.not-found a{
+.not-found a {
   color: #00005a;
 }
 
-.not-found h1{
+.not-found h1 {
   font-size: 10rem;
   font-weight: 700;
   margin: 0;
 }
 
 .not-found p,
-.not-found a{
+.not-found a {
   font-size: 3rem;
   line-height: 40px;
   font-weight: 700;
 }
 
-.not-found .btn-primary{
+.not-found .btn-primary {
   background-color: var(--pink);
 }
 
-.not-found img{
+.not-found img {
   width: 600px;
   height: 400px;
 }
 
-.not-found .primera-columna img{
-width: 50%;
-height: 30%;
-margin-top: 50px;
+.not-found .primera-columna img {
+  width: 50%;
+  height: 30%;
+  margin-top: 50px;
 }
 
-.not-found .segunda-columna{
+.not-found .segunda-columna {
   display: flex;
   align-items: center;
 }
 
-.section-nosotros{
+.section-nosotros {
   background-color: var(--blue);
   position: relative;
 }
 
-.section-nosotros::before{
+.section-nosotros::before {
   content: "";
   background-image: url(./assets/img/letras-moradas.svg);
   background-repeat: no-repeat;
@@ -377,50 +377,48 @@ margin-top: 50px;
   top: 0;
   right: 0;
   z-index: 1;
-
 }
 
-.section-nosotros h1{
+.section-nosotros h1 {
   color: var(--pink);
   font-size: 38px;
   margin-bottom: 30px;
 }
 
-.section-nosotros p{
+.section-nosotros p {
   color: #fff;
   font-weight: 300;
   line-height: 40px;
   font-size: 28px;
 }
 
-.contenido-nosotros{
+.contenido-nosotros {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   padding: 150px 0px;
   column-gap: 30px;
 }
 
-.contenido-nosotros .img-nosotros{
+.contenido-nosotros .img-nosotros {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   z-index: 2;
 }
 
-
-.rectangle-63{
+.rectangle-63 {
   position: relative;
   margin-top: 200px;
   padding: 100px 200px 0 0;
 }
 
-.rectangle-63 .img-parrafo2{
+.rectangle-63 .img-parrafo2 {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.rectangle-63::before{
-  content: '';
+.rectangle-63::before {
+  content: "";
   position: absolute;
   width: 90%;
   height: 100%;
@@ -431,8 +429,8 @@ margin-top: 50px;
   border-radius: 0px 290px 0px 0px;
 }
 
-.rectangle-63::after{
-  content: '';
+.rectangle-63::after {
+  content: "";
   position: absolute;
   width: 720px;
   height: 617px;
@@ -443,17 +441,17 @@ margin-top: 50px;
   border-radius: 50% 0 0 0;
 }
 
-.rectangle-63 p{
+.rectangle-63 p {
   font-size: 30px;
   color: white;
   width: 85%;
 }
 
-.rectangle-63 img{
+.rectangle-63 img {
   width: 70%;
 }
 
-.rectangle-63 .parrafo2{
+.rectangle-63 .parrafo2 {
   font-size: 30px;
   line-height: 44px;
   font-weight: 300;
@@ -461,7 +459,7 @@ margin-top: 50px;
   margin-bottom: 40px;
 }
 
-.rectangle-63 .parrafos-inferiores{
+.rectangle-63 .parrafos-inferiores {
   font-size: 18px;
   line-height: 35px;
   padding-bottom: 50px;
@@ -469,20 +467,19 @@ margin-top: 50px;
   margin: 0;
 }
 
-.rectangle-63 .parrafos-inferiores:last-of-type{
+.rectangle-63 .parrafos-inferiores:last-of-type {
   padding-bottom: 100px;
 }
 
-
 /*=========CRECE MI NEGOCIO==========*/
 
-.section-crece{
-background-color: var(--blue);
-color: #fff;
-position: relative;
+.section-crece {
+  background-color: var(--blue);
+  color: #fff;
+  position: relative;
 }
 
-.section-crece::before{
+.section-crece::before {
   content: "";
   background-image: url(./assets/img/letras-moradas.svg);
   background-size: 500px 580px;
@@ -493,94 +490,91 @@ position: relative;
   top: 0;
   right: 0;
   z-index: 1;
-
 }
 
-
-.crece-hero{
+.crece-hero {
   display: grid;
   grid-template-columns: 40% 60%;
   position: relative;
 }
 
-.crece-hero::before{
-content: "";
-background-image: url(./assets/img/img189.jpg);
-position: absolute;
-top: 300px;
-left: 0;
-width: 382px;
-height: 351px;
-border-radius: 5px;
+.crece-hero::before {
+  content: "";
+  background-image: url(./assets/img/img189.jpg);
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 382px;
+  height: 351px;
+  border-radius: 5px;
 }
 
-.crece-hero h1{
+.crece-hero h1 {
   font-size: 38px;
   font-weight: 700;
   color: var(--pink);
   padding-top: 150px;
 }
 
-.crece-hero .segunda-columna{
+.crece-hero .segunda-columna {
   padding: 300px 0 100px;
 }
 
-.crece-hero .segunda-columna h2{
+.crece-hero .segunda-columna h2 {
   color: var(--pink);
   font-size: 28.26px;
 }
 
-.crece-hero .segunda-columna p{
+.crece-hero .segunda-columna p {
   font-size: 22px;
   line-height: 38.85px;
 }
 
-.container-blogs{
+.container-blogs {
   margin-top: 80px;
   margin-bottom: 80px;
-  
 }
 
-.card-blog{
+.card-blog {
   display: flex;
   padding: 50px 0px 50px;
   border-bottom: 1px solid #000;
 }
 
-.card-blog:last-of-type{
+.card-blog:last-of-type {
   border-bottom: none;
 }
 
-.card-blog div{
+.card-blog div {
   display: flex;
   flex-direction: column;
   padding-left: 130px;
 }
 
-.card-blog div h3{
-  color:  #C5157E;
+.card-blog div h3 {
+  color: #c5157e;
   font-size: 28.26px;
 }
 
-.card-blog div p{
+.card-blog div p {
   font-size: 22px;
   line-height: 38.85px;
 }
 
 /*===========FOOTER===========*/
 
-.footer{
+.footer {
   background-color: var(--blue);
   color: #fff;
   padding: 59px 0;
   margin: 0;
 }
 
-.footer a{
+.footer a {
   color: #fff;
 }
 
-.footer .section-footer{
+.footer .section-footer {
   display: grid;
   grid-template-columns: 30% 20% 20% 20%;
   column-gap: 50px;
@@ -590,51 +584,51 @@ border-radius: 5px;
   letter-spacing: -0.2 px;
 }
 
-.section-footer h3{
+.section-footer h3 {
   font-size: 17px;
   font-weight: 400;
   margin-bottom: 20px;
 }
 
-.texto-footer{
+.texto-footer {
   width: 80%;
 }
-.nav-inferior{
+.nav-inferior {
   display: flex;
   flex-direction: column;
 }
 
-.nav-inferior a{
+.nav-inferior a {
   color: #fff;
   margin-bottom: 20px;
 }
 
-.social-networks a{
+.social-networks a {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
 }
 
-.social-networks a p{
+.social-networks a p {
   margin: 0;
   margin-left: 10px;
 }
 
-.copy{
+.copy {
   margin-top: 110px;
   color: rgb(97, 97, 97);
 }
 
-.hero-comprar{
+.hero-comprar {
   background-color: var(--blue);
   color: #fff;
   padding-top: 100px;
-  padding-bottom: 377px;
+  padding-bottom: 295px;
   position: relative;
 }
 
-.hero-comprar::after{
-  content: '';
+.hero-comprar::after {
+  content: "";
   background-image: url(./assets/img/mapa-puntos.svg);
   width: 756px;
   height: 510px;
@@ -642,37 +636,34 @@ border-radius: 5px;
   top: -17px;
   right: 0;
   opacity: 14%;
-  
 }
 
-.hero-comprar h1{
+.hero-comprar h1 {
   color: var(--pink);
   font-size: 38px;
   line-height: 45.41px;
 }
 
-
-.hero-comprar .location{
+.hero-comprar .location {
   font-size: 20px;
 }
 
-.hero-comprar .location svg{
+.hero-comprar .location svg {
   color: var(--pink);
 }
 
-.hero-comprar .selecciona{
+.hero-comprar .selecciona {
   font-size: 18px;
   line-height: 23.49px;
   padding-top: 7px;
 }
 
-
-.input-ciudad{
+.input-ciudad {
   position: relative;
 }
 
-.input-ciudad::before{
-  content: '';
+.input-ciudad::before {
+  content: "";
   position: absolute;
   background-image: url(./assets/icons/shape.svg);
   color: var(--blue);
@@ -683,48 +674,50 @@ border-radius: 5px;
   z-index: 1000;
 }
 
-.suggestions-container{
+.suggestions-container {
   background-color: #fff;
   color: var(--pink);
   border-radius: 5px;
   padding: 10px 20px;
   position: absolute;
   width: 100%;
+  z-index: 10;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
 }
 
-.suggestions-container .suggestion{
+.suggestions-container .suggestion {
   border-bottom: 1px solid var(--blue);
   padding: 3px 0;
   cursor: pointer;
 }
 
-.suggestions-container .suggestion:last-of-type{
+.suggestions-container .suggestion:last-of-type {
   border-bottom: none;
   padding-bottom: 0;
 }
 
 /*===========PROMOCIONES===============*/
-.hero-promociones{
-  background-color: #F31583;
+.hero-promociones {
+  background-color: #f31583;
   padding: 30px 0;
 }
 
-.hero-promociones .container{
+.hero-promociones .container {
   display: grid;
   grid-template-columns: 40% 60%;
 }
 
-.hero-promociones .container img{
+.hero-promociones .container img {
   width: 100%;
 }
 
-@media (min-width: 100px){
-  .hero-promociones .container img{
+@media (min-width: 100px) {
+  .hero-promociones .container img {
     width: 130%;
   }
 }
 
-.texto-promociones{
+.texto-promociones {
   display: flex;
   flex-direction: column;
   padding-top: 150px;
@@ -733,9 +726,29 @@ border-radius: 5px;
   line-height: 35px;
 }
 
-.texto-promociones h1{
+.texto-promociones h1 {
   color: var(--blue);
   font-size: 38px;
   line-height: 42px;
   padding-bottom: 15px;
+}
+
+.mapa {
+  background-color: #fff;
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  height: 475px;
+  position: absolute;
+  top: 631px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 5;
+  display: flex;
+  padding-left: 100px;
+}
+
+.marcas-proveedores{
+  margin-top: 300px;
 }
