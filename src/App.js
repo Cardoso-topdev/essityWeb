@@ -8,6 +8,7 @@ import Frecuentes from './pages/frecuentes';
 import Nosotros from './pages/nosotros';
 import Crece from './pages/crece';
 import Comprar from './pages/comprar';
+import Asesoria from './pages/asesoria';
 import NotFound from './pages/notFound';
 import Promociones from './pages/promociones';
 
@@ -21,6 +22,7 @@ function App() {
         <Route exact path="/promociones" component={Promociones}/>
         <Route exact path="/crece-mi-negocio" component={Crece} />
         <Route exact path="/donde-comprar" component={Comprar} />
+        <Route exact path="/asesoria" component={Asesoria} />
         <Route component={NotFound} />
       </Switch>
     </Router>
