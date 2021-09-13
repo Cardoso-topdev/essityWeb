@@ -884,6 +884,10 @@ a.collapsed {
   border-radius: 100px;
 }
 
+.border-azul {
+  border: 1px solid #0053f5 !important;
+}
+
 .card-productos h2 {
   padding-top: 10px;
 }
@@ -901,4 +905,101 @@ a.collapsed {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.productos-regio {
+  height: 780px;
+}
+
+.productos-regio {
+  position: relative;
+}
+
+.productos-regio::before {
+  content: "";
+  background-image: url(./assets/img/img64.jpg);
+  background-repeat: no-repeat;
+  border-radius: 0px 340px 0px 0px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 680px;
+  height: 613px;
+  z-index: 2;
+}
+
+.productos-regio::after {
+  content: "";
+  background-color: #2d2b83;
+  height: 100%;
+  width: 85%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  border-radius: 240px 0px 0px 0px;
+}
+
+.productos-regio .container {
+  width: 55%;
+  float: right;
+  padding: 100px;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.productos-regio .container h2 {
+  font-size: 30px;
+  line-height: 42px;
+  margin-bottom: 30px !important;
+}
+
+.productos-tena {
+  position: relative;
+  padding: 100px 0 150px 0;
+  color: #fff;
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.productos-tena::before {
+  content: "";
+  position: absolute;
+  background-color: #1e4db7;
+  opacity: 0.88;
+  border-radius: 0px 290px 0px 0px;
+  width: 90%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.productos-tena::after{
+  content: '';
+  position: absolute;
+  background-image: url(./assets/img/img74.jpg);
+  width: 676px;
+  height: 564px;
+  bottom: 0;
+  right: 0;
+  border-radius: 290px 0px 0px 0px;
+}
+
+
+.productos-tena img {
+  margin-bottom: 100px;
+}
+
+.productos-tena .container p,
+.productos-tena .container h2 {
+  width: 50%;
+}
+
+.productos-tena h2{
+  margin-bottom: 30px;
+  font-size: 30px;
 }
