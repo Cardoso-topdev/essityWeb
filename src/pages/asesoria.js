@@ -1,5 +1,5 @@
 import React from "react";
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 
 //components
 import Navbar from "../components/navbar/navbar";
@@ -9,8 +9,11 @@ import RegioSeccion from "../components/asesoria-secciones/regio";
 
 import img49 from "../assets/img/img49.jpg";
 import TenaSeccion from "../components/asesoria-secciones/tena";
+import Principal from "../components/asesoria-secciones/principal";
 
 const Asesoria = () => {
+  const [active, setActive] = useState("principal");
+
   return (
     <Fragment>
       <Navbar />
@@ -33,18 +36,45 @@ const Asesoria = () => {
         <h2>Portafolio ideal</h2>
         <div className="filter">
           <p>Filtrar por</p>
-          <button className="btn btn-primary btn-filter mr-3">
+          <button
+            className="btn btn-primary btn-filter mr-3"
+            onClick={() => {
+              setActive("principal");
+            }}
+          >
             Todos los productos
           </button>
-          <button className="btn btn-primary mr-3 btn-filter">Saba</button>
-          <button className="btn btn-primary mr-3 btn-filter">Tena</button>
-          <button className="btn btn-primary mr-3 btn-filter">Regio</button>
+          <button
+            className="btn btn-primary mr-3 btn-filter"
+            onClick={() => {
+              setActive("sabaSeccion");
+            }}
+          >
+            Saba
+          </button>
+          <button
+            className="btn btn-primary mr-3 btn-filter"
+            onClick={() => {
+              setActive("tenaSeccion");
+            }}
+          >
+            Tena
+          </button>
+          <button
+            className="btn btn-primary mr-3 btn-filter"
+            onClick={() => {
+              setActive("regioSeccion");
+            }}
+          >
+            Regio
+          </button>
         </div>
       </div>
 
-      <SabaSeccion />
-      <RegioSeccion />
-      <TenaSeccion />
+      {active === "principal" && <Principal />}
+      {active === "sabaSeccion" && <SabaSeccion />}
+      {active === "regioSeccion" && <RegioSeccion />}
+      {active === "tenaSeccion" && <TenaSeccion />}
 
       <Footer />
     </Fragment>

@@ -795,6 +795,7 @@ a.collapsed {
   display: flex;
   align-items: center;
   margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .filter p {
@@ -889,7 +890,8 @@ a.collapsed {
 }
 
 .card-productos h2 {
-  padding-top: 10px;
+  padding-top: 20px;
+  font-size: 26px;
 }
 
 .productos {
@@ -1002,4 +1004,10 @@ a.collapsed {
 .productos-tena h2{
   margin-bottom: 30px;
   font-size: 30px;
+}
+
+.grid-cards{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 50px;
 }

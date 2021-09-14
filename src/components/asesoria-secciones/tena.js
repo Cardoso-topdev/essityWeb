@@ -2,6 +2,16 @@ import React, { Fragment } from "react";
 
 import Tena from "../../assets/icons/Tena.svg";
 
+import comg10s from "../../assets/img/tena/productos/comg10s.png";
+import comm10s from "../../assets/img/tena/productos/comm10s.png";
+import maxig from "../../assets/img/tena/productos/maxig.png";
+import maxim from "../../assets/img/tena/productos/maxim.png";
+
+import slipg from "../../assets/img/tena/protector/slipg.png";
+import slipm from "../../assets/img/tena/protector/slipm.png";
+
+import protector from "../../assets/img/tena/protector.png";
+
 const TenaSeccion = () => {
   return (
     <Fragment>
@@ -24,6 +34,81 @@ const TenaSeccion = () => {
 
       <div className="container">
         <h2>ROPA INTERIOR DESECHABLE</h2>
+
+        <div className="card-productos border-azul mb-5">
+          <div className="productos productos-flex">
+            <div className="producto">
+              <img src={maxig} />
+              <p>
+                Pants Maxi Protect
+                <br />
+                Grande 10 piezas
+              </p>
+            </div>
+            <div className="producto">
+              <img src={maxim} />
+              <p>
+                Pants Maxi Protect
+                <br />
+                Mediano 10 piezas
+              </p>
+            </div>
+            <div className="producto">
+              <img src={comm10s} />
+              <p>
+                Comfort Ropa Interior
+                <br />
+                Mediano 10 piezas
+              </p>
+            </div>
+            <div className="producto">
+              <img src={comg10s} />
+              <p>
+                Comfort Ropa Interior
+                <br />
+                Grande 10 piezas
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid-cards mb-5">
+          <div className="card-productos border-azul">
+            <h2 className="text-center">PROTECTOR ANATÓMICO</h2>
+            <div className="productos productos-flex">
+              <div className="producto">
+                <img src={slipg} />
+                <p>
+                  Slip Maxi Protect
+                  <br />
+                  Grande 10 piezas
+                </p>
+              </div>
+              <div className="producto">
+                <img src={slipm} />
+                <p>
+                  Slip Maxi Protect
+                  <br />
+                  Mediano 10 piezas
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="card-productos border-azul">
+            <h2 className="text-center">CUBRE CAMA</h2>
+            <div className="productos productos-flex">
+              <div className="producto">
+                <img src={protector} />
+                <p>
+                  Predoblado
+                  <br />
+                  10 piezas
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </Fragment>
   );
