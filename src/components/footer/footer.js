@@ -28,14 +28,14 @@ const Footer = () => {
           <p className="copy">Copyright &copy; {year}. . All rights reserved.</p>
         </div>
         <div className="nav-inferior">
-          <Link>Inicio</Link>
-          <Link>¿Quiénes somos?</Link>
-          <Link>Promociones</Link>
-          <Link>Crece mi negocio</Link>
+          <Link to="/">Inicio</Link>
+          <Link to="/quienes-somos">¿Quiénes somos?</Link>
+          <Link to="/promociones">Promociones</Link>
+          <Link to="/crece-mi-negocio">Crece mi negocio</Link>
         </div>
         <div className="nav-inferior">
-          <Link>Asesoría</Link>
-          <Link>¿Donde comprar?</Link>
+          <Link to="/asesoria">Asesoría</Link>
+          <Link to="donde-comprar">¿Donde comprar?</Link>
           <Link>FAQ</Link>
         </div>
         <div className="social-networks">
