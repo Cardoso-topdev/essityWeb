@@ -19,6 +19,72 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
+a{
+  color: #fff;
+}
+
+a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+/*=============
+BOTONES
+===============*/
+.btn-hero {
+  width: 215px;
+}
+
+.btn-about {
+  width: 40%;
+  padding: 13px 0 !important;
+  background-color: var(--blue);
+}
+
+.btn-contacto {
+  float: right;
+  background-color: #010659;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 25px;
+  border-radius: 5px;
+  padding: 10px 61px;
+}
+
+.btn-contacto:hover {
+  color: #5f6377;
+}
+
+
+.btn-filter {
+  padding: 5px 20px;
+  border-radius: 38.7931px;
+  background-color: #1e4db7;
+}
+
+.btn-explorar {
+  background: #ffffff;
+  border-radius: 6.59222px;
+  font-size: 16px;
+  padding: 10px 30px;
+}
+
+.f-azul{
+  color: #01015A;
+}
+
+.f-rosa{
+  color: #E4418D;
+}
+.btn-explorar:hover{
+  text-decoration: none;
+}
+
+
+/*=============================*/
+
+
 .container {
   max-width: 1200px;
   width: 95%;
@@ -89,10 +155,6 @@ body {
   font-weight: 500;
 }
 
-.btn-hero {
-  width: 215px;
-}
-
 /*Section About*/
 
 section.about {
@@ -147,18 +209,52 @@ section.about::before {
   margin-bottom: 50px;
 }
 
-.btn-about {
-  width: 40%;
-  padding: 13px 0 !important;
-  background-color: var(--blue);
-}
-
 section.promotions {
   background-color: var(--blue);
 }
 
 section.promotions div.section-promotions {
   text-align: center;
+  color: #fff;
+}
+
+div.section-promotions .mejores-promociones {
+  margin-bottom: 150px;
+}
+
+.section-promotions .descubrir-mas {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-top: 50px;
+  position: relative;
+  padding-bottom: 40px;
+}
+
+.section-promotions .descubrir-mas p {
+  position: relative;
+}
+
+.section-promotions .descubrir-mas p::after {
+  content: "";
+  position: absolute;
+  background-color: #fff;
+  width: 65%;
+  height: 2px;
+  bottom: -8px;
+  left: 0;
+  z-index: 2;
+}
+
+.section-promotions .descubrir-mas p {
+  margin: 0;
+  padding-right: 5px;
+  font-size: 22px;
+}
+
+.section-promotions img {
+  width: 100%;
 }
 
 section.promotions div.section-promotions h2 {
@@ -300,21 +396,6 @@ a.collapsed {
 .form-contacto .form-control:placeholder {
   color: #1a203d;
   opacity: 30%;
-}
-
-.btn-contacto {
-  float: right;
-  background-color: #010659;
-  font-size: 18px;
-  font-weight: 400;
-  color: #fff;
-  margin-top: 25px;
-  border-radius: 5px;
-  padding: 10px 61px;
-}
-
-.btn-contacto:hover {
-  color: #5f6377;
 }
 
 .not-found {
@@ -753,6 +834,66 @@ a.collapsed {
   margin-top: 300px;
 }
 
+/*=================
+ASESORIA INDEX
+===================
+*/
+
+.asesoria-section {
+  position: relative;
+  color: #fff;
+  z-index: 3;
+}
+
+.asesoria-section .container{
+  padding-bottom: 28px;
+}
+
+.asesoria-section img {
+  width: 100%;
+}
+
+.asesoria-section .row-1 {
+  padding-top: 300px;
+}
+
+.asesoria-section .row-2 {
+  margin-top: 150px;
+}
+
+.asesoria-section .row .col-7 {
+  padding-right: 80px;
+}
+
+.asesoria-section::before {
+  content: "";
+  background-color: #01015a;
+  width: 95%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0px 490px 180px 0px;
+  z-index: -2;
+}
+
+.asesoria-section::after {
+  content: "";
+  background-color: #e4418d;
+  border-radius: 260px 0px 0px 0px;
+  width: 45%;
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+/*=================
+ASESORIA PAGE
+===================
+*/
+
 .hero-asesoria {
   background-color: #f31583;
   padding: 30px 0;
@@ -803,11 +944,7 @@ a.collapsed {
   margin-right: 30px;
 }
 
-.btn-filter {
-  padding: 5px 20px;
-  border-radius: 38.7931px;
-  background-color: #1e4db7;
-}
+
 
 .contenido-asesoria {
   margin-top: 120px;
@@ -979,9 +1116,8 @@ a.collapsed {
   z-index: -1;
 }
 
-
-.productos-tena::after{
-  content: '';
+.productos-tena::after {
+  content: "";
   position: absolute;
   background-image: url(./assets/img/img74.jpg);
   width: 676px;
@@ -990,7 +1126,6 @@ a.collapsed {
   right: 0;
   border-radius: 290px 0px 0px 0px;
 }
-
 
 .productos-tena img {
   margin-bottom: 100px;
@@ -1001,13 +1136,25 @@ a.collapsed {
   width: 50%;
 }
 
-.productos-tena h2{
+.productos-tena h2 {
   margin-bottom: 30px;
   font-size: 30px;
 }
 
-.grid-cards{
+.grid-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 50px;
+}
+
+.grid-promociones img{
+width: 100%;
+}
+
+.page-promociones{
+  padding: 200px 0 200px 0;
+}
+
+.page-promociones h2{
+  padding-bottom: 80px;
 }

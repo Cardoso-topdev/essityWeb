@@ -1,15 +1,42 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
+
+import img196 from "../../assets/img/img196.png";
+import img194 from "../../assets/img/img194.png";
+import promocion2 from "../../assets/img/promocion2.png";
+
+import { BsArrowRightShort as Arrow } from "react-icons/bs";
 
 const Promotions = () => {
-    return ( 
-        <section className="promotions">
-            <div className="container section-promotions">
-            <h2>Promociones</h2>
-            <p className="first-text">Descubre las mejores promociones para tu negocio</p>
-            <p className="last-text">Cada mes podrás encontrar descuentos y promociones...</p>
-            </div>
-        </section>
-     );
-}
- 
+  return (
+    <section className="promotions">
+      <div className="container section-promotions">
+        <div className="mejores-promociones">
+          <h2>Promociones</h2>
+          <p className="first-text">
+            Descubre las mejores promociones para tu negocio
+          </p>
+          <p className="last-text">
+            Cada mes podrás encontrar descuentos y promociones...
+          </p>
+        </div>
+        <div className="row">
+          <div className="col-6">
+            <img src={promocion2} />
+          </div>
+          <div className="col-6">
+            <img src={img194} />
+          </div>
+        </div>
+        <Link to="/promociones">
+          <div className="descubrir-mas">
+            <p className="text-center">Descubrir más promociones</p>
+            <Arrow />
+          </div>
+        </Link>
+      </div>
+    </section>
+  );
+};
+
 export default Promotions;
