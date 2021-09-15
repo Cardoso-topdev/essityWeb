@@ -616,6 +616,11 @@ a.collapsed {
   margin-bottom: 80px;
 }
 
+.container-blogs a{
+  color: #C5157E;
+  font-size: 22px;
+}
+
 .card-blog {
   display: flex;
   padding: 50px 0px 50px;

@@ -1,4 +1,5 @@
 import React, { Fragment } from "react";
+import { Link } from "react-router-dom";
 
 //components
 import Navbar from "../components/navbar/navbar";
@@ -39,6 +40,7 @@ const Crece = () => {
                 población. Es una categoría con un margen de utilidad muy
                 atractivo.
               </p>
+              <Link>Leer más.</Link>
             </div>
           </div>
 
@@ -52,6 +54,7 @@ const Crece = () => {
                 Es una marca que podrás encontrar con facilidad con cualquiera
                 de tus proveedores.
               </p>
+              <Link>Leer más.</Link>
             </div>
           </div>
 
@@ -65,6 +68,7 @@ const Crece = () => {
                 te permite satisfacer diferentes necesidades (secar, limpiar,
                 desengrasar).
               </p>
+              <Link>Leer más.</Link>
             </div>
           </div>
         </div>
