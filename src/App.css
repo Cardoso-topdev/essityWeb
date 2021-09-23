@@ -19,11 +19,11 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-a{
+a {
   color: #fff;
 }
 
-a:hover{
+a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -32,16 +32,23 @@ a:hover{
 BOTONES
 ===============*/
 .btn-hero {
-  width: 215px;
+  background: #f50082;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding: 10px 30px !important;
 }
 
+.btn-hero svg{
+  font-size: 30px;
+}
 .btn-about {
   width: 40%;
   padding: 10px 0 !important;
   background-color: var(--blue);
 }
 
-.btn-sitio{
+.btn-sitio {
   padding: 13px 40px !important;
   background-color: var(--blue);
   font-size: 18px;
@@ -62,7 +69,6 @@ BOTONES
   color: #5f6377;
 }
 
-
 .btn-filter {
   padding: 5px 20px;
   border-radius: 38.7931px;
@@ -76,20 +82,18 @@ BOTONES
   padding: 10px 30px;
 }
 
-.f-azul{
-  color: #01015A;
+.f-azul {
+  color: #01015a;
 }
 
-.f-rosa{
-  color: #E4418D;
+.f-rosa {
+  color: #e4418d;
 }
-.btn-explorar:hover{
+.btn-explorar:hover {
   text-decoration: none;
 }
 
-
 /*=============================*/
-
 
 .container {
   max-width: 1200px;
@@ -151,7 +155,7 @@ BOTONES
 .info-hero h2 {
   font-size: 48px;
   font-weight: 700;
-  width: 72%;
+  width: 75%;
   line-height: 52.56px;
   margin-bottom: 40px;
 }
@@ -623,8 +627,8 @@ a.collapsed {
 }
 
 .container-blogs a,
-.crece-hero a{
-  color: #C5157E;
+.crece-hero a {
+  color: #c5157e;
   font-size: 22px;
 }
 
@@ -857,7 +861,7 @@ ASESORIA INDEX
   z-index: 3;
 }
 
-.asesoria-section .container{
+.asesoria-section .container {
   padding-bottom: 28px;
 }
 
@@ -955,8 +959,6 @@ ASESORIA PAGE
   margin: 0;
   margin-right: 30px;
 }
-
-
 
 .contenido-asesoria {
   margin-top: 120px;
@@ -1159,37 +1161,36 @@ ASESORIA PAGE
   column-gap: 50px;
 }
 
-.grid-promociones img{
-width: 100%;
+.grid-promociones img {
+  width: 100%;
 }
 
-.page-promociones{
+.page-promociones {
   padding: 200px 0 200px 0;
 }
 
-.page-promociones h2{
+.page-promociones h2 {
   padding-bottom: 80px;
 }
 
-.portafolio-ideal img{
+.portafolio-ideal img {
   width: 100%;
 }
 
-
-.video-comprar{
+.video-comprar {
   position: relative;
 }
-.video-comprar video{
+.video-comprar video {
   width: 100%;
 }
 
-.video-comprar .texto-comprar{
-font-size: 30px;
-position: absolute;
-top: 225px;
-left: 100px;
+.video-comprar .texto-comprar {
+  font-size: 30px;
+  position: absolute;
+  top: 225px;
+  left: 100px;
 }
 
-.video-comprar .texto-comprar h2{
-  color: #F50082;
+.video-comprar .texto-comprar h2 {
+  color: #f50082;
 }
