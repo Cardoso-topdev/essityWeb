@@ -20,7 +20,7 @@ const Asesoria = () => {
       <div className="hero-asesoria">
         <div className="container">
           <div className="col-img">
-            <img src={img49} />
+            <img src={img49} alt=""/>
           </div>
           <div className="info-asesoria">
             <h1>Asesoría</h1>

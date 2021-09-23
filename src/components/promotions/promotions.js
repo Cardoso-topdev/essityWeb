@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import img196 from "../../assets/img/img196.png";
 import img194 from "../../assets/img/img194.png";
 import promocion2 from "../../assets/img/promocion2.png";
 
@@ -22,10 +21,10 @@ const Promotions = () => {
         </div>
         <div className="row">
           <div className="col-6">
-            <img src={promocion2} />
+            <img src={promocion2} alt=""/>
           </div>
           <div className="col-6">
-            <img src={img194} />
+            <img src={img194} alt=""/>
           </div>
         </div>
         <Link to="/promociones">

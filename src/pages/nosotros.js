@@ -31,7 +31,7 @@ const Nosotros = () => {
             </p>
           </div>
           <div className="img-nosotros">
-            <img src={imgTena} alt="imagen aqui" />
+            <img src={imgTena} alt="" />
           </div>
         </div>
       </section>
@@ -44,7 +44,7 @@ const Nosotros = () => {
             Regio®, Leukoplast® y Tork®.
           </p>
           <div className="img-parrafo2">
-          <img src={imgTena2} />
+          <img src={imgTena2} alt=""/>
           </div>
           <p className="parrafo2">
             Este sitio web está diseñado especialmente para ti, dueño o

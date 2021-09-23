@@ -23,7 +23,7 @@ const Promociones = () => {
             </p>
           </div>
           <div>
-            <img src={img193} />
+            <img src={img193} alt=""/>
           </div>
         </div>
       </div>
@@ -34,16 +34,16 @@ const Promociones = () => {
 
           <div className="row">
             <div className="col-6 mb-3">
-              <img src={promocion2} />
+              <img src={promocion2} alt=""/>
             </div>
             <div className="col-6 mb-3">
-              <img src={img196} />
+              <img src={img196} alt=""/>
             </div>
             <div className="col-6">
-              <img src={promocion1} />
+              <img src={promocion1} alt=""/>
             </div>
             <div className="col-6">
-              <img src={img194} />
+              <img src={img194} alt=""/>
             </div>
           </div>
         </div>

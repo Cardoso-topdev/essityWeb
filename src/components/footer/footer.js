@@ -7,8 +7,7 @@ import logoBlanco from "../../assets/img/logoBlanco.svg";
 //icons
 import { FaFacebookF as FbIcon } from "react-icons/fa";
 import {
-  AiOutlineTwitter as TwIcon,
-  AiOutlineInstagram as IgIcon,
+  AiOutlineTwitter as TwIcon
 } from "react-icons/ai";
 
 const Footer = () => {
@@ -20,7 +19,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container section-footer">
         <div className="texto-footer">
-          <img src={logoBlanco} />
+          <img src={logoBlanco} alt=""/>
           <p className="mt-4">
             Empresa líder en el mundo en higiene y salud. Estamos comprometidos
             a mejorar el bienestar con nuestros productos y servicios.

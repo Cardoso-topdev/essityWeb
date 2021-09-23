@@ -8,7 +8,6 @@ import Formulario from "../components/formulario/formulario";
 import Footer from "../components/footer/footer";
 
 //icons
-import ArrowUp from "../assets/icons/arrow-up.svg";
 import ArrowDown from "../assets/icons/arrow-down.svg";
 
 const Frecuentes = () => {
@@ -36,7 +35,7 @@ const Frecuentes = () => {
               aria-controls={`collapse${pregunta.id}`}
               onClick={handleClick}
             >
-              <img src={ArrowDown} />
+              <img src={ArrowDown} alt=""/>
             </Link>
             <div
               id={`collapse${pregunta.id}`}

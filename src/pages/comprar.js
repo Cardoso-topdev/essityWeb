@@ -17,7 +17,7 @@ const Comprar = () => {
   const [suggestions, setSuggestions] = useState([]);
   const [display, setDisplay] = useState(false);
   const [urlMap, setUrlMap] = useState(mapaBg);
-  const [condicionProvedores, setCondicionProvedores] = useState(false);
+  //const [condicionProvedores, setCondicionProvedores] = useState(false);
   const [id, setId] = useState("");
 
   const onChangeHandler = (text) => {
@@ -64,7 +64,7 @@ const Comprar = () => {
     setText(text);
     setSuggestions([]);
     setUrlMap(url);
-    setCondicionProvedores(true);
+    //setCondicionProvedores(true);
     setId(id);
   };
   return (
@@ -113,7 +113,7 @@ const Comprar = () => {
         </div>
 
         <div className="mapa container">
-          <img src={urlMap} />
+          <img src={urlMap} alt=""/>
         </div>
       </header>
 

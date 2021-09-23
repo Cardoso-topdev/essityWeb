@@ -32,7 +32,7 @@ const Crece = () => {
 
         <div className="container container-blogs">
           <div className="card-blog">
-            <img src={img190} />
+            <img src={img190} alt=""/>
             <div>
               <h3 className="mb-4">Incontinencia para adulto (Tena)</h3>
               <p>
@@ -41,12 +41,12 @@ const Crece = () => {
                 población. Es una categoría con un margen de utilidad muy
                 atractivo.
               </p>
-              <Link>Leer más.</Link>
+              <Link to="">Leer más.</Link>
             </div>
           </div>
 
           <div className="card-blog">
-            <img src={img191} />
+            <img src={img191} alt=""/>
             <div>
               <h3 className="mb-4">Papel de baño</h3>
               <p>
@@ -55,12 +55,12 @@ const Crece = () => {
                 Es una marca que podrás encontrar con facilidad con cualquiera
                 de tus proveedores.
               </p>
-              <Link>Leer más.</Link>
+              <Link to="">Leer más.</Link>
             </div>
           </div>
 
           <div className="card-blog">
-            <img src={img192} />
+            <img src={img192} alt=""/>
             <div>
               <h3 className="mb-4">Toalla de cocina</h3>
               <p>
@@ -69,7 +69,7 @@ const Crece = () => {
                 te permite satisfacer diferentes necesidades (secar, limpiar,
                 desengrasar).
               </p>
-              <Link>Leer más.</Link>
+              <Link to="">Leer más.</Link>
             </div>
           </div>
         </div>

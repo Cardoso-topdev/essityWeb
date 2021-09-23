@@ -7,13 +7,13 @@ const NotFound = () => {
   return (
     <div className="container not-found">
       <div className="primera-columna">
-          <img src={logo}/>
+          <img src={logo} alt=""/>
         <h1>404</h1>
         <p>Sitio en construcción</p>
         <Link to="/" className="btn btn-primary p-3">Regresar al inicio</Link>
       </div>
       <div className="segunda-columna">
-      <img src={imgConstruccion} className=""/>
+      <img src={imgConstruccion} alt=""/>
       </div>
     </div>
   );

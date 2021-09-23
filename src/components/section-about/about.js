@@ -9,7 +9,7 @@ const About = () => {
     <section className="about">
       <div className="section-about container">
         <div>
-          <img src={video} />
+          <img src={video} alt=""/>
         </div>
         <div className="info-about">
           <h2>¿Quiénes somos?</h2>

@@ -39,7 +39,7 @@ const SabaSeccion = () => {
           <h2 className="text-center pb-3">Nocturnas</h2>
           <div className="productos producto-flex">
             <div className="producto">
-              <img src={bn8} />
+              <img src={bn8} alt=""/>
               <p className="text-center">
                 Buenas Noches
                 <br /> con alas 8 piezas
@@ -73,7 +73,7 @@ const SabaSeccion = () => {
           <h2 className="text-center pb-3">Delgadas</h2>
           <div className="productos">
             <div className="producto">
-              <img src={in10} />
+              <img src={in10} alt=""/>
               <p className="text-center">
                 Delgadas <br />
                 con alas 10 piezas
@@ -100,7 +100,7 @@ const SabaSeccion = () => {
           <h2 className="text-center pb-3">Nocturnas</h2>
           <div className="productos producto-flex">
             <div className="producto">
-              <img src={bn8} />
+              <img src={bn8} alt=""/>
               <p className="text-center">
                 Buenas Noches
                 <br /> con alas 8 piezas

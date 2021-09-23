@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="section-nav">
       <div className="navigation container">
         <Link to="/">
-          <img src={Logo} />
+          <img src={Logo} alt=""/>
         </Link>
         <nav>
           <Link to="/">Inicio</Link>

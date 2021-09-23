@@ -17,7 +17,7 @@ const TenaSeccion = () => {
     <Fragment>
       <div className="productos-tena">
         <div className="container">
-          <img src={Tena} />
+          <img src={Tena} alt=""/>
           <h2>
             Marca numero 1 en el autoservicio y lider en México y en el mundo
           </h2>
@@ -38,7 +38,7 @@ const TenaSeccion = () => {
         <div className="card-productos border-azul mb-5">
           <div className="productos productos-flex">
             <div className="producto">
-              <img src={maxig} />
+              <img src={maxig} alt=""/>
               <p>
                 Pants Maxi Protect
                 <br />
@@ -46,7 +46,7 @@ const TenaSeccion = () => {
               </p>
             </div>
             <div className="producto">
-              <img src={maxim} />
+              <img src={maxim} alt=""/>
               <p>
                 Pants Maxi Protect
                 <br />
@@ -54,7 +54,7 @@ const TenaSeccion = () => {
               </p>
             </div>
             <div className="producto">
-              <img src={comm10s} />
+              <img src={comm10s} alt=""/>
               <p>
                 Comfort Ropa Interior
                 <br />
@@ -62,7 +62,7 @@ const TenaSeccion = () => {
               </p>
             </div>
             <div className="producto">
-              <img src={comg10s} />
+              <img src={comg10s} alt=""/>
               <p>
                 Comfort Ropa Interior
                 <br />
@@ -77,7 +77,7 @@ const TenaSeccion = () => {
             <h2 className="text-center">PROTECTOR ANATÓMICO</h2>
             <div className="productos productos-flex">
               <div className="producto">
-                <img src={slipg} />
+                <img src={slipg} alt=""/>
                 <p>
                   Slip Maxi Protect
                   <br />
@@ -85,7 +85,7 @@ const TenaSeccion = () => {
                 </p>
               </div>
               <div className="producto">
-                <img src={slipm} />
+                <img src={slipm} alt=""/>
                 <p>
                   Slip Maxi Protect
                   <br />
@@ -99,7 +99,7 @@ const TenaSeccion = () => {
             <h2 className="text-center">CUBRE CAMA</h2>
             <div className="productos productos-flex">
               <div className="producto">
-                <img src={protector} />
+                <img src={protector} alt=""/>
                 <p>
                   Predoblado
                   <br />

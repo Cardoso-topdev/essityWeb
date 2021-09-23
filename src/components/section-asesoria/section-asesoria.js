@@ -15,7 +15,7 @@ const AsesoriaSection = () => {
           <div className="row row-1">
             <div className="col-7">
               <h2>Crece mi negocio</h2>
-              <img src={img228} />
+              <img src={img228} alt=""/>
               <h3>Incontinencia para adulto (Tena)</h3>
               <p>
                 Padecimiento más común de lo normal. Cada vez hay más adultos en
@@ -23,7 +23,7 @@ const AsesoriaSection = () => {
                 población. Es una categoría con un margen de utilidad muy
                 atractivo.
               </p>
-              <img src={img229} />
+              <img src={img229} alt=""/>
               <h3>Toalla de cocina</h3>
               <p>
                 Cada vez más personas utilizan toalla de cocina en lugar de
@@ -32,16 +32,16 @@ const AsesoriaSection = () => {
             </div>
             <div className="col-5">
               <h2>Asesoría</h2>
-              <img src={img230} />
+              <img src={img230} alt=""/>
               <p className="mb-5 mt-3">
                 SAP anuncia la creación de la mayor red empresarial del mundo en
                 su evento "Sapphire Now 2021
               </p>
-              <img src={img231} />
+              <img src={img231} alt=""/>
               <p className="mb-5 mt-3">
                 Amazon, a punto de cerrar la comprar del estudio de cine MGM
               </p>
-              <img src={img232} />
+              <img src={img232} alt=""/>
               <p className="mb-5 mt-3">
                 Crece el riesgo de una nueva burbuja en el mercado inmobiliario
                 mundial

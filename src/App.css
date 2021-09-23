@@ -37,8 +37,14 @@ BOTONES
 
 .btn-about {
   width: 40%;
-  padding: 13px 0 !important;
+  padding: 10px 0 !important;
   background-color: var(--blue);
+}
+
+.btn-sitio{
+  padding: 13px 40px !important;
+  background-color: var(--blue);
+  font-size: 18px;
 }
 
 .btn-contacto {
@@ -1163,4 +1169,27 @@ width: 100%;
 
 .page-promociones h2{
   padding-bottom: 80px;
+}
+
+.portafolio-ideal img{
+  width: 100%;
+}
+
+
+.video-comprar{
+  position: relative;
+}
+.video-comprar video{
+  width: 100%;
+}
+
+.video-comprar .texto-comprar{
+font-size: 30px;
+position: absolute;
+top: 225px;
+left: 100px;
+}
+
+.video-comprar .texto-comprar h2{
+  color: #F50082;
 }
