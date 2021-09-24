@@ -1,0 +1,52 @@
+a {
+  color: #000;
+}
+
+a:hover{
+    color: #000;
+}
+
+p{
+    margin: 0;
+}
+
+.regresar svg{
+font-size: 30px;
+}
+
+.contenido-infografia h2 {
+  font-size: 32px;
+  line-height: 160.5%;
+}
+
+.border-rosa {
+  border: 1px solid #f31583;
+  border-radius: 25px;
+  padding: 25px;
+  font-size: 28px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.grid-infografia {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.info {
+  flex-basis: 45%;
+  margin-bottom: 30px;
+}
+
+.info img {
+  width: 558px;
+  height: 492px;
+}
+
+.info p {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 29px;
+  padding-top: 30px;
+}

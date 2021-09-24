@@ -11,6 +11,10 @@ import Comprar from './pages/comprar';
 import Asesoria from './pages/asesoria';
 import NotFound from './pages/notFound';
 import Promociones from './pages/promociones';
+import Page1 from './pages/infografias/page1';
+import Page2 from './pages/infografias/page2';
+import Page3 from './pages/infografias/page3';
+import Page4 from './pages/infografias/page4';
 
 function App() {
   return (
@@ -23,6 +27,10 @@ function App() {
         <Route exact path="/crece-mi-negocio" component={Crece} />
         <Route exact path="/donde-comprar" component={Comprar} />
         <Route exact path="/asesoria" component={Asesoria} />
+        <Route exact path="/proteccion-femenina" component={Page1} />
+        <Route exact path="/incontinencia-para-adulto" component={Page2} />
+        <Route exact path="/papel-de-banio" component={Page3} />
+        <Route exact path="/toallas-de-cocina" component={Page4} />
         <Route component={NotFound} />
       </Switch>
     </Router>

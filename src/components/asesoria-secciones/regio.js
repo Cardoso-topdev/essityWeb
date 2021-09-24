@@ -35,7 +35,7 @@ const RegioSeccion = () => {
       </div>
 
       <div className="container">
-        <h2>Papel Higienico</h2>
+        <h2 className="mt-5 mb-5">Papel Higienico</h2>
 
         <div className="card-productos border-azul mb-5">
           <h2 className="text-center pb-3">RINDE MAS +</h2>

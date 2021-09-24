@@ -33,7 +33,7 @@ const TenaSeccion = () => {
       </div>
 
       <div className="container">
-        <h2>ROPA INTERIOR DESECHABLE</h2>
+        <h2 className="mt-5 mb-5">ROPA INTERIOR DESECHABLE</h2>
 
         <div className="card-productos border-azul mb-5">
           <div className="productos productos-flex">

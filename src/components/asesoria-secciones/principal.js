@@ -7,8 +7,8 @@ const Principal = () => {
   return (
     <Fragment>
       <SabaSeccion />
-      <TenaSeccion />
       <RegioSeccion />
+      <TenaSeccion />
     </Fragment>
   );
 };
