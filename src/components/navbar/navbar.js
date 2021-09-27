@@ -1,14 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../../assets/img/Logo.svg";
+import { GoThreeBars } from "react-icons/go";
 
 const Navbar = () => {
   return (
     <div className="section-nav">
       <div className="navigation container">
-        <Link to="/">
-          <img src={Logo} alt=""/>
+        <Link to="/" className="d-flex align-items-center">
+          <img src={Logo} alt="" />
         </Link>
+        <button type="button" className="btn-navbar">
+          <GoThreeBars />
+        </button>
         <nav>
           <Link to="/">Inicio</Link>
           <Link to="/quienes-somos">¿Quiénes somos?</Link>

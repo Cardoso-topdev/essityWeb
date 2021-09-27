@@ -8,9 +8,7 @@ const About = () => {
   return (
     <section className="about">
       <div className="section-about container">
-        <div>
           <img src={video} alt=""/>
-        </div>
         <div className="info-about">
           <h2>¿Quiénes somos?</h2>
           <p className="p1">Essity es una compañía líder<br></br> en el mundo en higiene y salud.</p>
