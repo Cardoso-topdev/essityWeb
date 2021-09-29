@@ -164,8 +164,8 @@ BOTONES
 }
 
 .hero {
-  background-image: url("./assets/img/hero.jpg");
-  height: 90vh;
+  background-image: url("./assets/img/Home.svg");
+  height: 100vh;
   background-position: center;
   background-size: cover;
 }
