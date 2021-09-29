@@ -14,6 +14,12 @@ p{
 font-size: 30px;
 }
 
+.hero-infografias{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .contenido-infografia h2 {
   font-size: 32px;
   line-height: 160.5%;
