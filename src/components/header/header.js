@@ -16,7 +16,7 @@ const Header = () => {
       <div className="hero">
         <div className="info-hero container">
           <h2>
-            Te ayudamos a empoderar tu negocio a traves de nuestros productos
+            Te ayudamos a empoderar tu negocio a través de nuestros productos
           </h2>
           <p className="mb-3">
             <img src={check} alt="" />

@@ -9,12 +9,23 @@ import in10 from "../../assets/img/saba/delgadas/in10.jpg";
 import in42 from "../../assets/img/saba/delgadas/in42.jpg";
 import ultra10 from "../../assets/img/saba/delgadas/ultra10.jpg";
 
+import intima10 from "../../assets/img/saba/regulares/intima10.jpg";
+import intimasa from "../../assets/img/saba/regulares/intimasa.jpg";
+import confortalas from "../../assets/img/saba/regulares/confortalas.jpg";
+import confort from "../../assets/img/saba/regulares/confort.jpg";
+
+import largo28 from "../../assets/img/saba/diarios/largo28.jpg";
+import largo50 from "../../assets/img/saba/diarios/largo50.jpg";
+import regular14 from "../../assets/img/saba/diarios/regular14.jpg";
+import regular16 from "../../assets/img/saba/diarios/regular16.jpg";
+import regular28 from "../../assets/img/saba/diarios/regular28.jpg";
 
 const SabaSeccion = () => {
   return (
     <Fragment>
       <div className="productos-saba mt-5">
-        <div className="container">
+        <div className="container d-flex">
+          <div className="div">
           <div className="ml-5 pl-5 mb-5 saba-titulo">
             <h3>Productos Saba</h3>
             <p>Expande y fortalece tu portafolio</p>
@@ -31,6 +42,10 @@ const SabaSeccion = () => {
             en nuestros productos. ¡Tus clientes siempre te los pedirán!
           </p>
         </div>
+        <div>
+          <img alt="imagen"/>
+        </div>
+        </div>
       </div>
 
       <div className="container">
@@ -39,7 +54,7 @@ const SabaSeccion = () => {
           <h2 className="text-center pb-3">Nocturnas</h2>
           <div className="productos producto-flex">
             <div className="producto">
-              <img src={bn8} alt=""/>
+              <img src={bn8} alt="" />
               <p className="text-center">
                 Buenas Noches
                 <br /> con alas 8 piezas
@@ -73,7 +88,7 @@ const SabaSeccion = () => {
           <h2 className="text-center pb-3">Delgadas</h2>
           <div className="productos">
             <div className="producto">
-              <img src={in10} alt=""/>
+              <img src={in10} alt="" />
               <p className="text-center">
                 Delgadas <br />
                 con alas 10 piezas
@@ -97,34 +112,81 @@ const SabaSeccion = () => {
         </div>
 
         <div className="card-productos mb-5">
-          <h2 className="text-center pb-3">Nocturnas</h2>
+          <h2 className="text-center pb-3">Regulares</h2>
           <div className="productos producto-flex">
             <div className="producto">
-              <img src={bn8} alt=""/>
+              <img src={intima10} alt="" />
               <p className="text-center">
-                Buenas Noches
-                <br /> con alas 8 piezas
+                Intima Clip <br />
+                con alas 10 piezas
               </p>
             </div>
             <div className="producto">
-              <img src={bn24} alt="" />
+              <img src={intimasa} alt="" />
               <p className="text-center">
-                Buenas Noches
-                <br /> con alas 24 piezas
+                Intima sin alas
+                <br />
+                10 piezas
               </p>
             </div>
             <div className="producto">
-              <img src={bn10} alt="" />
+              <img src={confortalas} alt="" />
               <p className="text-center">
-                Buenas Noches
-                <br /> con alas 10 piezas
+                Confort Regular
+                <br />
+                con alas 10 piezas
               </p>
             </div>
             <div className="producto">
-              <img src={con8} alt="" />
+              <img src={confort} alt="" />
               <p className="text-center">
-                Confort Nocturna
-                <br /> con alas 8 piezas
+                Confort Regular
+                <br />
+                sin alas 10 piezas
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <h2 className="mt-5 mb-5">PROTECTORES DIARIOS</h2>
+
+        <div className="card-productos mb-5">
+          <div className="productos producto-flex p-5">
+            <div className="producto">
+              <img src={largo28} alt="" />
+              <p className="text-center">
+                Delicate Largos
+                <br />
+                28 piezas
+              </p>
+            </div>
+            <div className="producto">
+              <img src={regular28} alt="" />
+              <p className="text-center">
+                Delicate Regular
+                <br />
+                28 piezas
+              </p>
+            </div>
+            <div className="producto">
+              <img src={regular14} alt="" />
+              <p className="text-center">
+                Confort Regular <br />
+                14 piezas
+              </p>
+            </div>
+            <div className="producto">
+              <img src={regular16} alt="" />
+              <p className="text-center">
+                Delicate Regular <br />
+                16 piezas
+              </p>
+            </div>
+            <div className="producto">
+              <img src={largo50} alt="" />
+              <p className="text-center">
+                Delicate Largo <br />
+                50 piezas
               </p>
             </div>
           </div>

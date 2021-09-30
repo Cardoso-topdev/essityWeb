@@ -1147,11 +1147,14 @@ ASESORIA PAGE
 .saba-titulo::after {
   content: "";
   position: absolute;
-  background-image: url(./assets/icons/Saba-rombo.svg);
-  width: 103px;
+  background-image: url(./assets/img/LogoSaba-SitioWeb.png);
+  background-repeat: no-repeat;
+  background-size: 104%;
+  background-position: center center;
+  width: 146px;
   height: 82px;
-  left: -52px;
-  bottom: -47px;
+  left: -74px;
+  bottom: -62px;
   z-index: 2;
 }
 
@@ -1193,6 +1196,25 @@ ASESORIA PAGE
 
 .productos-regio {
   position: relative;
+}
+
+.p-regio{
+  margin-bottom: 60px;
+  margin-left: 100px;
+  position: relative;
+}
+
+.p-regio::before{
+  content: '';
+  position: absolute;
+  background-image: url(./assets/img/LogoRegio-SitioWeb.png);
+  background-repeat: no-repeat;
+  background-size: 161px;
+  left: -151px;
+  bottom: -102px;
+  width: 257px;
+  height: 150px;
+  z-index: 5;
 }
 
 .productos-regio::before {

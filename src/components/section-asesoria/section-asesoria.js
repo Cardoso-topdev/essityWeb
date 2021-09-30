@@ -14,24 +14,24 @@ const AsesoriaSection = () => {
         <div className="container">
           <div className="row row-1">
             <div className="col-7">
-              <h2>Crece mi negocio</h2>
+              <h2 className="mb-4">Crece mi negocio</h2>
               <img src={img228} alt=""/>
-              <h3>Incontinencia para adulto (Tena)</h3>
-              <p>
+              <h3 className="mt-3">Incontinencia para adulto (Tena)</h3>
+              <p  className="mb-3">
                 Padecimiento más común de lo normal. Cada vez hay más adultos en
                 el país. El portafolio que satisfase todas las necesidades de la
                 población. Es una categoría con un margen de utilidad muy
                 atractivo.
               </p>
               <img src={img229} alt=""/>
-              <h3>Toalla de cocina</h3>
-              <p>
+              <h3  className="mt-3">Toalla de cocina</h3>
+              <p  className="mb-3">
                 Cada vez más personas utilizan toalla de cocina en lugar de
                 servilletas. El precio es accesible (Regio).{" "}
               </p>
             </div>
             <div className="col-5">
-              <h2>Asesoría</h2>
+              <h2 className="mb-4">Asesoría</h2>
               <img src={img230} alt=""/>
               <p className="mb-5 mt-3">
                 SAP anuncia la creación de la mayor red empresarial del mundo en

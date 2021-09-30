@@ -19,6 +19,10 @@ const RegioSeccion = () => {
     <Fragment>
       <div className="productos-regio">
         <div className="container">
+          <div className="p-regio">
+          <p>Productos Regio</p>
+          <p>Expande y fortalece tu portafolio</p>
+          </div>
           <h2>
             Regio® es una marca que a traves de los años es reconocida por los
             consumidores de México, lo que seguro contribuirá con el crecimiento
@@ -41,14 +45,14 @@ const RegioSeccion = () => {
           <h2 className="text-center pb-3">RINDE MAS +</h2>
           <div className="productos producto-flex">
             <div className="producto">
-              <img src={rindemas} alt=""/>
+              <img src={rindemas} alt="" />
               <p>
                 Papel Higiénico <br />
                 400 a 499 hojas
               </p>
             </div>
             <div className="producto">
-              <img src={rinde600} alt=""/>
+              <img src={rinde600} alt="" />
               <p>
                 Regio Rinde Más
                 <br />
@@ -56,7 +60,7 @@ const RegioSeccion = () => {
               </p>
             </div>
             <div className="producto">
-              <img src={rinde400} alt=""/>
+              <img src={rinde400} alt="" />
               <p>
                 Regio Rinde Más
                 <br />
@@ -70,7 +74,7 @@ const RegioSeccion = () => {
           <h2 className="text-center pb-3">AIRES DE FRESCURA</h2>
           <div className="productos">
             <div className="producto">
-              <img src={aires300} alt=""/>
+              <img src={aires300} alt="" />
               <p>
                 Regio Aire de Frescura
                 <br />
@@ -78,7 +82,7 @@ const RegioSeccion = () => {
               </p>
             </div>
             <div className="producto">
-              <img src={aires200} alt=""/>
+              <img src={aires200} alt="" />
               <p>
                 Regio Aire de Frescura
                 <br />
@@ -86,7 +90,7 @@ const RegioSeccion = () => {
               </p>
             </div>
             <div className="producto">
-              <img src={aires500} alt=""/>
+              <img src={aires500} alt="" />
               <p>
                 Regio Aire de Frescura
                 <br />
@@ -100,7 +104,7 @@ const RegioSeccion = () => {
           <h2 className="text-center pb-3">LUXURY</h2>
           <div className="productos">
             <div className="producto">
-              <img src={luxury} alt=""/>
+              <img src={luxury} alt="" />
               <p>
                 Regio Luxury <br />
                 205 hojas
@@ -114,7 +118,7 @@ const RegioSeccion = () => {
         <div className="card-productos border-azul mb-5">
           <div className="productos">
             <div className="producto">
-              <img src={regio1000} alt=""/>
+              <img src={regio1000} alt="" />
               <p>
                 Regio 1000 usos
                 <br />
@@ -122,7 +126,7 @@ const RegioSeccion = () => {
               </p>
             </div>
             <div className="producto">
-              <img src={regiohogar} alt=""/>
+              <img src={regiohogar} alt="" />
               <p>
                 Regio Hogar
                 <br />
@@ -130,7 +134,7 @@ const RegioSeccion = () => {
               </p>
             </div>
             <div className="producto">
-              <img src={regioav} alt=""/>
+              <img src={regioav} alt="" />
               <p>
                 Regio Advanced
                 <br />
