@@ -5,6 +5,8 @@ import bn10 from "../../assets/img/saba/nocturnas/bn10.jpg";
 import bn24 from "../../assets/img/saba/nocturnas/bn24.jpg";
 import con8 from "../../assets/img/saba/nocturnas/con8.jpg";
 
+import sabaNocturnas from '../../json/asesoria/saba/nocturnas.json';
+
 import in10 from "../../assets/img/saba/delgadas/in10.jpg";
 import in42 from "../../assets/img/saba/delgadas/in42.jpg";
 import ultra10 from "../../assets/img/saba/delgadas/ultra10.jpg";
