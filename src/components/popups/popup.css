@@ -4,10 +4,19 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .1);
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 100;
+}
+
+.popup-saba{
+    background-image: url(../../assets/fondo_saba.png);
+}
+
+.popup-regio{
+    background-image: url(../../assets/fondo_regio.png);
 }
 
 .popup-inner{
@@ -16,7 +25,6 @@
     width: 900px;
     height: 450px;
     color: #fff;
-    background-image: url(../../assets/fondo_saba.png);
     background-size: cover;
     background-position: center center;
     border-radius: 10px;

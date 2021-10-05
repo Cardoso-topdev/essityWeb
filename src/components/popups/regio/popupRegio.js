@@ -1,15 +1,16 @@
 import React from "react";
+
 import "../popup.css";
 
-const PopSaba = ({trigger, setTrigger, item }) => {
+const PopRegio = ({ trigger, setTrigger, item }) => {
   return trigger ? (
     <div
       className="popup"
-      onClick={e => {
+      onClick={(e) => {
         //setTrigger(false);
       }}
     >
-      <div className="popup-inner popup-saba">
+      <div className="popup-inner">
         <button
           type="button"
           className="close-btn"
@@ -18,16 +19,16 @@ const PopSaba = ({trigger, setTrigger, item }) => {
           Close
         </button>
         <div className="pop-info">
-        <h1>{item.title}</h1>
-        <p>{item.description}</p>
-        <p className="legend">{item.legend}</p>
+          <h1>{item.title}</h1>
+          <p>{item.description}</p>
+          <p className="legend">{item.legend}</p>
         </div>
         <div className="img-pop">
-            <img src={item.image} />
+          <img src={item.image} />
         </div>
       </div>
     </div>
   ) : null;
 };
 
-export default PopSaba;
+export default PopRegio;

@@ -4,6 +4,7 @@ import PopSaba from "../popups/saba/popupSaba";
 import sabaNocturnas from "../../json/asesoria/saba/nocturnas.json";
 import sabaDelgadas from '../../json/asesoria/saba/delgadas.json';
 import sabaRegulares from '../../json/asesoria/saba/regulares.json'
+import sabaDiarios from '../../json/asesoria/saba/diarios.json'
 
 
 const SabaSeccion = () => {
@@ -124,7 +125,26 @@ const SabaSeccion = () => {
 
         <div className="card-productos mb-5">
           <div className="productos producto-flex p-5">
-            
+          {sabaDiarios.map((item) => (
+              <Fragment>
+                <div
+                  className="producto"
+                  key={item.id}
+                  onClick={() => {
+                    setTrigger(true);
+                    setObjeto(item);
+                  }}
+                >
+                  <img src={item.image} alt="" />
+                  <p className="text-center">{item.info}</p>
+                </div>
+                <PopSaba
+                  trigger={trigger}
+                  setTrigger={setTrigger}
+                  item={objeto}
+                />
+              </Fragment>
+            ))}
           </div>
         </div>
       </div>
