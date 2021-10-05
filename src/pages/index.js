@@ -32,9 +32,9 @@ const Index = () => {
         <div className="container">
           <div className="row onediv">
             <div className="col-4 onediv mt-2">
-               <a href="/asesoria#saba">
+               <Link to="/asesoria#saba">
                 <img src={portafolio1} alt="" />
-               </a> 
+               </Link> 
             </div>
             <div className="col-4 onediv mt-2">
               <a href="/asesoria#regio">

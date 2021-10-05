@@ -12,7 +12,7 @@
 }
 
 .popup-saba{
-    background-image: url(../../assets/fondo_saba.png);
+    background-image: url(../../assets/fondo_saba.svg);
 }
 
 .popup-regio{
@@ -20,7 +20,7 @@
 }
 
 .popup-tena{
-    background-image: url(../../assets/fondo_tena.png);
+    background-image: url(../../assets/fondo_tena.svg);
 }
 
 .popup-inner{

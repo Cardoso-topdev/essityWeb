@@ -2,25 +2,25 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/regio/rinde/rinde1.png",
-        "info": " Buenas Noches con alas 8 piezas",
-        "title": "¡Incrementa las ganancias de tu negocio!",
-        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
-        "legend": "Cada corrugado contiene 14 paquetes con 8 toallas cada uno"
+        "info": "Papel Higiénico 400 a 499 hojas",
+        "title": "¡Incrementa las ventas de tu negocio!",
+        "description": "Si tus clientes buscan mayor resistencia y rendimiento a un precio accesible, Regio® Rinde Más es la mejor opción, asegurate de siempre contar con el inventario suficiente.",
+        "legend": "Cada colchón contiene 20 paquetes con 4 rollos cada uno"
     },
     {
         "id": 2,
         "image": "http://page.creceminegocio.mx/img/regio/rinde/rinde2.png",
-        "info": "Buenas Noches con alas 24 piezas",
+        "info": "Regio Rinde Más 600 hojas",
         "title": "¡Incrementa las ganancias de tu negocio!",
-        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
-        "legend": "Cada corrugado contiene 6 paquetes con 24 toallas cada uno"
+        "description": "Si tus clientes buscan mayor resistencia y rendimiento a un precio accesible, Regio® Rinde Más es la mejor opción, asegurate de siempre contar con el inventario suficiente.",
+        "legend": "Cada colchón contiene 10 paquetes con 4 rollos cada uno"
     },
     {
         "id": 3,
         "image": "http://page.creceminegocio.mx/img/regio/rinde/rinde3.png",
-        "info": " Buenas Noches con alas 10 piezas",
-        "title": "¡Expande tu portafolio!",
-        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
-        "legend": "Cada corrugado contiene 16 paquetes con 10 toallas cada uno"
+        "info": "Regio Rinde Más 400 hojas",
+        "title": "¡Incrementa las ganancias de tu negocio!",
+        "description": "Si tus clientes buscan mayor resistencia y rendimiento a un precio accesible, Regio® Rinde Más es la mejor opción, asegurate de siempre contar con el inventario suficiente.",
+        "legend": "Cada colchón contiene 10 paquetes con 4 rollos cada uno"
     }
 ]

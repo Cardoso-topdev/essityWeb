@@ -16,9 +16,9 @@ const About = () => {
             Estamos comprometidos a mejorar el bienestar con nuestros productos
             y servicios.
           </p>
-          <a href="/quienes-somos" className="btn btn-primary btn-about">
+          <Link to="/quienes-somos" className="btn btn-primary btn-about">
             Ver más
-          </a>
+          </Link>
         </div>
       </div>
     </section>

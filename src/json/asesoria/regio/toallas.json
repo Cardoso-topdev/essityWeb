@@ -2,25 +2,25 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/regio/toallas/toalla1.png",
-        "info": " Buenas Noches con alas 8 piezas",
-        "title": "¡Incrementa las ganancias de tu negocio!",
-        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
-        "legend": "Cada corrugado contiene 14 paquetes con 8 toallas cada uno"
+        "info": "Regio 1000 usos 65 hojas",
+        "title": "¡Expande tu portafolio!",
+        "description": "Toalla Regio 1000 Usos es la toalla de cocina que seguro te la van a pedir, porque cada vez más personas utilizan toalla de cocina en lugar de servilleta. Además de contar con un precio accesible.",
+        "legend": "Cada colchón contiene 12 paquetes de 1 rollo en cada uno"
     },
     {
         "id": 2,
         "image": "http://page.creceminegocio.mx/img/regio/toallas/toalla2.png",
-        "info": "Buenas Noches con alas 24 piezas",
-        "title": "¡Incrementa las ganancias de tu negocio!",
-        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
-        "legend": "Cada corrugado contiene 6 paquetes con 24 toallas cada uno"
+        "info": "Regio Hogar 70 hojas",
+        "title": "¡Expande tu portafolio!",
+        "description": "Para tus clientes que buscan resolver cualquier tarea del hogar, ya que cuentan con el tamaño ideal (Maxi Rollo).",
+        "legend": "Cada colchón contiene 12 paquetes de 1 rollo en cada uno"
     },
     {
         "id": 3,
         "image": "http://page.creceminegocio.mx/img/regio/toallas/toalla3.png",
-        "info": " Buenas Noches con alas 10 piezas",
+        "info": "Regio Advanced 70 hojas",
         "title": "¡Expande tu portafolio!",
-        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
+        "description": "Regio Advanced para tus clientes más exigentes ya que ofrecen 40% más resistencia y absorbción, funcionan incluso mojadas.",
         "legend": "Cada corrugado contiene 16 paquetes con 10 toallas cada uno"
     }
 ]

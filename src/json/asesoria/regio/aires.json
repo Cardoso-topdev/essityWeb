@@ -2,25 +2,25 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/regio/aires/aire1.png",
-        "info": " Buenas Noches con alas 8 piezas",
+        "info": "Regio Aire de Frescura 300 hojas",
         "title": "¡Incrementa las ganancias de tu negocio!",
-        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
-        "legend": "Cada corrugado contiene 14 paquetes con 8 toallas cada uno"
+        "description": "Regio® Aires de Frescura ofrece aroma prolongado y rendimiento a un precio accesible por lo que es una excelente opción si lo que buscas es incrementar las ventas de tu negocio.",
+        "legend": "Cada colchón contiene 10 paquetes con 4 rollos cada uno"
     },
     {
         "id": 2,
         "image": "http://page.creceminegocio.mx/img/regio/aires/aire2.png",
-        "info": "Buenas Noches con alas 24 piezas",
+        "info": "Regio Aires de Frecura 200 hojas",
         "title": "¡Incrementa las ganancias de tu negocio!",
-        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
-        "legend": "Cada corrugado contiene 6 paquetes con 24 toallas cada uno"
+        "description": "Regio® Aires de Frescura ofrece aroma prolongado y rendimiento a un precio accesible por lo que es una excelente opción si lo que buscas es incrementar las ventas de tu negocio.",
+        "legend": "Cada colchón contiene 12 paquetes con 4 rollos cada uno"
     },
     {
         "id": 3,
         "image": "http://page.creceminegocio.mx/img/regio/aires/aire3.png",
-        "info": " Buenas Noches con alas 10 piezas",
-        "title": "¡Expande tu portafolio!",
-        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
-        "legend": "Cada corrugado contiene 16 paquetes con 10 toallas cada uno"
+        "info": "Regio Aires de Frecura 500 hojas",
+        "title": "¡Incrementa las ganancias de tu negocio!",
+        "description": "Regio® Aires de Frescura ofrece aroma prolongado y rendimiento a un precio accesible por lo que es una excelente opción si lo que buscas es incrementar las ventas de tu negocio.",
+        "legend": "Cada colchón contiene 6 paquetes con 4 rollos cada uno"
     }
 ]
