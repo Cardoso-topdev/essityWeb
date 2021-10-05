@@ -33,7 +33,7 @@ const Asesoria = () => {
       </div>
 
       <div className="container contenido-asesoria">
-        <h2>Portafolio ideal</h2>
+        <h2 id="portafolio">Portafolio ideal</h2>
         <div className="filter">
           <p>Filtrar por</p>
           <button

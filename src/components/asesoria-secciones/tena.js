@@ -15,7 +15,7 @@ import protector from "../../assets/img/tena/protector.png";
 const TenaSeccion = () => {
   return (
     <Fragment>
-      <div className="productos-tena">
+      <div className="productos-tena" id="tena">
         <div className="container">
           <img src={Tena} alt=""/>
           <h2>

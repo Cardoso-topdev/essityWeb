@@ -39,10 +39,10 @@ const Header = () => {
             <img src={tena} alt="" />
           </div>
           <div className="d-flex justify-content-center">
-            <Link className="btn btn-primary btn-hero">
+            <a href="/asesoria#portafolio" className="btn btn-primary btn-hero">
               Ver portafolio
               <Arrow />
-            </Link>
+            </a>
           </div>
         </div>
       </div>

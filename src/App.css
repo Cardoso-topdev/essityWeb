@@ -1362,3 +1362,8 @@ font-size: 30px;
 .video-comprar .texto-comprar h2 {
   color: #f50082;
 }
+
+.onediv{
+  padding-right: 0px;
+  padding-left: 0px;
+}

@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import img194 from "../../assets/img/img194.png";
-import promocion2 from "../../assets/img/promocion2.png";
+import img194 from "../../assets/img/promociones/9.png";
+import promocion2 from "../../assets/img/promociones/7.png";
 
 import { BsArrowRightShort as Arrow } from "react-icons/bs";
 

@@ -27,7 +27,7 @@ const SabaSeccion = () => {
         <div className="container d-flex">
           <div className="div">
           <div className="ml-5 pl-5 mb-5 saba-titulo">
-            <h3>Productos Saba</h3>
+            <h3 id="saba">Productos Saba</h3>
             <p>Expande y fortalece tu portafolio</p>
           </div>
           <p className="fs-30 fw-500 lh-42">

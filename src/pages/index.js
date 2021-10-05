@@ -9,7 +9,10 @@ import Footer from "../components/footer/footer";
 import AsesoriaSection from "../components/section-asesoria/section-asesoria";
 
 //assets
-import portafolio from "../assets/img/portafolio-ideal.png";
+import portafolio1 from "../assets/img/Saba.jpg";
+import portafolio2 from "../assets/img/Regio.jpg";
+import portafolio3 from "../assets/img/Tena.jpg";
+
 import camion from "../assets/video/camion.mp4";
 import { Link } from "react-router-dom";
 
@@ -24,7 +27,32 @@ const Index = () => {
       <div className="container portafolio-ideal mt-5">
         <h1 className="text-center">Portafolio ideal</h1>
         <p className="text-center mb-4">Lo útimo en nuestro portafolio</p>
-        <img src={portafolio} alt="" />
+        
+        <div className="">
+        <div className="container">
+          <div className="row onediv">
+            <div className="col-4 onediv mt-2">
+               <a href="/asesoria#saba">
+                <img src={portafolio1} alt="" />
+               </a> 
+            </div>
+            <div className="col-4 onediv mt-2">
+              <a href="/asesoria#regio">
+                <img src={portafolio2} alt="" />
+               </a>
+            </div>
+            <div className="col-4 onediv mt-2">
+              <a href="/asesoria#tena">
+                <img src={portafolio3} alt="" />
+               </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
       </div>
 
       <div className="video-comprar">

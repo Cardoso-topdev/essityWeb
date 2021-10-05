@@ -20,7 +20,7 @@ const RegioSeccion = () => {
       <div className="productos-regio">
         <div className="container">
           <div className="p-regio">
-          <p>Productos Regio</p>
+          <p id="regio">Productos Regio</p>
           <p>Expande y fortalece tu portafolio</p>
           </div>
           <h2>

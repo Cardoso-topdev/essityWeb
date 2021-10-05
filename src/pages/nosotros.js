@@ -21,7 +21,7 @@ const Nosotros = () => {
               Essity es una compañía líder en el mundo en higiene y salud.
               Estamos comprometidos a mejorar el bienestar con nuestros
               productos y servicios.
-            </p>
+            </p><br/>
             <p>
               Lo que contribuye al éxito de Essity es nuestro entendimiento,
               conocimiento e información acerca de las necesidades de los
