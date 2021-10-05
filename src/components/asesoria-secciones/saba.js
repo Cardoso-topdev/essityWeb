@@ -2,15 +2,8 @@ import React, { Fragment, useState } from "react";
 import PopSaba from "../popups/saba/popupSaba";
 
 import sabaNocturnas from "../../json/asesoria/saba/nocturnas.json";
-
-import in10 from "../../assets/img/saba/delgadas/in10.jpg";
-import in42 from "../../assets/img/saba/delgadas/in42.jpg";
-import ultra10 from "../../assets/img/saba/delgadas/ultra10.jpg";
-
-import intima10 from "../../assets/img/saba/regulares/intima10.jpg";
-import intimasa from "../../assets/img/saba/regulares/intimasa.jpg";
-import confortalas from "../../assets/img/saba/regulares/confortalas.jpg";
-import confort from "../../assets/img/saba/regulares/confort.jpg";
+import sabaDelgadas from '../../json/asesoria/saba/delgadas.json';
+import sabaRegulares from '../../json/asesoria/saba/regulares.json'
 
 import largo28 from "../../assets/img/saba/diarios/largo28.jpg";
 import largo50 from "../../assets/img/saba/diarios/largo50.jpg";
@@ -83,64 +76,52 @@ const SabaSeccion = () => {
         <div className="card-productos mb-5">
           <h2 className="text-center pb-3">Delgadas</h2>
           <div className="productos">
-            <div className="producto">
-              <img src={in10} alt="" />
-              <p className="text-center">
-                Delgadas <br />
-                con alas 10 piezas
-              </p>
-            </div>
-            <div className="producto">
-              <img src={ultra10} alt="" />
-              <p className="text-center">
-                Delgadas Nocturna <br />
-                con alas 10 piezas
-              </p>
-            </div>
-            <div className="producto">
-              <img src={in42} alt="" />
-              <p className="text-center">
-                Delgadas <br />
-                con alas 42 piezas
-              </p>
-            </div>
+          {sabaDelgadas.map((item) => (
+              <Fragment>
+                <div
+                  className="producto"
+                  key={item.id}
+                  onClick={() => {
+                    setTrigger(true);
+                    setObjeto(item);
+                  }}
+                >
+                  <img src={item.image} alt="" />
+                  <p className="text-center">{item.info}</p>
+                </div>
+                <PopSaba
+                  trigger={trigger}
+                  setTrigger={setTrigger}
+                  item={objeto}
+                />
+              </Fragment>
+            ))}
           </div>
         </div>
 
         <div className="card-productos mb-5">
           <h2 className="text-center pb-3">Regulares</h2>
           <div className="productos producto-flex">
-            <div className="producto">
-              <img src={intima10} alt="" />
-              <p className="text-center">
-                Intima Clip <br />
-                con alas 10 piezas
-              </p>
-            </div>
-            <div className="producto">
-              <img src={intimasa} alt="" />
-              <p className="text-center">
-                Intima sin alas
-                <br />
-                10 piezas
-              </p>
-            </div>
-            <div className="producto">
-              <img src={confortalas} alt="" />
-              <p className="text-center">
-                Confort Regular
-                <br />
-                con alas 10 piezas
-              </p>
-            </div>
-            <div className="producto">
-              <img src={confort} alt="" />
-              <p className="text-center">
-                Confort Regular
-                <br />
-                sin alas 10 piezas
-              </p>
-            </div>
+          {sabaRegulares.map((item) => (
+              <Fragment>
+                <div
+                  className="producto"
+                  key={item.id}
+                  onClick={() => {
+                    setTrigger(true);
+                    setObjeto(item);
+                  }}
+                >
+                  <img src={item.image} alt="" />
+                  <p className="text-center">{item.info}</p>
+                </div>
+                <PopSaba
+                  trigger={trigger}
+                  setTrigger={setTrigger}
+                  item={objeto}
+                />
+              </Fragment>
+            ))}
           </div>
         </div>
 
