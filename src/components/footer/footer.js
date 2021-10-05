@@ -27,30 +27,30 @@ const Footer = () => {
           <p className="copy">Copyright &copy; {year}. . All rights reserved.</p>
         </div>
         <div className="nav-inferior">
-          <Link to="/">Inicio</Link>
-          <Link to="/quienes-somos">¿Quiénes somos?</Link>
-          <Link to="/promociones">Promociones</Link>
-          <Link to="/crece-mi-negocio">Crece mi negocio</Link>
+          <a href="/">Inicio</a>
+          <a href="/quienes-somos">¿Quiénes somos?</a>
+          <a href="/promociones">Promociones</a>
+          <a href="/crece-mi-negocio">Crece mi negocio</a>
         </div>
         <div className="nav-inferior">
-          <Link to="/asesoria">Asesoría</Link>
-          <Link to="donde-comprar">¿Donde comprar?</Link>
-          <Link>FAQ</Link>
+          <a href="/asesoria">Asesoría</a>
+          <a href="donde-comprar">¿Donde comprar?</a>
+          <a href="/preguntas-frecuentes">FAQ</a>
         </div>
         <div className="social-networks">
           <h3>Síguenos</h3>
-          <Link>
+          <a>
             <FbIcon />
             <p>Facebook</p>
-          </Link>
-          <Link>
+          </a>
+          <a>
             <TwIcon />
             <p>Twitter</p>
-          </Link>
-          <Link>
+          </a>
+          <a>
             <TwIcon />
             <p>Instagram</p>
-          </Link>
+          </a>
         </div>
       </div>
     </footer>
