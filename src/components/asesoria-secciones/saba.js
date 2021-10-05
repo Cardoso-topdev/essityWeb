@@ -46,7 +46,7 @@ const SabaSeccion = () => {
       </div>
 
       <div className="container">
-        <h2 className="mt-5 mb-5">Toallas Femeninas</h2>
+        <h2 className="mt-5 mb-5">TOALLAS FEMENINAS</h2>
         <div className="card-productos mb-5">
           <h2 className="text-center pb-3">Nocturnas</h2>
           <div className="productos producto-flex">
