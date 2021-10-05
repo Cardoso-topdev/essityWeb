@@ -1,5 +1,6 @@
 import React from "react";
 import "../popup.css";
+import close from '../../../assets/close.png'
 
 const PopSaba = ({trigger, setTrigger, item }) => {
   return trigger ? (
@@ -15,7 +16,7 @@ const PopSaba = ({trigger, setTrigger, item }) => {
           className="close-btn"
           onClick={() => setTrigger(false)}
         >
-          Close
+          <img src={close} alt="" />
         </button>
         <div className="pop-info">
         <h1>{item.title}</h1>

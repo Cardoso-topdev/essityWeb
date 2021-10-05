@@ -27,30 +27,30 @@ const Footer = () => {
           <p className="copy">Copyright &copy; {year}. . All rights reserved.</p>
         </div>
         <div className="nav-inferior">
-          <a href="/">Inicio</a>
-          <a href="/quienes-somos">¿Quiénes somos?</a>
-          <a href="/promociones">Promociones</a>
-          <a href="/crece-mi-negocio">Crece mi negocio</a>
+          <button onClick={()=>window.location.href="/"}>Inicio</button>
+          <button onClick={()=>window.location.href="/quienes-somos"}>¿Quiénes somos?</button>
+          <button onClick={()=>window.location.href="/promociones"}>Promociones</button>
+          <button onClick={()=>window.location.href="/crece-mi-negocio"}>Crece mi negocio</button>
         </div>
         <div className="nav-inferior">
-          <a href="/asesoria">Asesoría</a>
-          <a href="donde-comprar">¿Donde comprar?</a>
-          <a href="/preguntas-frecuentes">FAQ</a>
+          <button onClick={()=>window.location.href="/asesoria"}>Asesoría</button>
+          <button onClick={()=>window.location.href="donde-comprar"}>¿Donde comprar?</button>
+          <button onClick={()=>window.location.href="/preguntas-frecuentes"}>FAQ</button>
         </div>
         <div className="social-networks">
           <h3>Síguenos</h3>
-          <a>
+          <button>
             <FbIcon />
             <p>Facebook</p>
-          </a>
-          <a>
+          </button>
+          <button>
             <TwIcon />
             <p>Twitter</p>
-          </a>
-          <a>
+          </button>
+          <button>
             <TwIcon />
             <p>Instagram</p>
-          </a>
+          </button>
         </div>
       </div>
     </footer>

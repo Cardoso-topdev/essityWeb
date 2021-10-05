@@ -776,7 +776,7 @@ a.collapsed {
   margin: 0;
 }
 
-.footer a {
+.footer button {
   color: #fff;
 }
 
@@ -804,18 +804,19 @@ a.collapsed {
   flex-direction: column;
 }
 
-.nav-inferior a {
+.nav-inferior button {
   color: #fff;
   margin-bottom: 20px;
+  text-align: left;
 }
 
-.social-networks a {
+.social-networks button {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
 }
 
-.social-networks a p {
+.social-networks button p {
   margin: 0;
   margin-left: 10px;
 }

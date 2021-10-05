@@ -37,8 +37,10 @@
 
 .popup-inner .close-btn{
     position: absolute;
-    top: 16px;
-    right: 16px;
+    top: 26px;
+    right: 59px;
+    width: 10px;
+    height: 10px;
 }
 
 .img-pop{

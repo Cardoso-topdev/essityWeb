@@ -1,5 +1,5 @@
 import React from 'react'
-
+import close from '../../../assets/close.png'
 import "../popup.css";
 
 
@@ -17,7 +17,7 @@ const popTena = ({ trigger, setTrigger, item }) => {
               className="close-btn"
               onClick={() => setTrigger(false)}
             >
-              Close
+              <img src={close} alt="" />
             </button>
             <div className="pop-info">
               <h1>{item.title}</h1>
