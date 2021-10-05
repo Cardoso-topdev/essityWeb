@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 //resources
 import logoBlanco from "../../assets/img/logoBlanco.svg";

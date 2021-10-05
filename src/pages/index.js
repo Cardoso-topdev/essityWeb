@@ -48,12 +48,7 @@ const Index = () => {
           </div>
         </div>
       </div>
-
-
-
-
       </div>
-
       <div className="video-comprar">
         <div className="texto-comprar">
           <h2 className="mb-3">¿Donde comprar?</h2>

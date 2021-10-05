@@ -25,7 +25,7 @@ const popTena = ({ trigger, setTrigger, item }) => {
               <p className="legend">{item.legend}</p>
             </div>
             <div className="img-pop">
-              <img src={item.image} />
+              <img src={item.image} alt="img pop up"/>
             </div>
           </div>
         </div>

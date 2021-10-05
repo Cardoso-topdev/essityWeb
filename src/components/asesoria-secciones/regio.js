@@ -6,10 +6,6 @@ import regioAires from "../../json/asesoria/regio/aires.json";
 import regioLuxury from "../../json/asesoria/regio/luxury.json";
 import regioToallas from '../../json/asesoria/regio/toallas.json'
 
-import regio1000 from "../../assets/img/regio/toallas/regio1000.png";
-import regioav from "../../assets/img/regio/toallas/regioav.png";
-import regiohogar from "../../assets/img/regio/toallas/regiohogar.png";
-
 const RegioSeccion = () => {
   const [trigger, setTrigger] = useState(false);
   const [objeto, setObjeto] = useState({});

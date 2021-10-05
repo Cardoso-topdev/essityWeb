@@ -14,7 +14,7 @@ import promocion8 from "../assets/img/promociones/8.png";
 import promocion9 from "../assets/img/promociones/9.png";
 import promocion10 from "../assets/img/promociones/10.png";
 import promocion11 from "../assets/img/promociones/11.png";
-import promocion12 from "../assets/img/promociones/12.png";
+//import promocion12 from "../assets/img/promociones/12.png";
 import promocion13 from "../assets/img/promociones/13.png";
 import promocion14 from "../assets/img/promociones/14.png";
 import promocion15 from "../assets/img/promociones/15.png";

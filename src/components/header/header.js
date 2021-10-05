@@ -1,6 +1,5 @@
 import React from "react";
 import { Fragment } from "react";
-import { div } from "react-router-dom";
 import { BsArrowDownShort as Arrow } from "react-icons/bs";
 import check from "../../assets/icons/check.svg";
 
