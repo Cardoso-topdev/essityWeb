@@ -44,6 +44,7 @@ const RegioSeccion = () => {
         <div className="card-productos border-azul mb-5">
           <h2 className="text-center pb-3">RINDE MAS +</h2>
           <div className="productos producto-flex">
+
             <div className="producto">
               <img src={rindemas} alt="" />
               <p>
