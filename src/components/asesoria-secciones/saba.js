@@ -5,11 +5,6 @@ import sabaNocturnas from "../../json/asesoria/saba/nocturnas.json";
 import sabaDelgadas from '../../json/asesoria/saba/delgadas.json';
 import sabaRegulares from '../../json/asesoria/saba/regulares.json'
 
-import largo28 from "../../assets/img/saba/diarios/largo28.jpg";
-import largo50 from "../../assets/img/saba/diarios/largo50.jpg";
-import regular14 from "../../assets/img/saba/diarios/regular14.jpg";
-import regular16 from "../../assets/img/saba/diarios/regular16.jpg";
-import regular28 from "../../assets/img/saba/diarios/regular28.jpg";
 
 const SabaSeccion = () => {
   const [trigger, setTrigger] = useState(false);
@@ -129,43 +124,7 @@ const SabaSeccion = () => {
 
         <div className="card-productos mb-5">
           <div className="productos producto-flex p-5">
-            <div className="producto">
-              <img src={largo28} alt="" />
-              <p className="text-center">
-                Delicate Largos
-                <br />
-                28 piezas
-              </p>
-            </div>
-            <div className="producto">
-              <img src={regular28} alt="" />
-              <p className="text-center">
-                Delicate Regular
-                <br />
-                28 piezas
-              </p>
-            </div>
-            <div className="producto">
-              <img src={regular14} alt="" />
-              <p className="text-center">
-                Confort Regular <br />
-                14 piezas
-              </p>
-            </div>
-            <div className="producto">
-              <img src={regular16} alt="" />
-              <p className="text-center">
-                Delicate Regular <br />
-                16 piezas
-              </p>
-            </div>
-            <div className="producto">
-              <img src={largo50} alt="" />
-              <p className="text-center">
-                Delicate Largo <br />
-                50 piezas
-              </p>
-            </div>
+            
           </div>
         </div>
       </div>
