@@ -4,11 +4,10 @@ import { Link } from "react-router-dom";
 import { BsArrowDownShort as Arrow } from "react-icons/bs";
 import check from "../../assets/icons/check.svg";
 
-
 //assets
-import saba from '../../assets/img/logos/saba.png'; 
-import regio from '../../assets/img/logos/regio.png';
-import tena from '../../assets/img/logos/tena.png';
+import saba from "../../assets/img/logos/saba.png";
+import regio from "../../assets/img/logos/regio.png";
+import tena from "../../assets/img/logos/tena.png";
 
 const Header = () => {
   return (
@@ -39,10 +38,13 @@ const Header = () => {
             <img src={tena} alt="" />
           </div>
           <div className="d-flex justify-content-center">
-            <a href="/asesoria#portafolio" className="btn btn-primary btn-hero">
+            <Link
+              onClick={() => (window.location.href = "/asesoria#portafolio")}
+              className="btn btn-primary btn-hero"
+            >
               Ver portafolio
               <Arrow />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

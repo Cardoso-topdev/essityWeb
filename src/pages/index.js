@@ -32,19 +32,19 @@ const Index = () => {
         <div className="container">
           <div className="row onediv">
             <div className="col-4 onediv mt-2">
-               <Link to="/asesoria#saba">
+               <Link onClick={()=>window.location.href="/asesoria#saba"}>
                 <img src={portafolio1} alt="" />
                </Link> 
             </div>
             <div className="col-4 onediv mt-2">
-              <a href="/asesoria#regio">
+              <Link onClick={()=>window.location.href="/asesoria#regio"}>
                 <img src={portafolio2} alt="" />
-               </a>
+               </Link>
             </div>
             <div className="col-4 onediv mt-2">
-              <a href="/asesoria#tena">
+              <Link onClick={()=>window.location.href="/asesoria#tena"}>
                 <img src={portafolio3} alt="" />
-               </a>
+               </Link>
             </div>
           </div>
         </div>
