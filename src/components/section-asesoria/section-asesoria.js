@@ -52,15 +52,15 @@ const AsesoriaSection = () => {
           <div className="botones-asesoria">
             <div className="row row-2">
               <div className="col-7">
-                <Link className="btn-explorar f-azul" to="/crece-mi-negocio">
+                <a className="btn-explorar f-azul" href="/crece-mi-negocio">
                   Explorar más
-                </Link>
+                </a>
               </div>
 
               <div className="col-5">
-                <Link className="btn-explorar f-rosa" to="/asesoria">
+                <a className="btn-explorar f-rosa" href="/asesoria">
                   Explorar más
-                </Link>
+                </a>
               </div>
             </div>
           </div>
