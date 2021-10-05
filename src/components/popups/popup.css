@@ -19,6 +19,10 @@
     background-image: url(../../assets/fondo_regio.png);
 }
 
+.popup-tena{
+    background-image: url(../../assets/fondo_tena.png);
+}
+
 .popup-inner{
     position: relative;
     padding: 32px;

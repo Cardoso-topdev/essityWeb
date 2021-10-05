@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "image": "http://page.creceminegocio.mx/img/tena/interior/interior1.png",
+        "info": "Delgadas con alas 10 piezas",
+        "title": "¡Incrementa las ganancias de tu negocio!",
+        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
+        "legend": "Cada corrugado contiene 14 paquetes con 8 toallas cada uno"
+    },
+    {
+        "id": 2,
+        "image": "http://page.creceminegocio.mx/img/tena/interior/interior2.png",
+        "info": "Delgadas Nocturna con alas 10 piezas",
+        "title": "¡Incrementa las ganancias de tu negocio!",
+        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
+        "legend": "Cada corrugado contiene 6 paquetes con 24 toallas cada uno"
+    },
+    {
+        "id": 3,
+        "image": "http://page.creceminegocio.mx/img/tena/interior/interior3.png",
+        "info": "Delgadas con alas 42 piezas",
+        "title": "¡Expande tu portafolio!",
+        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
+        "legend": "Cada corrugado contiene 16 paquetes con 10 toallas cada uno"
+    },
+    {
+        "id": 3,
+        "image": "http://page.creceminegocio.mx/img/tena/interior/interior4.png",
+        "info": "Delgadas con alas 42 piezas",
+        "title": "¡Expande tu portafolio!",
+        "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
+        "legend": "Cada corrugado contiene 16 paquetes con 10 toallas cada uno"
+    }
+]
+    

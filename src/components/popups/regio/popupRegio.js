@@ -10,7 +10,7 @@ const PopRegio = ({ trigger, setTrigger, item }) => {
         //setTrigger(false);
       }}
     >
-      <div className="popup-inner">
+      <div className="popup-inner popup-regio">
         <button
           type="button"
           className="close-btn"

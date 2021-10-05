@@ -1,23 +1,18 @@
-import React, { Fragment } from "react";
-
+import React, { Fragment, useState } from "react";
 import Tena from "../../assets/icons/Tena.svg";
-
-import comg10s from "../../assets/img/tena/productos/comg10s.png";
-import comm10s from "../../assets/img/tena/productos/comm10s.png";
-import maxig from "../../assets/img/tena/productos/maxig.png";
-import maxim from "../../assets/img/tena/productos/maxim.png";
-
-import slipg from "../../assets/img/tena/protector/slipg.png";
-import slipm from "../../assets/img/tena/protector/slipm.png";
-
-import protector from "../../assets/img/tena/protector.png";
+import tenaAnatomico from "../../json/asesoria/tena/anatomico.json";
+import tenaInterior from "../../json/asesoria/tena/interior.json";
+import tenaCubre from "../../json/asesoria/tena/cubre.json";
+import PopTena from "../popups/tena/popupTena";
 
 const TenaSeccion = () => {
+  const [trigger, setTrigger] = useState(false);
+  const [objeto, setObjeto] = useState({});
   return (
     <Fragment>
       <div className="productos-tena" id="tena">
         <div className="container">
-          <img src={Tena} alt=""/>
+          <img src={Tena} alt="" />
           <h2>
             Marca numero 1 en el autoservicio y lider en México y en el mundo
           </h2>
@@ -37,38 +32,26 @@ const TenaSeccion = () => {
 
         <div className="card-productos border-azul mb-5">
           <div className="productos productos-flex">
-            <div className="producto">
-              <img src={maxig} alt=""/>
-              <p>
-                Pants Maxi Protect
-                <br />
-                Grande 10 piezas
-              </p>
-            </div>
-            <div className="producto">
-              <img src={maxim} alt=""/>
-              <p>
-                Pants Maxi Protect
-                <br />
-                Mediano 10 piezas
-              </p>
-            </div>
-            <div className="producto">
-              <img src={comm10s} alt=""/>
-              <p>
-                Comfort Ropa Interior
-                <br />
-                Mediano 10 piezas
-              </p>
-            </div>
-            <div className="producto">
-              <img src={comg10s} alt=""/>
-              <p>
-                Comfort Ropa Interior
-                <br />
-                Grande 10 piezas
-              </p>
-            </div>
+            {tenaInterior.map((item) => (
+              <Fragment>
+                <div
+                  className="producto"
+                  key={item.id}
+                  onClick={() => {
+                    setTrigger(true);
+                    setObjeto(item);
+                  }}
+                >
+                  <img src={item.image} alt="" />
+                  <p className="text-center">{item.info}</p>
+                </div>
+                <PopTena
+                  trigger={trigger}
+                  setTrigger={setTrigger}
+                  item={objeto}
+                />
+              </Fragment>
+            ))}
           </div>
         </div>
 
@@ -76,36 +59,52 @@ const TenaSeccion = () => {
           <div className="card-productos border-azul">
             <h2 className="text-center">PROTECTOR ANATÓMICO</h2>
             <div className="productos productos-flex">
-              <div className="producto">
-                <img src={slipg} alt=""/>
-                <p>
-                  Slip Maxi Protect
-                  <br />
-                  Grande 10 piezas
-                </p>
-              </div>
-              <div className="producto">
-                <img src={slipm} alt=""/>
-                <p>
-                  Slip Maxi Protect
-                  <br />
-                  Mediano 10 piezas
-                </p>
-              </div>
+              {tenaAnatomico.map((item) => (
+                <Fragment>
+                  <div
+                    className="producto"
+                    key={item.id}
+                    onClick={() => {
+                      setTrigger(true);
+                      setObjeto(item);
+                    }}
+                  >
+                    <img src={item.image} alt="" />
+                    <p className="text-center">{item.info}</p>
+                  </div>
+                  <PopTena
+                    trigger={trigger}
+                    setTrigger={setTrigger}
+                    item={objeto}
+                  />
+                </Fragment>
+              ))}
             </div>
           </div>
 
           <div className="card-productos border-azul">
             <h2 className="text-center">CUBRE CAMA</h2>
             <div className="productos productos-flex">
-              <div className="producto">
-                <img src={protector} alt=""/>
-                <p>
-                  Predoblado
-                  <br />
-                  10 piezas
-                </p>
-              </div>
+              {tenaCubre.map((item) => (
+                <Fragment>
+                  <div
+                    className="producto"
+                    key={item.id}
+                    onClick={() => {
+                      setTrigger(true);
+                      setObjeto(item);
+                    }}
+                  >
+                    <img src={item.image} alt="" />
+                    <p className="text-center">{item.info}</p>
+                  </div>
+                  <PopTena
+                    trigger={trigger}
+                    setTrigger={setTrigger}
+                    item={objeto}
+                  />
+                </Fragment>
+              ))}
             </div>
           </div>
         </div>
