@@ -2,10 +2,11 @@ import React, { Fragment, useState } from "react";
 import PopSaba from "../popups/saba/popupSaba";
 
 import sabaNocturnas from "../../json/asesoria/saba/nocturnas.json";
-import sabaDelgadas from '../../json/asesoria/saba/delgadas.json';
-import sabaRegulares from '../../json/asesoria/saba/regulares.json'
-import sabaDiarios from '../../json/asesoria/saba/diarios.json'
+import sabaDelgadas from "../../json/asesoria/saba/delgadas.json";
+import sabaRegulares from "../../json/asesoria/saba/regulares.json";
+import sabaDiarios from "../../json/asesoria/saba/diarios.json";
 
+import sabaImg from "../../assets/img/saba/img_saba.png";
 
 const SabaSeccion = () => {
   const [trigger, setTrigger] = useState(false);
@@ -15,12 +16,10 @@ const SabaSeccion = () => {
     <Fragment>
       <div className="productos-saba mt-5">
         <div className="container d-flex">
-          <div className="div">
-
-          <div className="ml-5 pl-5 mb-5 saba-titulo">
-            <h3 id="saba">Productos Saba</h3>
-            <p>Expande y fortalece tu portafolio</p>
-
+          <div>
+            <div className="ml-5 pl-5 mb-5 saba-titulo">
+              <h3 id="saba">Productos Saba</h3>
+              <p>Expande y fortalece tu portafolio</p>
             </div>
             <p className="fs-30 fw-500 lh-42">
               De cada 10 pesos de toalla femenina y pantiprotectores que se
@@ -35,10 +34,10 @@ const SabaSeccion = () => {
               los pedirán!
             </p>
           </div>
-          <div>
-            <img alt="imagen" />
-          </div>
         </div>
+        <div className="imgsaba">
+            <img src={sabaImg} alt="" />
+          </div>
       </div>
 
       <div className="container">
@@ -72,7 +71,7 @@ const SabaSeccion = () => {
         <div className="card-productos mb-5">
           <h2 className="text-center pb-3">Delgadas</h2>
           <div className="productos">
-          {sabaDelgadas.map((item) => (
+            {sabaDelgadas.map((item) => (
               <Fragment>
                 <div
                   className="producto"
@@ -98,7 +97,7 @@ const SabaSeccion = () => {
         <div className="card-productos mb-5">
           <h2 className="text-center pb-3">Regulares</h2>
           <div className="productos producto-flex">
-          {sabaRegulares.map((item) => (
+            {sabaRegulares.map((item) => (
               <Fragment>
                 <div
                   className="producto"
@@ -125,7 +124,7 @@ const SabaSeccion = () => {
 
         <div className="card-productos mb-5">
           <div className="productos producto-flex p-5">
-          {sabaDiarios.map((item) => (
+            {sabaDiarios.map((item) => (
               <Fragment>
                 <div
                   className="producto"

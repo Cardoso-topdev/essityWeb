@@ -1103,7 +1103,7 @@ ASESORIA PAGE
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -6;
 }
 
 .productos-saba::after {
@@ -1115,6 +1115,7 @@ ASESORIA PAGE
   height: 80%;
   bottom: 0;
   right: 0;
+  z-index: -5;
 }
 
 .productos-saba h3,
@@ -1122,6 +1123,18 @@ ASESORIA PAGE
   width: 50%;
   font-size: 20px;
   line-height: 36px;
+}
+
+.productos-saba .imgsaba{
+  width: 600px;
+  position: absolute;
+  top: 230px;
+  right: 239px;
+
+}
+
+.imgsaba img{
+  width: 700px;
 }
 
 .fs-30 {
