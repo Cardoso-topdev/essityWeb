@@ -1,6 +1,6 @@
 import React from "react";
 import { Fragment } from "react";
-import { Link } from "react-router-dom";
+import { div } from "react-router-dom";
 import { BsArrowDownShort as Arrow } from "react-icons/bs";
 import check from "../../assets/icons/check.svg";
 
@@ -38,13 +38,13 @@ const Header = () => {
             <img src={tena} alt="" />
           </div>
           <div className="d-flex justify-content-center">
-            <Link
+            <div
               onClick={() => (window.location.href = "/asesoria#portafolio")}
               className="btn btn-primary btn-hero"
             >
               Ver portafolio
               <Arrow />
-            </Link>
+            </div>
           </div>
         </div>
       </div>

@@ -28,9 +28,18 @@ a:hover {
   text-decoration: none;
 }
 
+button{
+  background-color: transparent;
+  border: none;
+}
+
 /*=============
 BOTONES
 ===============*/
+.btn{
+  cursor: pointer;
+}
+
 .btn-hero {
   background: #f50082;
   border-radius: 50px;
@@ -137,11 +146,12 @@ BOTONES
   }
 }
 
-.navigation a {
+.navigation .link {
   font-size: 16px;
   font-weight: 500;
   margin-right: 30px;
   color: #000;
+  cursor: pointer;
 }
 
 .navigation a:last-of-type {

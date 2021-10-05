@@ -14,7 +14,6 @@ import portafolio2 from "../assets/img/Regio.jpg";
 import portafolio3 from "../assets/img/Tena.jpg";
 
 import camion from "../assets/video/camion.mp4";
-import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -32,19 +31,19 @@ const Index = () => {
         <div className="container">
           <div className="row onediv">
             <div className="col-4 onediv mt-2">
-               <Link onClick={()=>window.location.href="/asesoria#saba"}>
+               <div onClick={()=>window.location.href="/asesoria#saba"}>
                 <img src={portafolio1} alt="" />
-               </Link> 
+               </div> 
             </div>
             <div className="col-4 onediv mt-2">
-              <Link onClick={()=>window.location.href="/asesoria#regio"}>
+              <div onClick={()=>window.location.href="/asesoria#regio"}>
                 <img src={portafolio2} alt="" />
-               </Link>
+               </div>
             </div>
             <div className="col-4 onediv mt-2">
-              <Link onClick={()=>window.location.href="/asesoria#tena"}>
+              <div onClick={()=>window.location.href="/asesoria#tena"}>
                 <img src={portafolio3} alt="" />
-               </Link>
+               </div>
             </div>
           </div>
         </div>
