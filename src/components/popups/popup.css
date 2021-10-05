@@ -1,0 +1,66 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-inner{
+    position: relative;
+    padding: 32px;
+    width: 900px;
+    height: 450px;
+    color: #fff;
+    background-image: url(../../assets/fondo_saba.png);
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px;
+
+}
+
+.popup-inner .close-btn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.img-pop{
+    position: absolute;
+    bottom: 8px;
+    right: 11px;
+    width: 368px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img-pop img{
+    width: 80%;
+}
+
+.popup-inner .pop-info h1{
+    width: 80%;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+
+.popup-inner .pop-info p{
+    width: 50%;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 16px;
+
+}
+
+.popup-inner .pop-info .legend{
+    font-size: 13px;
+    margin-top: 30px;
+}

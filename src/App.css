@@ -256,10 +256,6 @@ section.about {
   }
 }
 
-@media (min-width: 1030px) {
-  section.about::before {
-  }
-}
 
 @media (min-width: 768px) {
   .section-about {
@@ -1182,6 +1178,8 @@ ASESORIA PAGE
 
 .producto {
   text-align: center;
+  width: 150px;
+  cursor: pointer;
 }
 
 .producto-flex .producto {
