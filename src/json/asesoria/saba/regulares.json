@@ -5,7 +5,7 @@
         "info": "Intima Clip con alas 10 piezas",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "Estas toallas son de las preferidas por tus clientes al tener un precio accesible.",
-        "legend": "Cada corrugado contiene 14 paquetes con 8 toallas cada uno"
+        "legend": "Cada corrugado contiene 14 paquetes con 10 toallas cada uno"
     },
     {
         "id": 2,
@@ -13,22 +13,22 @@
         "info": "Intima sin alas 10 piezas",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "Estas toallas son de las preferidas por tus clientes al tener un precio accesible.",
-        "legend": "Cada corrugado contiene 6 paquetes con 24 toallas cada uno"
+        "legend": "Cada corrugado contiene 14 paquetes con 10 toallas cada uno"
     },
     {
         "id": 3,
         "image": "http://page.creceminegocio.mx/img/saba/regulares/regular3.png",
         "info": "Confort Regular con alas 10 piezas",
         "title": "¡Expande tu portafolio!",
-        "description": "Estas toallas son de las preferidas por tus clientes al tener un precio accesible.",
-        "legend": "Cada corrugado contiene 16 paquetes con 10 toallas cada uno"
+        "description": "Tus consumidoras buscaran toallas con Manzanilla y SABA® Confort es la opción más completa y accesible.",
+        "legend": "Cada corrugado contiene 10 paquetes con 10 toallas cada uno"
     },
     {
         "id": 4,
         "image": "http://page.creceminegocio.mx/img/saba/regulares/regular4.png",
         "info": "Confort Regular sin alas 10 piezas",
         "title": "¡Expande tu portafolio!",
-        "description": "Estas toallas son de las preferidas por tus clientes al tener un precio accesible.",
-        "legend": "Cada corrugado contiene 10 paquetes con 8 toallas cada uno"
+        "description": "Tus consumidoras buscaran toallas con Manzanilla y SABA® Confort es la opción más completa y accesible.",
+        "legend": "Cada corrugado contiene 10 paquetes con 10 toallas cada uno"
     }
 ]
