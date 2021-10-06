@@ -10,10 +10,11 @@ import Footer from "../components/footer/footer";
 
 import { MdLocationOn as LocationIcon } from "react-icons/md";
 import mapaBg from "../assets/img/mapabg.png";
+import Mapa from "../components/mapasvg/mapa";
 
 const Comprar = () => {
   const [estados, setEstados] = useState([]);
-  const [text, setText] = useState();
+  const [text, setText] = useState('');
   const [suggestions, setSuggestions] = useState([]);
   const [display, setDisplay] = useState(false);
   const [urlMap, setUrlMap] = useState(mapaBg);
@@ -113,7 +114,7 @@ const Comprar = () => {
         </div>
 
         <div className="mapa container">
-          <img src={urlMap} alt=""/>
+          <Mapa text={text} setText={setText}/>
         </div>
       </header>
 
