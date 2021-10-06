@@ -30,17 +30,17 @@ const Index = () => {
         <div className="">
         <div className="container">
           <div className="row onediv">
-            <div className="col-4 onediv mt-2">
+            <div className="col-4 onediv mt-2 cursor-pointer">
                <div onClick={()=>window.location.href="/asesoria#saba"}>
                 <img src={portafolio1} alt="" />
                </div> 
             </div>
-            <div className="col-4 onediv mt-2">
+            <div className="col-4 onediv mt-2 cursor-pointer">
               <div onClick={()=>window.location.href="/asesoria#regio"}>
                 <img src={portafolio2} alt="" />
                </div>
             </div>
-            <div className="col-4 onediv mt-2">
+            <div className="col-4 onediv mt-2 cursor-pointer">
               <div onClick={()=>window.location.href="/asesoria#tena"}>
                 <img src={portafolio3} alt="" />
                </div>

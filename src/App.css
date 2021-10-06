@@ -33,6 +33,10 @@ button{
   border: none;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
 /*=============
 BOTONES
 ===============*/
@@ -349,6 +353,7 @@ div.section-promotions .mejores-promociones {
   position: relative;
   padding-bottom: 40px;
   color: #fff;
+  cursor: pointer;
 }
 
 .section-promotions .descubrir-mas p {
