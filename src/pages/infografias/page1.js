@@ -44,15 +44,15 @@ const Page1 = () => {
           </div>
           <div className="info">
             <img src={info2} alt="" />
-            <p className="text-center">Lugar visible en tu negocio. </p>
+            <p className="text-center">Exhibido en el área de higiene personal. . </p>
           </div>
           <div className="info">
             <img src={info3} alt="" />
-            <p className="text-center">Lugar visible en tu negocio. </p>
+            <p className="text-center">Resalta los productos que sean de promoción.  </p>
           </div>
           <div className="info">
             <img src={info4} alt="" />
-            <p className="text-center">Lugar visible en tu negocio. </p>
+            <p className="text-center">Precio siempre a la vista. </p>
           </div>
         </div>
       </div>

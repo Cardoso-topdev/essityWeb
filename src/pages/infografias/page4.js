@@ -41,12 +41,12 @@ const Page4 = () => {
         <div className="grid-infografia">
           <div className="info">
             <img src={info1} alt="" />
-            <p className="text-center">Lugar visible en tu negocio.</p>
+            <p className="text-center">Lugar visible en tu negocio, junto a las serivlletas. </p>
           </div>
           <div className="info">
             <img src={info2} alt="" />
             <p className="text-center">
-              Exhibido en el área de higiene personal.
+              Asegurar que siempre tengas el inventario suficiente.
             </p>
           </div>
         </div>
