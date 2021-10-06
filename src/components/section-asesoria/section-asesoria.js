@@ -15,7 +15,7 @@ const AsesoriaSection = () => {
             <div className="col-7">
               <h2 className="mb-4">Crece mi negocio</h2>
               <img src={img228} alt=""/>
-              <h3 className="mt-3">Incontinencia para adulto (Tena)</h3>
+              <h3 className="mt-3 text-rosa">Incontinencia para adulto (Tena)</h3>
               <p  className="mb-3">
                 Padecimiento más común de lo normal. Cada vez hay más adultos en
                 el país. El portafolio que satisfase todas las necesidades de la
@@ -23,7 +23,7 @@ const AsesoriaSection = () => {
                 atractivo.
               </p>
               <img src={img229} alt=""/>
-              <h3  className="mt-3">Toalla de cocina</h3>
+              <h3  className="mt-3 text-rosa">Toalla de cocina</h3>
               <p  className="mb-3">
                 Cada vez más personas utilizan toalla de cocina en lugar de
                 servilletas. El precio es accesible (Regio).{" "}

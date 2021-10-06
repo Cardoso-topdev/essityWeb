@@ -1398,3 +1398,7 @@ font-size: 30px;
   z-index: 999999;
   position: relative;
 }
+
+.text-rosa{
+  color: #C5157E;
+}
