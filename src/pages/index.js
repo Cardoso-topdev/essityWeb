@@ -24,8 +24,8 @@ const Index = () => {
       <Promotions />
       <AsesoriaSection />
       <div className="container portafolio-ideal mt-5">
-        <h1 className="text-center">Portafolio ideal</h1>
-        <p className="text-center mb-4">Lo útimo en nuestro portafolio</p>
+        <h2 className="text-center text-rosa">Portafolio ideal</h2>
+        <h4 className="text-center mb-4">Lo útimo en nuestro portafolio</h4>
         
         <div className="">
         <div className="container">
