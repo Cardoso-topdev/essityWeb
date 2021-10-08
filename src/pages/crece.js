@@ -6,6 +6,7 @@ import Navbar from "../components/navbar/navbar";
 import Footer from "../components/footer/footer";
 
 //resources
+import img189 from "../assets/img/img189.jpg";
 import img190 from "../assets/img/img190.jpg";
 import img191 from "../assets/img/img191.jpg";
 import img192 from "../assets/img/img192.jpg";
@@ -15,18 +16,29 @@ const Crece = () => {
       <Navbar />
       <section>
         <div className="section-crece">
-          <div className="container crece-hero">
+          <div className="container crece-hero" style={{position: 'relative'}}>
             <h1>Crece mi negocio</h1>
-            <div className="segunda-columna">
-              <h2>Protección femenina</h2>
-              <p>
-                Categoría que se consume hoy en México porque está en 95 de cada
-                100 hogares. Es una categoría con un margen de utilidad muy
-                atractivo. Las usuarias buscan estos productos en las tiendas
-                (buscar información en INEGI)..
-              </p>
-              <Link to="/proteccion-femenina">Leer más.</Link>
-            </div>
+              <div
+                className="card-blog"
+                style={{ position: "absolute", top: "240px", left: "0px" }}
+              >
+                <img src={img189} alt="" style={{ borderRadius: "5px" }} />
+                <div>
+                  <h3 className="mb-4">Protección femenina</h3>
+                  <p>
+                    Categoría que se consume hoy en México porque está en 95 de
+                    cada 100 hogares. Es una categoría con un margen de utilidad
+                    muy atractivo. Las usuarias buscan estos productos en las
+                    tiendas (buscar información en INEGI)..
+                  </p>
+                  <Link
+                    to="/proteccion-femenina"
+                    style={{ fontSize: "22px", color: "#c5157e" }}
+                  >
+                    Leer más.
+                  </Link>
+                </div>
+              </div>
           </div>
         </div>
 

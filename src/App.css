@@ -698,11 +698,10 @@ a.collapsed {
 }
 
 .crece-hero {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  position: relative;
+  height: 600px;
 }
 
+/*
 .crece-hero::before {
   content: "";
   background-image: url(./assets/img/img189.jpg);
@@ -712,7 +711,7 @@ a.collapsed {
   width: 382px;
   height: 351px;
   border-radius: 5px;
-}
+}*/
 
 .crece-hero h1 {
   font-size: 38px;
