@@ -950,7 +950,7 @@ a.collapsed {
   border-radius: 10px;
   height: 706px;
   position: absolute;
-  top: 862px;
+  top: 925px;
   left: 0;
   right: 0;
   bottom: 0;
@@ -1142,13 +1142,13 @@ ASESORIA PAGE
 .productos-saba .imgsaba{
   width: 600px;
   position: absolute;
-  top: 230px;
-  right: 239px;
+  top: 240px;
+    right: 151px;
 
 }
 
 .imgsaba img{
-  width: 700px;
+  width: 681px;
 }
 
 .fs-30 {
