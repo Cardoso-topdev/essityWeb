@@ -2,25 +2,28 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/saba/delgadas/delgada1.png",
-        "info": "Delgadas con alas 10 piezas",
+        "info": "Delgadas",
         "title": "¡Expande tu portafolio!",
         "description": "Las toallas Ultra Delgadas están tomando relevancia con tus clientas, por lo que seguro te las van a pedir.",
-        "legend": "Cada corrugado contiene 16 paquetes con 10 toallas cada uno"
+        "legend": "Cada corrugado contiene 16 paquetes con 10 toallas cada uno",
+        "content": "con alas 10 piezas"
     },
     {
         "id": 2,
         "image": "http://page.creceminegocio.mx/img/saba/delgadas/delgada2.png",
-        "info": "Delgadas Nocturna con alas 10 piezas",
+        "info": "Delgadas Nocturna",
         "title": "¡Expande tu portafolio!",
         "description": "Las toallas Ultra Delgadas están tomando relevancia con tus clientas, por lo que seguro te las van a pedir.",
-        "legend": "Cada corrugado contiene 12 paquetes con 10 toallas cada uno"
+        "legend": "Cada corrugado contiene 12 paquetes con 10 toallas cada uno",
+        "content": "con alas 10 piezas"
     },
     {
         "id": 3,
         "image": "http://page.creceminegocio.mx/img/saba/delgadas/delgada3.png",
-        "info": "Delgadas con alas 42 piezas",
+        "info": "Delgadas",
         "title": "¡Expande tu portafolio!",
         "description": "Las toallas Ultra Delgadas están tomando relevancia con tus clientas, por lo que seguro te las van a pedir.",
-        "legend": "Cada corrugado contiene 16 paquetes con 42 toallas cada uno"
+        "legend": "Cada corrugado contiene 16 paquetes con 42 toallas cada uno",
+        "content": "con alas 42 piezas"
     }
 ]

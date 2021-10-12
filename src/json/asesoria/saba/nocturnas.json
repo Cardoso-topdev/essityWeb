@@ -2,33 +2,37 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/saba/nocturnas/nocturna1.png",
-        "info": " Buenas Noches con alas 8 piezas",
+        "info": " Buenas Noches",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
-        "legend": "Cada corrugado contiene 14 paquetes con 8 toallas cada uno"
+        "legend": "Cada corrugado contiene 14 paquetes con 8 toallas cada uno",
+        "content": "con alas 8 piezas"
     },
     {
         "id": 2,
         "image": "http://page.creceminegocio.mx/img/saba/nocturnas/nocturna2.png",
-        "info": "Buenas Noches con alas 24 piezas",
+        "info": "Buenas Noches",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
-        "legend": "Cada corrugado contiene 6 paquetes con 24 toallas cada uno"
+        "legend": "Cada corrugado contiene 6 paquetes con 24 toallas cada uno",
+        "content": "con alas 24 piezas"
     },
     {
         "id": 3,
         "image": "http://page.creceminegocio.mx/img/saba/nocturnas/nocturna3.png",
-        "info": " Buenas Noches con alas 10 piezas",
+        "info": " Buenas Noches",
         "title": "¡Expande tu portafolio!",
         "description": "De cada 10 toallas femeninas nocturnas vendidas en el país 6 pertenecen a SABA® por lo que contar con Saba Buenas Noches en tu negocio te ayudará a incrementar tus ventas con mayor facilidad.",
-        "legend": "Cada corrugado contiene 16 paquetes con 10 toallas cada uno"
+        "legend": "Cada corrugado contiene 16 paquetes con 10 toallas cada uno",
+        "content": "con alas 10 piezas"
     },
     {
         "id": 4,
         "image": "http://page.creceminegocio.mx/img/saba/nocturnas/nocturna4.png",
-        "info": "Confort Nocturna con alas 8 piezas",
+        "info": "Confort Nocturna",
         "title": "¡Expande tu portafolio!",
         "description": "Tus consumidoras buscaran toallas con Manzanilla y SABA® Confort es la opción más completa y accesible.",
-        "legend": "Cada corrugado contiene 10 paquetes con 8 toallas cada uno"
+        "legend": "Cada corrugado contiene 10 paquetes con 8 toallas cada uno",
+        "content": "con alas 8 piezas"
     }
 ]

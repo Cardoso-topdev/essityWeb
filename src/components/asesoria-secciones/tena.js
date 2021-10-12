@@ -43,7 +43,10 @@ const TenaSeccion = () => {
                   }}
                 >
                   <img src={item.image} alt="" />
+                  <div className="textos-card">
                   <p className="text-center">{item.info}</p>
+                  <p className="text-center">{item.content}</p>
+                  </div>
                 </div>
                 <PopTena
                   trigger={trigger}
@@ -70,7 +73,10 @@ const TenaSeccion = () => {
                     }}
                   >
                     <img src={item.image} alt="" />
-                    <p className="text-center">{item.info}</p>
+                    <div className="textos-card">
+                  <p className="text-center">{item.info}</p>
+                  <p className="text-center">{item.content}</p>
+                  </div>
                   </div>
                   <PopTena
                     trigger={trigger}
@@ -96,7 +102,10 @@ const TenaSeccion = () => {
                     }}
                   >
                     <img src={item.image} alt="" />
-                    <p className="text-center">{item.info}</p>
+                    <div className="textos-card">
+                  <p className="text-center">{item.info}</p>
+                  <p className="text-center">{item.content}</p>
+                  </div>
                   </div>
                   <PopTena
                     trigger={trigger}

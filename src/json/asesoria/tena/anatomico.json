@@ -2,18 +2,20 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/tena/anatomico/anatomico1.png",
-        "info": "Slip Maxi Protect Grande 10 piezas",
+        "info": "Slip Maxi Protect",
         "title": "¡Incrementa tus ventas y expande tu negocio!",
         "description": "Incrementa tus ganancias y aprovecha la visita de tu cliente ofreciendole este producto que es de los más vendidos en las farmacias, ahora en tu negocio. Tena Slip es un producto que compran las personas que cuidan a pacientes con poca movilidad o en cama con descargas de vegija completa. ",
-        "legend": "Cada corrugado contiente 6 paquetes de 10 piezas cada uno"
+        "legend": "Cada corrugado contiente 6 paquetes de 10 piezas cada uno",
+        "content": "Grande 10 piezas"
     },
     {
         "id": 2,
         "image": "http://page.creceminegocio.mx/img/tena/anatomico/anatomico2.png",
-        "info": "Slip Maxi Protect Mediano 10 piezas",
+        "info": "Slip Maxi Protect",
         "title": "¡Incrementa tus ventas y expande tu negocio!",
         "description": "Incrementa tus ganancias y aprovecha la visita de tu cliente ofreciendole este producto que es de los más vendidos en las farmacias, ahora en tu negocio. Tena Slip es un producto que compran las personas que cuidan a pacientes con poca movilidad o en cama con descargas de vegija completa. ",
-        "legend": "Cada corrugado contiente 6 paquetes de 10 piezas cada uno"
+        "legend": "Cada corrugado contiente 6 paquetes de 10 piezas cada uno",
+        "content": "Mediano 10 piezas"
     }
 ]
     

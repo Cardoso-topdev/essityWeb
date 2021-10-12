@@ -49,7 +49,10 @@ const RegioSeccion = () => {
                   }}
                 >
                   <img src={item.image} alt="" />
+                  <div className="textos-card">
                   <p className="text-center">{item.info}</p>
+                  <p className="text-center">{item.content}</p>
+                  </div>
                 </div>
                 <PopRegio
                   trigger={trigger}
@@ -75,7 +78,10 @@ const RegioSeccion = () => {
                   }}
                 >
                   <img src={item.image} alt="" />
+                  <div className="textos-card">
                   <p className="text-center">{item.info}</p>
+                  <p className="text-center">{item.content}</p>
+                  </div>
                 </div>
                 <PopRegio
                   trigger={trigger}
@@ -101,7 +107,10 @@ const RegioSeccion = () => {
                   }}
                 >
                   <img src={item.image} alt="" />
+                  <div className="textos-card">
                   <p className="text-center">{item.info}</p>
+                  <p className="text-center">{item.content}</p>
+                  </div>
                 </div>
                 <PopRegio
                   trigger={trigger}
@@ -128,7 +137,10 @@ const RegioSeccion = () => {
                   }}
                 >
                   <img src={item.image} alt="" />
+                  <div className="textos-card">
                   <p className="text-center">{item.info}</p>
+                  <p className="text-center">{item.content}</p>
+                  </div>
                 </div>
                 <PopRegio
                   trigger={trigger}

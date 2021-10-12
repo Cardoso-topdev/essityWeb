@@ -56,7 +56,10 @@ const SabaSeccion = () => {
                   }}
                 >
                   <img src={item.image} alt="" />
+                  <div className="textos-card">
                   <p className="text-center">{item.info}</p>
+                  <p className="text-center">{item.content}</p>
+                  </div>
                 </div>
                 <PopSaba
                   trigger={trigger}
@@ -82,7 +85,10 @@ const SabaSeccion = () => {
                   }}
                 >
                   <img src={item.image} alt="" />
+                  <div className="textos-card">
                   <p className="text-center">{item.info}</p>
+                  <p className="text-center">{item.content}</p>
+                  </div>
                 </div>
                 <PopSaba
                   trigger={trigger}
@@ -108,7 +114,10 @@ const SabaSeccion = () => {
                   }}
                 >
                   <img src={item.image} alt="" />
+                  <div className="textos-card">
                   <p className="text-center">{item.info}</p>
+                  <p className="text-center">{item.content}</p>
+                  </div>
                 </div>
                 <PopSaba
                   trigger={trigger}
@@ -135,7 +144,10 @@ const SabaSeccion = () => {
                   }}
                 >
                   <img src={item.image} alt="" />
+                  <div className="textos-card">
                   <p className="text-center">{item.info}</p>
+                  <p className="text-center">{item.content}</p>
+                  </div>
                 </div>
                 <PopSaba
                   trigger={trigger}

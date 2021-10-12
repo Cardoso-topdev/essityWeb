@@ -2,9 +2,10 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/regio/luxury1.png",
-        "info": "Regio Luxury 205 hojas",
+        "info": "Regio Luxury",
         "title": "¡Fortalece tu portafolio!",
         "description": "Regio Luxury es un producto para tus clientes más exigentes gracias a su ligero y exquisito aroma a cocoa además de su increible suavidad a un precio justo.",
-        "legend": "Cada colchón contiene 12 paquetes con 4 rollos cada uno"
+        "legend": "Cada colchón contiene 12 paquetes con 4 rollos cada uno",
+        "content": "205 hojas"
     }
 ]

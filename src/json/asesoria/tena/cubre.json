@@ -2,10 +2,11 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/tena/cubre/cubre1.png",
-        "info": "Predoblado 10 piezas",
+        "info": "Predoblado",
         "title": "¡Incrementa tus ventas y expande tu negocio!",
         "description": "La función principal del protector de cama TENA es mantener seca cualquier superficie e inclusive ofrece multiples usos. Ofrece este producto que es de los más vendidos ahora en tu negocio.",
-        "legend": "Cada corrugado contiene 14 paquetes con 8 toallas cada uno"
+        "legend": "Cada corrugado contiene 14 paquetes con 8 toallas cada uno",
+        "content": "10 piezas"
     }
     
 ]

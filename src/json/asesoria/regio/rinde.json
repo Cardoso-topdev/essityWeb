@@ -2,25 +2,28 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/regio/rinde/rinde1.png",
-        "info": "Papel Higiénico 400 a 499 hojas",
+        "info": "Papel Higiénico",
         "title": "¡Incrementa las ventas de tu negocio!",
         "description": "Si tus clientes buscan mayor resistencia y rendimiento a un precio accesible, Regio® Rinde Más es la mejor opción, asegurate de siempre contar con el inventario suficiente.",
-        "legend": "Cada colchón contiene 20 paquetes con 4 rollos cada uno"
+        "legend": "Cada colchón contiene 20 paquetes con 4 rollos cada uno",
+        "content": "400 a 499 hojas"
     },
     {
         "id": 2,
         "image": "http://page.creceminegocio.mx/img/regio/rinde/rinde2.png",
-        "info": "Regio Rinde Más 600 hojas",
+        "info": "Regio Rinde Más",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "Si tus clientes buscan mayor resistencia y rendimiento a un precio accesible, Regio® Rinde Más es la mejor opción, asegurate de siempre contar con el inventario suficiente.",
-        "legend": "Cada colchón contiene 10 paquetes con 4 rollos cada uno"
+        "legend": "Cada colchón contiene 10 paquetes con 4 rollos cada uno",
+        "content": "600 hojas"
     },
     {
         "id": 3,
         "image": "http://page.creceminegocio.mx/img/regio/rinde/rinde3.png",
-        "info": "Regio Rinde Más 400 hojas",
+        "info": "Regio Rinde Más",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "Si tus clientes buscan mayor resistencia y rendimiento a un precio accesible, Regio® Rinde Más es la mejor opción, asegurate de siempre contar con el inventario suficiente.",
-        "legend": "Cada colchón contiene 10 paquetes con 4 rollos cada uno"
+        "legend": "Cada colchón contiene 10 paquetes con 4 rollos cada uno",
+        "content": "400 hojas"
     }
 ]

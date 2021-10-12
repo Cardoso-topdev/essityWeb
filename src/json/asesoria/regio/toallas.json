@@ -2,25 +2,28 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/regio/toallas/toalla1.png",
-        "info": "Regio 1000 usos 65 hojas",
+        "info": "Regio 1000 usos",
         "title": "¡Expande tu portafolio!",
         "description": "Toalla Regio 1000 Usos es la toalla de cocina que seguro te la van a pedir, porque cada vez más personas utilizan toalla de cocina en lugar de servilleta. Además de contar con un precio accesible.",
-        "legend": "Cada colchón contiene 12 paquetes de 1 rollo en cada uno"
+        "legend": "Cada colchón contiene 12 paquetes de 1 rollo en cada uno",
+        "content": "65 hojas"
     },
     {
         "id": 2,
         "image": "http://page.creceminegocio.mx/img/regio/toallas/toalla2.png",
-        "info": "Regio Hogar 70 hojas",
+        "info": "Regio Hogar",
         "title": "¡Expande tu portafolio!",
         "description": "Para tus clientes que buscan resolver cualquier tarea del hogar, ya que cuentan con el tamaño ideal (Maxi Rollo).",
-        "legend": "Cada colchón contiene 12 paquetes de 1 rollo en cada uno"
+        "legend": "Cada colchón contiene 12 paquetes de 1 rollo en cada uno",
+        "content": "70 hojas"
     },
     {
         "id": 3,
         "image": "http://page.creceminegocio.mx/img/regio/toallas/toalla3.png",
-        "info": "Regio Advanced 70 hojas",
+        "info": "Regio Advanced",
         "title": "¡Expande tu portafolio!",
         "description": "Regio Advanced para tus clientes más exigentes ya que ofrecen 40% más resistencia y absorbción, funcionan incluso mojadas.",
-        "legend": "Cada colchón contiene 12 paquetes de 1 rollo en cada uno"
+        "legend": "Cada colchón contiene 12 paquetes de 1 rollo en cada uno",
+        "content": "70 hojas"
     }
 ]

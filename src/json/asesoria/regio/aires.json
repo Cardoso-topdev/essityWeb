@@ -2,25 +2,28 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/regio/aires/aire1.png",
-        "info": "Regio Aire de Frescura 300 hojas",
+        "info": "Regio Aire de Frescura",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "Regio® Aires de Frescura ofrece aroma prolongado y rendimiento a un precio accesible por lo que es una excelente opción si lo que buscas es incrementar las ventas de tu negocio.",
-        "legend": "Cada colchón contiene 10 paquetes con 4 rollos cada uno"
+        "legend": "Cada colchón contiene 10 paquetes con 4 rollos cada uno",
+        "content": "300 hojas"
     },
     {
         "id": 2,
         "image": "http://page.creceminegocio.mx/img/regio/aires/aire2.png",
-        "info": "Regio Aires de Frecura 200 hojas",
+        "info": "Regio Aires de Frescura",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "Regio® Aires de Frescura ofrece aroma prolongado y rendimiento a un precio accesible por lo que es una excelente opción si lo que buscas es incrementar las ventas de tu negocio.",
-        "legend": "Cada colchón contiene 12 paquetes con 4 rollos cada uno"
+        "legend": "Cada colchón contiene 12 paquetes con 4 rollos cada uno",
+        "content": "200 hojas"
     },
     {
         "id": 3,
         "image": "http://page.creceminegocio.mx/img/regio/aires/aire3.png",
-        "info": "Regio Aires de Frecura 500 hojas",
+        "info": "Regio Aires de Frescura",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "Regio® Aires de Frescura ofrece aroma prolongado y rendimiento a un precio accesible por lo que es una excelente opción si lo que buscas es incrementar las ventas de tu negocio.",
-        "legend": "Cada colchón contiene 6 paquetes con 4 rollos cada uno"
+        "legend": "Cada colchón contiene 6 paquetes con 4 rollos cada uno",
+        "content": "500 hojas"
     }
 ]

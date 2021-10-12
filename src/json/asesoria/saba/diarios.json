@@ -2,41 +2,47 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/saba/diarios/diario1.png",
-        "info": "Delicate Largos 28 piezas",
+        "info": "Delicate Largos",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "Estos productos se utilizan los 365 días del año, por lo que tus ganancias serán permanentes.",
-        "legend": "Cada corrugado contiene 16 paquetes con 28 pantiprotectores cada uno"
+        "legend": "Cada corrugado contiene 16 paquetes con 28 pantiprotectores cada uno",
+        "content": "28 piezas"
     },
     {
         "id": 2,
         "image": "http://page.creceminegocio.mx/img/saba/diarios/diario2.png",
-        "info": "Delicate Regular 28 piezas",
+        "info": "Delicate Regular",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "Estos productos se utilizan los 365 días del año, por lo que tus ganancias serán permanentes.",
-        "legend": "Cada corrugado contiene 16 paquetes con 28 pantiprotectores cada uno"
+        "legend": "Cada corrugado contiene 16 paquetes con 28 pantiprotectores cada uno",
+        "content": "28 piezas"
+        
     },
     {
         "id": 3,
         "image": "http://page.creceminegocio.mx/img/saba/diarios/diario3.png",
-        "info": "Confort Regular 14 piezas",
+        "info": "Confort Regular",
         "title": "¡Expande tu portafolio!",
         "description": "Estos productos se utilizan los 365 días del año, por lo que tus ganancias serán permanentes.",
-        "legend": "Cada corrugado contiene 24 paquetes con 14 pantiprotectores cada uno"
+        "legend": "Cada corrugado contiene 24 paquetes con 14 pantiprotectores cada uno",
+        "content": "14 piezas"
     },
     {
         "id": 4,
         "image": "http://page.creceminegocio.mx/img/saba/diarios/diario4.png",
-        "info": "Delicate Regular 16 piezas",
+        "info": "Delicate Regular",
         "title": "¡Expande tu portafolio!",
         "description": "Estos productos se utilizan los 365 días del año, por lo que tus ganancias serán permanentes.",
-        "legend": "Cada corrugado contiene 24 paquetes con 16 pantiprotectores cada uno"
+        "legend": "Cada corrugado contiene 24 paquetes con 16 pantiprotectores cada uno",
+        "content": "16 piezas"
     },
     {
         "id": 5,
         "image": "http://page.creceminegocio.mx/img/saba/diarios/diario5.png",
-        "info": "Delicate Largo 50 piezas",
+        "info": "Delicate Largo",
         "title": "¡Expande tu portafolio!",
         "description": "Estos productos se utilizan los 365 días del año, por lo que tus ganancias serán permanentes.",
-        "legend": "Cada corrugado contiene 24 paquetes con 50 pantiprotectores cada uno"
+        "legend": "Cada corrugado contiene 24 paquetes con 50 pantiprotectores cada uno",
+        "content": "50 piezas"
     }
 ]

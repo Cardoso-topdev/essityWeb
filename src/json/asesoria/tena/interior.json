@@ -2,34 +2,38 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/tena/interior/interior1.png",
-        "info": "Pants Maxi Protect Grande 10 piezas",
+        "info": "Pants Maxi Protect",
         "title": "¡Incrementa tus ventas y expande tu negocio!",
         "description": "Tena Pants Unisex es el producto que seguramente tus clientes te van a pedir al ser uno de los más vendido a nivel nacional.",
-        "legend": "Cada corrugado contiene 6 paquetes con 10 toallas cada uno"
+        "legend": "Cada corrugado contiene 6 paquetes con 10 toallas cada uno",
+        "content": "Grande 10 piezas"
     },
     {
         "id": 2,
         "image": "http://page.creceminegocio.mx/img/tena/interior/interior2.png",
-        "info": "Pants Maxi Protect Mediano 10 piezas",
+        "info": "Pants Maxi Protect",
         "title": "¡Incrementa tus ventas y expande tu negocio!",
         "description": "Tena Pants Unisex es el producto que seguramente tus clientes te van a pedir al ser uno de los más vendido a nivel nacional.",
-        "legend": "Cada corrugado contiene 6 paquetes con 10 toallas cada uno"
+        "legend": "Cada corrugado contiene 6 paquetes con 10 toallas cada uno",
+        "content": "Mediano 10 piezas"
     },
     {
         "id": 3,
         "image": "http://page.creceminegocio.mx/img/tena/interior/interior3.png",
-        "info": "Comfort Ropa Interior Mediano 10 piezas",
+        "info": "Comfort Ropa Interior",
         "title": "¡Incrementa tus ventas y expande tu negocio!",
         "description": "Si tu cliente busca un desembolso menor sin dejar a un lado la calidad, Tena Comfort Ropa Interior es la opción ideal. Estamos seguros que este producto contribuirá al crecimiento de tu negocio.",
-        "legend": "Cada corrugado contiente 6 paquetes de 10 piezas cada uno"
+        "legend": "Cada corrugado contiente 6 paquetes de 10 piezas cada uno",
+        "content": "Mediano 10 piezas"
     },
     {
         "id": 4,
         "image": "http://page.creceminegocio.mx/img/tena/interior/interior4.png",
-        "info": "Comfort Ropa Interior Grande 10 piezas",
+        "info": "Comfort Ropa Interior",
         "title": "¡Incrementa tus ventas y expande tu negocio!",
         "description": "Si tu cliente busca un desembolso menor sin dejar a un lado la calidad, Tena Comfort Ropa Interior es la opción ideal. Estamos seguros que este producto contribuirá al crecimiento de tu negocio.",
-        "legend": "Cada corrugado contiente 6 paquetes de 10 piezas cada uno"
+        "legend": "Cada corrugado contiente 6 paquetes de 10 piezas cada uno",
+        "content": "Grande 10 piezas"
     }
 ]
     

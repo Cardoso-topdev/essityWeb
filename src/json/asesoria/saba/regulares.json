@@ -2,33 +2,37 @@
     {
         "id": 1,
         "image": "http://page.creceminegocio.mx/img/saba/regulares/regular1.png",
-        "info": "Intima Clip con alas 10 piezas",
+        "info": "Intima Clip",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "Estas toallas son de las preferidas por tus clientes al tener un precio accesible.",
-        "legend": "Cada corrugado contiene 14 paquetes con 10 toallas cada uno"
+        "legend": "Cada corrugado contiene 14 paquetes con 10 toallas cada uno",
+        "content": "con alas 10 piezas"
     },
     {
         "id": 2,
         "image": "http://page.creceminegocio.mx/img/saba/regulares/regular2.png",
-        "info": "Intima sin alas 10 piezas",
+        "info": "Intima",
         "title": "¡Incrementa las ganancias de tu negocio!",
         "description": "Estas toallas son de las preferidas por tus clientes al tener un precio accesible.",
-        "legend": "Cada corrugado contiene 14 paquetes con 10 toallas cada uno"
+        "legend": "Cada corrugado contiene 14 paquetes con 10 toallas cada uno",
+        "content": "sin alas 10 piezas"
     },
     {
         "id": 3,
         "image": "http://page.creceminegocio.mx/img/saba/regulares/regular3.png",
-        "info": "Confort Regular con alas 10 piezas",
+        "info": "Confort Regular",
         "title": "¡Expande tu portafolio!",
         "description": "Tus consumidoras buscaran toallas con Manzanilla y SABA® Confort es la opción más completa y accesible.",
-        "legend": "Cada corrugado contiene 10 paquetes con 10 toallas cada uno"
+        "legend": "Cada corrugado contiene 10 paquetes con 10 toallas cada uno",
+        "content": "con alas 10 piezas"
     },
     {
         "id": 4,
         "image": "http://page.creceminegocio.mx/img/saba/regulares/regular4.png",
-        "info": "Confort Regular sin alas 10 piezas",
+        "info": "Confort Regular",
         "title": "¡Expande tu portafolio!",
         "description": "Tus consumidoras buscaran toallas con Manzanilla y SABA® Confort es la opción más completa y accesible.",
-        "legend": "Cada corrugado contiene 10 paquetes con 10 toallas cada uno"
+        "legend": "Cada corrugado contiene 10 paquetes con 10 toallas cada uno",
+        "content": "sin alas 10 piezas"
     }
 ]
