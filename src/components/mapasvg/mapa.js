@@ -116,8 +116,8 @@ const Mapa = ({text, setText}) => {
 
     console.log(tooltip);
 
-    tooltip.style.left = x + 20 + "px";
-    tooltip.style.top = y - 20 + "px";
+    tooltip.style.left = x + 10 + "px";
+    tooltip.style.top = y - 10 + "px";
     setLegend(estado);
     tooltip.classList.add("active");
   }
