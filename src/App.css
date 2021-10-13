@@ -115,6 +115,30 @@ BOTONES
   padding: 0;
 }
 
+
+.navbar{
+padding: 20px 0 !important;
+}
+
+.nav-item{
+  font-size: 13px;
+}
+
+@media (min-width: 1050px){
+  .nav-item{
+    font-size: 16px;
+  }
+}
+
+.navbar-collapse{
+  flex-grow: 0;
+}
+
+/*
+.navbar-collapse{
+  flex-grow: 0 !important;
+}
+
 .section-nav {
   height: 90px;
   display: flex;
@@ -144,9 +168,16 @@ BOTONES
   display: block;
 }
 
-@media (min-width: 1150px) {
+.nav-link{
+  font-size: 16px;
+}
+
+@media (max-width: 1150px) {
   .navigation button {
-    display: none;
+    display: block;
+  }
+  .nav-link{
+    font-size: 13px;
   }
 }
 
@@ -165,6 +196,7 @@ BOTONES
 .navigation a:hover {
   text-decoration: none;
 }
+*/
 
 .btn-navbar {
   background: none;
