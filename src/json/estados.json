@@ -17,23 +17,23 @@
     },
     {
       "id": 5,
-      "name": "Coahuila"
-    },
-    {
-      "id": 6,
-      "name": "Colima"
-    },
-    {
-      "id": 7,
       "name": "Chiapas"
     },
     {
-      "id": 8,
+      "id": 6,
       "name": "Chihuahua"
     },
     {
+      "id": 7,
+      "name": "Distrio Federal"
+    },
+    {
+      "id": 8,
+      "name": "Coahuila"
+    },
+    {
       "id": 9,
-      "name": "Distrito Federal"
+      "name": "Colima"
     },
     {
       "id": 10,
@@ -65,7 +65,7 @@
     },
     {
       "id": 17,
-      "name": "Morelos"
+      "name": "Cuernavaca"
     },
     {
       "id": 18,
