@@ -116,13 +116,15 @@ const Mapa = ({text, setText}) => {
 
     //console.log(tooltip);
 
-    tooltip.style.left = x - 150 + "px";
-    tooltip.style.top = y + 150 + "px";
+    tooltip.style.left = x - 250 + "px";
+    tooltip.style.top = y -1  + "px";
     setLegend(estado);
     tooltip.classList.add("active");
   }
   return (
+
     <section id="map">
+    <p>.</p>
       <span class="tooltiptext" id="tooltip">
         {legend}
       </span>
