@@ -7,9 +7,9 @@ const Navbar = () => {
     <Fragment>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <div class="navbar-brand" style={{cursor: 'pointer'}}href="#">
             <img src={Logo} />
-          </a>
+          </div>
           <button
             class="navbar-toggler"
             type="button"
