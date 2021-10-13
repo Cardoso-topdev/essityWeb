@@ -23,19 +23,19 @@ const Mapa = ({text, setText}) => {
         estado = "Campeche";
         break;
       case "5":
-        estado = "Coahuila";
-        break;
-      case "6":
-        estado = "Colima";
-        break;
-      case "7":
         estado = "Chiapas";
         break;
-      case "8":
+      case "6":
         estado = "Chihuahua";
         break;
+      case "7":
+        estado = "Distrio Federal";
+        break;
+      case "8":
+        estado = "Coahuila";
+        break;
       case "9":
-        estado = "Distrito Federal";
+        estado = "Colima";
         break;
       case "10":
         estado = "Durango";
@@ -114,10 +114,10 @@ const Mapa = ({text, setText}) => {
     var x = event.clientX;
     var y = event.clientY;
 
-    console.log(tooltip);
+    //console.log(tooltip);
 
-    tooltip.style.left = x + 10 + "px";
-    tooltip.style.top = y - 10 + "px";
+    tooltip.style.left = x - 150 + "px";
+    tooltip.style.top = y + 150 + "px";
     setLegend(estado);
     tooltip.classList.add("active");
   }
