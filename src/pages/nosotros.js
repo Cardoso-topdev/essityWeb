@@ -63,7 +63,7 @@ const Nosotros = () => {
         </div>
       </div>
 
-      <Footer />
+      {/*<Footer />*/}
     </Fragment>
   );
 };
