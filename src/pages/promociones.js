@@ -26,8 +26,8 @@ const Promociones = () => {
     <Fragment>
       <Navbar />
 
-      <div className="hero-promociones">
-        <div className="container">
+      <section className="section-promociones">
+        <div className="container contenido-promociones">
           <div className="texto-promociones">
             <h1>Promociones</h1>
             <p>
@@ -35,11 +35,11 @@ const Promociones = () => {
               preferencia
             </p>
           </div>
-          <div>
+          <div className="img-promociones">
             <img src={img193} alt="" />
           </div>
         </div>
-      </div>
+      </section>
 
       <div className="page-promociones">
         <div className="grid-promociones container">

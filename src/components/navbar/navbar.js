@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Logo from "../../assets/img/Logo.svg";
 import { GoThreeBars } from "react-icons/go";
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -24,61 +25,25 @@ const Navbar = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <div
-                  className="nav-link active"
-                  aria-current="page"
-                  onClick={() => (window.location = "/")}
-                >
-                  Inicio
-                </div>
+                  <NavLink to='/' className="nav-link active" exact activeStyle={{color: "#f50082"}}>Inicio</NavLink>                
               </li>
               <li className="nav-item">
-                <div
-                  className="nav-link active"
-                  onClick={() => (window.location = "/quienes-somos")}
-                >
-                  ¿Quiénes somos?
-                </div>
+                <NavLink to='/quienes-somos' className="nav-link active" exact activeStyle={{color: "#f50082"}}>Quienes Somos</NavLink> 
               </li>
               <li className="nav-item">
-                <div
-                  className="nav-link active"
-                  onClick={() => (window.location = "/promociones")}
-                >
-                  Promociones
-                </div>
+                <NavLink to='/promociones' className="nav-link active" exact activeStyle={{color: "#f50082"}}>Promociones</NavLink> 
               </li>
               <li className="nav-item">
-                <div
-                  className="nav-link active"
-                  onClick={() => (window.location = "/crece-mi-negocio")}
-                >
-                  Crece mi negocio
-                </div>
+                <NavLink to='/crece-mi-negocio' className="nav-link active" exact activeStyle={{color: "#f50082"}}>Crece Mi Negocio</NavLink> 
               </li>
               <li className="nav-item">
-                <div
-                  className="nav-link active"
-                  onClick={() => (window.location = "/asesoria")}
-                >
-                  Asesoría
-                </div>
+                <NavLink to='/asesoria' className="nav-link active" exact activeStyle={{color: "#f50082"}}>Asesoría</NavLink> 
               </li>
               <li className="nav-item">
-                <div
-                  className="nav-link active"
-                  onClick={() => (window.location = "/donde-comprar")}
-                >
-                  Donde comprar
-                </div>
+                <NavLink to='/donde-comprar' className="nav-link active" exact activeStyle={{color: "#f50082"}}>Dónde Comprar</NavLink> 
               </li>
               <li className="nav-item">
-                <div
-                  className="nav-link active"
-                  onClick={() => (window.location = "/preguntas-frecuentes")}
-                >
-                  Preguntas frecuentes
-                </div>
+                <NavLink to='/preguntas-frecuentes' className="nav-link active" exact activeStyle={{color: "#f50082"}}>Preguntas Frecuentes</NavLink> 
               </li>
             </ul>
           </div>

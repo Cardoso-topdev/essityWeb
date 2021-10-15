@@ -1051,6 +1051,77 @@ a.collapsed {
 }
 
 /*===========PROMOCIONES===============*/
+.section-promociones {
+  background-color: #f31583;
+  position: relative;
+  text-align: center;
+}
+
+@media (min-width: 768px){
+  .section-promociones{
+    text-align: left;
+  }
+}
+
+.section-promociones::before {
+  content: "";
+  position: absolute;
+  height: 700px;
+  width: 466.84px;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.section-promociones h1 {
+  color: var(--pink);
+  font-size: 38px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.section-promociones p {
+  color: #fff;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+
+
+@media (min-width: 768px){
+  .section-promociones h1 {
+    font-size: 38px;
+  }
+  
+  .section-promociones p {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .contenido-promociones {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 38px 0px;
+    column-gap: 30px;
+  }
+}
+
+.contenido-promociones .img-promociones {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 2;
+}
+
+.contenido-promociones .img-promociones img{
+  width: 100%;
+}
+
+@media (min-width: 768px){
+  .contenido-promociones .img-promociones img{
+    width: 120%;
+  }
+}
 .hero-promociones {
   background-color: #f31583;
   padding: 30px 0;
@@ -1542,13 +1613,7 @@ ASESORIA PAGE
 }
 
 .page-promociones {
-  padding: 30px 0 30px 0;
-}
-
-@media (min-width: 768px) {
-  .page-promociones {
-    padding: 200px 0 200px 0;
-  }
+  padding: 150px 0 200px 0;
 }
 
 .page-promociones h2 {
