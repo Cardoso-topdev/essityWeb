@@ -26,12 +26,10 @@ const Promotions = () => {
             <img src={img194} alt="" />
           </div>
         </div>
-        <div onClick={() => (window.location.href = "/promociones")}>
-          <div className="descubrir-mas">
+          <div className="descubrir-mas" onClick={() => (window.location.href = "/promociones")}>
             <p className="text-center">Descubrir más promociones</p>
             <Arrow />
           </div>
-        </div>
       </div>
     </section>
   );

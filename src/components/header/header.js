@@ -16,17 +16,17 @@ const Header = () => {
           <h2>
             Te ayudamos a empoderar tu negocio a través de nuestros productos
           </h2>
-          <p className="mb-3">
+          <p className="check">
             <img src={check} alt="" />
             <span className="pl-2">
               Incrementa el portafolio de tus productos
             </span>
           </p>
-          <p className="mb-3">
+          <p className="check">
             <img src={check} alt="" />
             <span className="pl-2">Promociones para ti y para tu cliente</span>
           </p>
-          <p className="mb-3">
+          <p className="check">
             <img src={check} alt="" />
             <span className="pl-2">Asesoría y crecimiento para tu negocio</span>
           </p>
@@ -36,7 +36,7 @@ const Header = () => {
             <img src={regio} alt="" />
             <img src={tena} alt="" />
           </div>
-          <div className="d-flex justify-content-center">
+          <div className="d-flex justify-content-center" style={{width: '100%'}}>
             <div
               onClick={() => (window.location.href = "/asesoria#portafolio")}
               className="btn btn-primary btn-hero"

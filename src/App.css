@@ -5,6 +5,10 @@
   --blue: #1b025f;
 }
 
+.row{
+  margin: 0 !important; 
+}
+
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
@@ -28,19 +32,19 @@ a:hover {
   text-decoration: none;
 }
 
-button{
+button {
   background-color: transparent;
   border: none;
 }
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
 
 /*=============
 BOTONES
 ===============*/
-.btn{
+.btn {
   cursor: pointer;
 }
 
@@ -49,7 +53,18 @@ BOTONES
   border-radius: 50px;
   outline: none;
   border: none;
-  padding: 10px 30px !important;
+  padding: 3px 20px !important;
+  font-size: 12px;
+}
+
+@media (min-width: 768px){
+  .btn-hero {
+    background: #f50082;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    padding: 10px 30px !important;
+  }
 }
 
 .btn-hero svg {
@@ -91,8 +106,17 @@ BOTONES
 .btn-explorar {
   background: #ffffff;
   border-radius: 6.59222px;
-  font-size: 16px;
-  padding: 10px 30px;
+  font-size: 10px;
+  padding: 5px 15px;
+}
+
+@media (min-width: 768px){
+  .btn-explorar {
+    background: #ffffff;
+    border-radius: 6.59222px;
+    font-size: 16px;
+    padding: 10px 30px;
+  }
 }
 
 .f-azul {
@@ -110,97 +134,32 @@ BOTONES
 
 .container {
   max-width: 1200px;
-  width: 95%;
+  width: 95% !important;
   margin: 0 auto;
   padding: 0;
 }
 
-
-.navbar{
-padding: 20px 0 !important;
+.navbar {
+  padding: 20px 0 !important;
 }
 
-.nav-item{
+.nav-item {
   font-size: 13px;
 }
 
-@media (min-width: 1050px){
-  .nav-item{
+@media (min-width: 1050px) {
+  .nav-item {
     font-size: 16px;
   }
 }
 
-.navbar-collapse{
+.navbar-collapse {
   flex-grow: 0;
 }
 
-.nav-item{
+.nav-item {
   cursor: pointer;
 }
-
-/*
-.navbar-collapse{
-  flex-grow: 0 !important;
-}
-
-.section-nav {
-  height: 90px;
-  display: flex;
-  align-items: center;
-  background-color: #fff;
-  position: relative;
-  z-index: 1000;
-}
-
-.navigation {
-  display: flex;
-  justify-content: space-between;
-}
-
-.navigation nav {
-  display: none;
-}
-
-@media (min-width: 1150px) {
-  .navigation nav {
-    display: flex;
-    align-items: center;
-  }
-}
-
-.navigation button {
-  display: block;
-}
-
-.nav-link{
-  font-size: 16px;
-}
-
-@media (max-width: 1150px) {
-  .navigation button {
-    display: block;
-  }
-  .nav-link{
-    font-size: 13px;
-  }
-}
-
-.navigation .link {
-  font-size: 16px;
-  font-weight: 500;
-  margin-right: 30px;
-  color: #000;
-  cursor: pointer;
-}
-
-.navigation a:last-of-type {
-  margin-right: 0;
-}
-
-.navigation a:hover {
-  text-decoration: none;
-}
-*/
 
 .btn-navbar {
   background: none;
@@ -213,6 +172,14 @@ padding: 20px 0 !important;
   font-size: 30px;
 }
 
+.check{
+  margin-bottom: 5px;
+}
+
+.check img{
+  width: 5%;
+}
+
 .hero {
   background-image: url("./assets/img/Home.svg");
   height: 100vh;
@@ -221,42 +188,87 @@ padding: 20px 0 !important;
 }
 
 .info-hero {
-  width: 100%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 768px){
+  .info-hero{
+    align-items: flex-start;
+  }
 }
 
 .info-hero h2,
 .info-hero p {
   color: #fff;
-  text-align: left;
+  text-align: center;
 }
 
 .info-hero h2 {
-  font-size: 48px;
+  font-size: 20px;
   font-weight: 700;
-  width: 75%;
-  line-height: 52.56px;
-  margin-bottom: 40px;
+  width: 100%;
+  line-height: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .info-hero p {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 500;
 }
 
-.linea-productos{
-  display: flex;
+@media screen and (min-width: 768px) {
+  .info-hero {
+    width: 100%;
+    height: 100%;
+  }
+
+  .info-hero h2,
+  .info-hero p {
+    color: #fff;
+    text-align: left;
+  }
+
+  .info-hero h2 {
+    font-size: 48px;
+    font-weight: 700;
+    width: 75%;
+    line-height: 52.56px;
+    margin-bottom: 40px;
+  }
+
+  .info-hero p {
+    font-size: 16px;
+    font-weight: 500;
+  }
 }
 
-.texto-linea{
-  font-size: 20px !important;
+.linea-productos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
-.linea-productos img{
-  width: 10%;
+
+.texto-linea {
+  font-size: 13px !important;
 }
+
+@media (min-width: 768px){
+  .texto-linea {
+    font-size: 20px !important;
+  }
+  .linea-productos img {
+    width: 10%;
+  }
+}
+
+.linea-productos img {
+  width: 20%;
+}
+
 
 /*Section About*/
 
@@ -268,8 +280,8 @@ section.about {
   text-align: center;
 }
 
-@media (max-width: 768px){
-  section.about img{
+@media (max-width: 768px) {
+  section.about img {
     width: 100%;
   }
 }
@@ -305,7 +317,6 @@ section.about {
     z-index: -1;
   }
 }
-
 
 @media (min-width: 768px) {
   .section-about {
@@ -377,7 +388,13 @@ section.promotions div.section-promotions {
 }
 
 div.section-promotions .mejores-promociones {
-  margin-bottom: 150px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px){
+  div.section-promotions .mejores-promociones {
+    margin-bottom: 150px;
+  }
 }
 
 .section-promotions .descubrir-mas {
@@ -392,9 +409,13 @@ div.section-promotions .mejores-promociones {
   cursor: pointer;
 }
 
+
+
 .section-promotions .descubrir-mas p {
   position: relative;
 }
+
+
 
 .section-promotions .descubrir-mas p::after {
   content: "";
@@ -410,7 +431,13 @@ div.section-promotions .mejores-promociones {
 .section-promotions .descubrir-mas p {
   margin: 0;
   padding-right: 5px;
-  font-size: 22px;
+  font-size: 12px;
+}
+
+@media (min-width: 768px){
+  .section-promotions .descubrir-mas p{
+    font-size: 22px;
+  }
 }
 
 .section-promotions img {
@@ -423,16 +450,31 @@ section.promotions div.section-promotions h2 {
   padding-top: 70px;
 }
 
+
 section.promotions div.section-promotions .first-text {
   color: white;
-  font-size: 27px;
+  font-size: 20px;
+  margin-bottom: 20px;
   font-weight: 500;
+}
+
+@media (min-width: 768px){
+  section.promotions div.section-promotions .first-text {
+    font-size: 27px;
+  }
 }
 
 section.promotions div.section-promotions .last-text {
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
+}
+
+@media (min-width: 768px){
+  section.promotions div.section-promotions .last-text {
+    font-size: 18px;
+  }
+  
 }
 
 .section-frecuentes {
@@ -673,13 +715,29 @@ a.collapsed {
 .rectangle-63::after {
   content: "";
   position: absolute;
-  width: 720px;
-  height: 617px;
+  width: 58%;
+  height: 530px;
   bottom: 0;
   right: 0;
   background-image: url(./assets/img/img100.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 100% 100%;
   z-index: 2;
   border-radius: 50% 0 0 0;
+}
+
+@media (min-width: 768px) {
+  .rectangle-63::after {
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 617px;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    border-radius: 50% 0 0 0;
+  }
 }
 
 .rectangle-63 p {
@@ -955,7 +1013,7 @@ a.collapsed {
 }
 
 .hero-promociones .container img {
-  width: 100%;
+  width: 100% !important;
 }
 
 @media (min-width: 100px) {
@@ -967,7 +1025,8 @@ a.collapsed {
 .texto-promociones {
   display: flex;
   flex-direction: column;
-  padding-top: 150px;
+  justify-content: center;
+  /* padding-top: 150px;*/
   color: white;
   font-size: 28px;
   line-height: 35px;
@@ -1010,6 +1069,24 @@ ASESORIA INDEX
   z-index: 3;
 }
 
+.asesoria-section h2, h3{
+  font-size: 15px;
+}
+
+.asesoria-section p{
+  font-size: 12px;
+}
+
+@media (min-width: 768px){
+  .asesoria-section h2, h3{
+    font-size: 32px;
+  }
+  
+  .asesoria-section p{
+    font-size: 18px;
+  }
+}
+
 .asesoria-section .container {
   padding-bottom: 28px;
   position: relative;
@@ -1020,21 +1097,43 @@ ASESORIA INDEX
 }
 
 .asesoria-section .row-1 {
-  padding-top: 300px;
+  padding-top: 200px;
 }
+
+.asesoria-section .row{
+  margin: 0;
+}
+
+@media (min-width: 768px){
+  .asesoria-section .row-1 {
+    padding-top: 300px;
+  }
+  
+}
+
+
+
 
 .asesoria-section .row-2 {
   margin-top: 150px;
 }
 
+
+
 .asesoria-section .row .col-7 {
-  padding-right: 80px;
+  padding-right: 45px;
+}
+
+@media (min-width: 768px){
+  .asesoria-section .row .col-7 {
+    padding-right: 80px;
+  }
 }
 
 .asesoria-section::before {
   content: "";
   background-color: #01015a;
-  width: 50%;
+  width: 5%;
   height: 100%;
   position: absolute;
   top: 0;
@@ -1042,6 +1141,12 @@ ASESORIA INDEX
   z-index: -2;
 }
 
+
+@media (min-width: 1200px) {
+  .asesoria-section::before {
+    width: 50%;
+  }
+}
 
 .asesoria-section .container::before {
   content: "";
@@ -1058,13 +1163,20 @@ ASESORIA INDEX
 .asesoria-section::after {
   content: "";
   background-color: #e4418d;
-  width: 45%;
+  width: 3%;
   height: 90%;
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -5;
 }
+
+@media (min-width: 1025px){
+  .asesoria-section::after {
+    width: 45%;
+  }
+}
+
 
 .asesoria-section .container::after {
   content: "";
@@ -1175,15 +1287,14 @@ ASESORIA PAGE
   line-height: 36px;
 }
 
-.productos-saba .imgsaba{
+.productos-saba .imgsaba {
   width: 600px;
   position: absolute;
   top: 240px;
-    right: 151px;
-
+  right: 151px;
 }
 
-.imgsaba img{
+.imgsaba img {
   width: 681px;
 }
 
@@ -1248,7 +1359,6 @@ ASESORIA PAGE
   justify-content: space-around;
 }
 
-
 .producto-flex .producto {
   display: flex;
   flex-direction: column;
@@ -1263,14 +1373,14 @@ ASESORIA PAGE
   position: relative;
 }
 
-.p-regio{
+.p-regio {
   margin-bottom: 60px;
   margin-left: 100px;
   position: relative;
 }
 
-.p-regio::before{
-  content: '';
+.p-regio::before {
+  content: "";
   position: absolute;
   background-image: url(./assets/img/LogoRegio-SitioWeb.png);
   background-repeat: no-repeat;
@@ -1398,19 +1508,17 @@ ASESORIA PAGE
   width: 100%;
 }
 
-.video-comprar .texto-comprar{
+.video-comprar .texto-comprar {
   text-align: center;
   font-size: 16px !important;
 }
 
-.video-comprar .texto-comprar h2{
+.video-comprar .texto-comprar h2 {
   font-size: 20px;
+  margin-top: 20px;
 }
 
-
-
-
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .video-comprar .texto-comprar {
     font-size: 30px;
     position: absolute;
@@ -1418,26 +1526,25 @@ ASESORIA PAGE
     left: 100px;
   }
 
-  .video-comprar .texto-comprar h2{
-font-size: 30px;
+  .video-comprar .texto-comprar h2 {
+    font-size: 30px;
   }
 }
-
 
 .video-comprar .texto-comprar h2 {
   color: #f50082;
 }
 
-.onediv{
+.onediv {
   padding-right: 0px;
   padding-left: 0px;
 }
 
-.findsite{
+.findsite {
   z-index: 999999;
   position: relative;
 }
 
-.text-rosa{
-  color: #C5157E;
+.text-rosa {
+  color: #c5157e;
 }
