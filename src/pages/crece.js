@@ -19,8 +19,8 @@ const Crece = () => {
           <div className="container crece-hero" style={{position: 'relative'}}>
             <h1>Crece mi negocio</h1>
               <div
-                className="card-blog"
-                style={{ position: "absolute", top: "240px", left: "0px" }}
+                className="card-blog blog-hero"
+                //style={{ position: "absolute", top: "240px", left: "0px" }}
               >
                 <img src={img189} alt="" style={{ borderRadius: "5px" }} />
                 <div>
@@ -86,7 +86,7 @@ const Crece = () => {
           </div>
         </div>
       </section>
-      <Footer />
+     {/* <Footer />*/}
     </Fragment>
   );
 };
