@@ -5,8 +5,8 @@
   --blue: #1b025f;
 }
 
-.row{
-  margin: 0 !important; 
+.row {
+  margin: 0 !important;
 }
 
 /* apply a natural box layout model to all elements, but allowing components to change */
@@ -57,7 +57,7 @@ BOTONES
   font-size: 12px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .btn-hero {
     background: #f50082;
     border-radius: 50px;
@@ -110,7 +110,7 @@ BOTONES
   padding: 5px 15px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .btn-explorar {
     background: #ffffff;
     border-radius: 6.59222px;
@@ -172,11 +172,11 @@ BOTONES
   font-size: 30px;
 }
 
-.check{
+.check {
   margin-bottom: 5px;
 }
 
-.check img{
+.check img {
   width: 5%;
 }
 
@@ -194,8 +194,8 @@ BOTONES
   align-items: center;
 }
 
-@media (min-width: 768px){
-  .info-hero{
+@media (min-width: 768px) {
+  .info-hero {
     align-items: flex-start;
   }
 }
@@ -256,7 +256,7 @@ BOTONES
   font-size: 13px !important;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .texto-linea {
     font-size: 20px !important;
   }
@@ -268,7 +268,6 @@ BOTONES
 .linea-productos img {
   width: 20%;
 }
-
 
 /*Section About*/
 
@@ -391,7 +390,7 @@ div.section-promotions .mejores-promociones {
   margin-bottom: 30px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   div.section-promotions .mejores-promociones {
     margin-bottom: 150px;
   }
@@ -409,13 +408,9 @@ div.section-promotions .mejores-promociones {
   cursor: pointer;
 }
 
-
-
 .section-promotions .descubrir-mas p {
   position: relative;
 }
-
-
 
 .section-promotions .descubrir-mas p::after {
   content: "";
@@ -434,8 +429,8 @@ div.section-promotions .mejores-promociones {
   font-size: 12px;
 }
 
-@media (min-width: 768px){
-  .section-promotions .descubrir-mas p{
+@media (min-width: 768px) {
+  .section-promotions .descubrir-mas p {
     font-size: 22px;
   }
 }
@@ -450,7 +445,6 @@ section.promotions div.section-promotions h2 {
   padding-top: 70px;
 }
 
-
 section.promotions div.section-promotions .first-text {
   color: white;
   font-size: 20px;
@@ -458,7 +452,7 @@ section.promotions div.section-promotions .first-text {
   font-weight: 500;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   section.promotions div.section-promotions .first-text {
     font-size: 27px;
   }
@@ -470,11 +464,10 @@ section.promotions div.section-promotions .last-text {
   font-weight: 400;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   section.promotions div.section-promotions .last-text {
     font-size: 18px;
   }
-  
 }
 
 .section-frecuentes {
@@ -651,22 +644,24 @@ a.collapsed {
   text-align: center;
 }
 
-@media (min-width: 768px){
-  .section-nosotros{
+@media (min-width: 768px) {
+  .section-nosotros {
     text-align: left;
   }
 }
 
-.section-nosotros::before {
-  content: "";
-  background-image: url(./assets/img/letras-moradas.svg);
-  background-repeat: no-repeat;
-  position: absolute;
-  height: 700px;
-  width: 466.84px;
-  top: 0;
-  right: 0;
-  z-index: 1;
+@media (min-width: 768px) {
+  .section-nosotros::before {
+    content: "";
+    background-image: url(./assets/img/letras-moradas.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 700px;
+    width: 466.84px;
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
 }
 
 .section-nosotros h1 {
@@ -682,13 +677,11 @@ a.collapsed {
   font-size: 12px;
 }
 
-
-
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .section-nosotros h1 {
     font-size: 38px;
   }
-  
+
   .section-nosotros p {
     font-size: 28px;
     line-height: 40px;
@@ -709,12 +702,12 @@ a.collapsed {
   z-index: 2;
 }
 
-.contenido-nosotros .img-nosotros img{
+.contenido-nosotros .img-nosotros img {
   width: 100%;
 }
 
-@media (min-width: 768px){
-  .contenido-nosotros .img-nosotros img{
+@media (min-width: 768px) {
+  .contenido-nosotros .img-nosotros img {
     width: 100%;
   }
 }
@@ -725,12 +718,11 @@ a.collapsed {
   padding: 100px 0 200px 0;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .rectangle-63 {
     margin-top: 200px;
   }
 }
-
 
 .rectangle-63::before {
   content: "";
@@ -778,7 +770,7 @@ a.collapsed {
   width: 70%;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .rectangle-63 p {
     font-size: 30px;
     width: 85%;
@@ -799,13 +791,12 @@ a.collapsed {
   margin-bottom: 40px;
 }
 
-@media (min-width: 768px){
-  .rectangle-63 .parrafo2{
+@media (min-width: 768px) {
+  .rectangle-63 .parrafo2 {
     width: 40%;
     font-size: 30px;
     line-height: 44px;
   }
-  
 }
 
 .rectangle-63 .parrafos-inferiores {
@@ -815,7 +806,7 @@ a.collapsed {
   margin: 0;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .rectangle-63 .parrafos-inferiores {
     font-size: 18px;
     line-height: 35px;
@@ -1065,9 +1056,11 @@ a.collapsed {
   padding: 30px 0;
 }
 
-.hero-promociones .container {
-  display: grid;
-  grid-template-columns: 40% 60%;
+@media (min-width: 768px) {
+  .hero-promociones .container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+  }
 }
 
 .hero-promociones .container img {
@@ -1088,6 +1081,13 @@ a.collapsed {
   color: white;
   font-size: 28px;
   line-height: 35px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .texto-promociones {
+    text-align: left;
+  }
 }
 
 .texto-promociones h1 {
@@ -1127,20 +1127,22 @@ ASESORIA INDEX
   z-index: 3;
 }
 
-.asesoria-section h2, h3{
+.asesoria-section h2,
+h3 {
   font-size: 15px;
 }
 
-.asesoria-section p{
+.asesoria-section p {
   font-size: 12px;
 }
 
-@media (min-width: 768px){
-  .asesoria-section h2, h3{
+@media (min-width: 768px) {
+  .asesoria-section h2,
+  h3 {
     font-size: 32px;
   }
-  
-  .asesoria-section p{
+
+  .asesoria-section p {
     font-size: 18px;
   }
 }
@@ -1158,31 +1160,25 @@ ASESORIA INDEX
   padding-top: 200px;
 }
 
-.asesoria-section .row{
+.asesoria-section .row {
   margin: 0;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .asesoria-section .row-1 {
     padding-top: 300px;
   }
-  
 }
-
-
-
 
 .asesoria-section .row-2 {
   margin-top: 150px;
 }
 
-
-
 .asesoria-section .row .col-7 {
   padding-right: 45px;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .asesoria-section .row .col-7 {
     padding-right: 80px;
   }
@@ -1198,7 +1194,6 @@ ASESORIA INDEX
   left: 0;
   z-index: -2;
 }
-
 
 @media (min-width: 1200px) {
   .asesoria-section::before {
@@ -1229,12 +1224,11 @@ ASESORIA INDEX
   z-index: -5;
 }
 
-@media (min-width: 1025px){
+@media (min-width: 1025px) {
   .asesoria-section::after {
     width: 45%;
   }
 }
-
 
 .asesoria-section .container::after {
   content: "";
@@ -1548,7 +1542,13 @@ ASESORIA PAGE
 }
 
 .page-promociones {
-  padding: 200px 0 200px 0;
+  padding: 30px 0 30px 0;
+}
+
+@media (min-width: 768px) {
+  .page-promociones {
+    padding: 200px 0 200px 0;
+  }
 }
 
 .page-promociones h2 {
