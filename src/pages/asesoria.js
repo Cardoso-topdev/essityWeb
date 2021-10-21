@@ -17,7 +17,7 @@ const Asesoria = () => {
   return (
     <Fragment>
       <Navbar />
-      <div className="hero-asesoria">
+      {/*<div className="hero-asesoria">
         <div className="container">
           <div className="col-img">
             <img src={img49} alt=""/>
@@ -30,7 +30,7 @@ const Asesoria = () => {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="container contenido-asesoria">
         <h2 id="portafolio">Portafolio ideal</h2>

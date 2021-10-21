@@ -37,7 +37,7 @@ const Navbar = () => {
                 <NavLink to='/crece-mi-negocio' className="nav-link active" exact activeStyle={{color: "#f50082"}}>Crece Mi Negocio</NavLink> 
               </li>
               <li className="nav-item">
-                <NavLink to='/asesoria' className="nav-link active" exact activeStyle={{color: "#f50082"}}>Asesoría</NavLink> 
+                <NavLink to='/asesoria' className="nav-link active" exact activeStyle={{color: "#f50082"}}>Portafolio</NavLink> 
               </li>
               <li className="nav-item">
                 <NavLink to='/donde-comprar' className="nav-link active" exact activeStyle={{color: "#f50082"}}>Dónde Comprar</NavLink> 
