@@ -1759,11 +1759,15 @@ ASESORIA PAGE
   padding: 50px 0 20px 0;
 }
 
+.hero-cuestionario{
+  position: relative;
+}
+
 @media (min-width: 768px) {
   .hero-cuestionario {
     padding: 100px 0 50px 0;
-    position: relative;
   }
+  
 
   .hero-cuestionario::after {
     content: "";
@@ -1786,6 +1790,8 @@ ASESORIA PAGE
   text-align: justify;
   font-size: 13px;
   font-weight: 300;
+  position: relative;
+  z-index: 1000;
 }
 
 @media (min-width: 768px) {

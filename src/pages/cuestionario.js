@@ -14,7 +14,7 @@ const Cuestionario = () => {
             cuéntanos sobre tu negocio. Al enviar el formulario podrás
             participar por un corrugado de Saba Buenas Noches de 14 paquetes con
             8 toallas cada uno completamente gratis. Conoce los términos y
-            condiciones dando <span>clic aquí.</span>
+            condiciones dando <span style={{cursor: 'pointer'}} onClick={()=>window.location.href = '/politica-de-privacidad'}>clic aquí.</span>
           </p>
         </div>
       </div>
