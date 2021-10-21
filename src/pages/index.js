@@ -21,7 +21,7 @@ const Index = () => {
       <AsesoriaSection />
       <Portafolio />
       <Render />
-      {/*<Footer />*/}
+      <Footer />
     </Fragment>
   );
 };

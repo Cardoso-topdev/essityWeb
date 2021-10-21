@@ -76,7 +76,7 @@ const Asesoria = () => {
       {active === "regioSeccion" && <RegioSeccion />}
       {active === "tenaSeccion" && <TenaSeccion />}
 
-     {/* <Footer />*/}
+     <Footer />
     </Fragment>
   );
 };

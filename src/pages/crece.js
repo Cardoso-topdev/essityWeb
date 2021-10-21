@@ -86,7 +86,7 @@ const Crece = () => {
           </div>
         </div>
       </section>
-     {/* <Footer />*/}
+     <Footer />
     </Fragment>
   );
 };

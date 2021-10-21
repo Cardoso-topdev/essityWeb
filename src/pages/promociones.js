@@ -95,7 +95,7 @@ const Promociones = () => {
           </div>
         </div>
       </div>
-     {/* <Footer /> */}
+     <Footer />
     </Fragment>
   );
 };
