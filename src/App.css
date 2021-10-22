@@ -1837,6 +1837,7 @@ ASESORIA PAGE
 
 .checks label {
   position: relative;
+  cursor: pointer;
 }
 
 .checks input[type="checkbox"] + label:before {
