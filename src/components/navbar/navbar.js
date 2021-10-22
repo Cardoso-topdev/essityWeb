@@ -78,18 +78,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-<<<<<<< HEAD
-                <NavLink
-                  to="/asesoria"
-                  className="nav-link active"
-                  exact
-                  activeStyle={{ color: "#f50082" }}
-                >
-                  Asesoría
-                </NavLink>
-=======
                 <NavLink to='/asesoria' className="nav-link active" exact activeStyle={{color: "#f50082"}}>Portafolio</NavLink> 
->>>>>>> 97f7514f48deee6b4606d594d9e14657db27167a
               </li>
               <li className="nav-item">
                 <NavLink
