@@ -5,6 +5,9 @@ import img229 from "../../assets/img/img229.png";
 import img230 from "../../assets/img/img230.png";
 import img231 from "../../assets/img/img231.png";
 import img232 from "../../assets/img/img232.png";
+import img189 from "../../assets/img/img189.jpg";
+import img190 from "../../assets/img/img190.jpg";
+import img191 from "../../assets/img/img191.jpg";
 
 const AsesoriaSection = () => {
   return (
@@ -30,20 +33,17 @@ const AsesoriaSection = () => {
               </p>
             </div>
             <div className="col-5">
-              <h2 className="mb-4">Asesoría</h2>
-              <img src={img230} alt=""/>
+              <h2 className="mb-4">&nbsp;</h2>
+              <img src={img189} alt=""/>
               <p className="mb-5 mt-3">
+                <h3  className="mt-3">Toalla de cocina</h3>
                 SAP anuncia la creación de la mayor red empresarial del mundo en
                 su evento "Sapphire Now 2021
               </p>
-              <img src={img231} alt=""/>
+              <img src={img191} alt=""/>
+              <h3  className="mt-3">Papel de Baño</h3>
               <p className="mb-5 mt-3">
                 Amazon, a punto de cerrar la comprar del estudio de cine MGM
-              </p>
-              <img src={img232} alt=""/>
-              <p className="mb-5 mt-3">
-                Crece el riesgo de una nueva burbuja en el mercado inmobiliario
-                mundial
               </p>
             </div>
           </div>
