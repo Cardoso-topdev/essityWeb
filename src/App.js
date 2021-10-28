@@ -18,6 +18,7 @@ import Page3 from './pages/infografias/page3';
 import Page4 from './pages/infografias/page4';
 import Privacidad from './pages/privacidad';
 import Terminos from './pages/terminos';
+import Calendario from './pages/calendario';
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route exact path="/cuestionario" component={Cuestionario} />
         <Route exact path="/politica-de-privacidad" component={Privacidad} />
         <Route exact path="/terminos-y-condiciones" component={Terminos} />
+        <Route exact path="/fotografiascalendario" component={Calendario} />
         <Route component={NotFound} />
       </Switch>
     </Router>
