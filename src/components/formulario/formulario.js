@@ -1,8 +1,15 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 const Formulario = () => {
-  const [form, setForm] = useState([]);
+  const [form, setForm] = useState({
+
+  });
+  const [disabled, setDisabled] = useState(true);
+
+  useEffect(()=>{
+
+  },[form])
 
   const headers = {
     "Access-Control-Allow-Origin": "*",
@@ -12,17 +19,15 @@ const Formulario = () => {
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
-    console.log(e.target.className);
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const { data } = await axios.post(
+    await axios.post(
       "http://admin.creceminegocio.mx/api/sendmail",
       form,
       headers
     );
-    console.log(data);
   };
   return (
     <div className="container mb-5">
