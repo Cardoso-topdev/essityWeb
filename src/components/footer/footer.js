@@ -21,6 +21,9 @@ const Footer = () => {
             a mejorar el bienestar con nuestros productos y servicios.
           </p>
           <p className="copy">
+          <button style={{color: 'rgb(97, 97, 97)'}} onClick={() => (window.location.href = "/politica-de-privacidad")}>Aviso de Privacidad</button>
+          </p>
+          <p className="copy">
             Copyright &copy; {year}. . All rights reserved.
           </p>
         </div>
