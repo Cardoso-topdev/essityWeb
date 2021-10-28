@@ -17,6 +17,7 @@ import Page2 from './pages/infografias/page2';
 import Page3 from './pages/infografias/page3';
 import Page4 from './pages/infografias/page4';
 import Privacidad from './pages/privacidad';
+import Terminos from './pages/terminos';
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
         <Route exact path="/toallas-de-cocina" component={Page4} />
         <Route exact path="/cuestionario" component={Cuestionario} />
         <Route exact path="/politica-de-privacidad" component={Privacidad} />
+        <Route exact path="/terminos-y-condiciones" component={Terminos} />
         <Route component={NotFound} />
       </Switch>
     </Router>
