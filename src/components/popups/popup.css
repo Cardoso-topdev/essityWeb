@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,6 +21,10 @@
 
 .popup-tena{
     background-image: url(../../assets/fondo_tena.svg);
+}
+
+.popup-preguntas{
+    background-image: url(../../assets/poppreguntas.png);
 }
 
 .popup-inner{
@@ -77,4 +81,15 @@
 .popup-inner .pop-info .legend{
     font-size: 13px;
     margin-top: 30px;
+}
+
+.btn-pop{
+    color: #5B108B;
+    background-color: #ffff;
+    padding: 10px 60px;
+    border-radius: 5px;
+    font-size: 25px;
+    position: absolute;
+    bottom: 36px;
+    left: 70px;
 }

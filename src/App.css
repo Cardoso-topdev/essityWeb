@@ -37,8 +37,16 @@ button {
   border: none;
 }
 
+.border-red{
+  border-color: #FF6961 !important;
+}
+
 .cursor-pointer {
   cursor: pointer;
+}
+
+.swal2-styled{
+  background-color: var(--blue) !important;
 }
 
 /*=============
